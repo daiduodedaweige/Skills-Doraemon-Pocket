@@ -1,0 +1,4 @@
+interface:
+  display_name: "pdf2typ"
+  short_description: "Convert and refine editable Typst PDF diagrams"
+  default_prompt: "Use $pdf2typ to convert or refine this PDF diagram as editable Typst source, checking labels and wire connections in the final document."
