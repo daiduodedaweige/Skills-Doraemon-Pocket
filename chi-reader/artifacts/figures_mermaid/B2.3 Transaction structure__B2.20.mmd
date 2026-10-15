@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate: [1. AtomicStore]<br/>AtomicStore
+    Subordinate->>Home: [1a. Separate responses]<br/>DBIDResp
+    Subordinate->>Home: Comp
+    Home->>Subordinate: [1b. Combined response]<br/>CompDBIDResp
+    Subordinate->>Home: [1b. Combined response]<br/>CompDBIDResp
+    Home->>Subordinate: NonCopyBackWriteData
+    Subordinate->>Home: [TagOp == Match]<br/>TagMatch
+    Home->>Subordinate: [2. Not Atomic Store]<br/>AtomicLoad, AtomicSwap, or AtomicCompare
+    Home->>Subordinate: [2. Not Atomic Store]<br/>AtomicLoad, AtomicSwap, or AtomicCompare
+    Subordinate->>Home: DBIDResp
+    Home->>Subordinate: NonCopyBackWriteData
+    Subordinate->>Home: CompData
+    Subordinate->>Home: [TagOp == Match]<br/>TagMatch

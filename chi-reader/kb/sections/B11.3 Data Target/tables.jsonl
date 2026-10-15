@@ -1,0 +1,7 @@
+{"tableId": "B11_3_table_001", "pdfId": "B11.3", "label": "B11.8", "title": "UnusedPrefetch subfield encoding", "sourceChunks": ["B11_3_C001"], "rawHeader": "DataSource[0]"}
+{"tableId": "B11_3_table_002", "pdfId": "B11.3", "label": "B11.9", "title": "shows the recommended Replacement subfield encodings.", "sourceChunks": ["B11_3_C001"], "rawHeader": "Replacement"}
+{"tableId": "B11_3_table_003", "pdfId": "B11.3", "label": "B11.9", "title": "Recommended Replacement subfield encodings", "sourceChunks": ["B11_3_C002"], "rawHeader": "The CacheLevel subfield can be used to indicate the optimal distance for the data being transferred by a Requester"}
+{"tableId": "B11_3_table_004", "pdfId": "B11.3", "label": "B11.10", "title": "shows the CacheLevel subfield encodings.", "sourceChunks": ["B11_3_C003"], "rawHeader": "Table"}
+{"tableId": "B11_3_table_005", "pdfId": "B11.3", "label": "B11.10", "title": "–Continued from previous page", "sourceChunks": ["B11_3_C003"], "rawHeader": "a"}
+{"tableId": "B11_3_table_006", "pdfId": "B11.3", "label": "B11.11", "title": "Unique subfield encodings", "sourceChunks": ["B11_3_C004"], "rawHeader": "– StashOnceSepUnique"}
+{"tableId": "B11_3_table_007", "pdfId": "B11.3", "label": "B11.11", "title": "shows the recommended Unique subfield encodings.", "sourceChunks": ["B11_3_C005"], "rawHeader": "DataSource[6]"}

@@ -1,0 +1,20 @@
+flowchart LR
+    N001["TgtID = SN0"]
+    N002["RN0"]
+    N003["HN0"]
+    N004["SN0"]
+    N005["TgtID = HN0"]
+    N006["SrcID = HN0"]
+    N007["SrcID = RN0"]
+    N008["ReturnNID = RN0"]
+    N009["Dec"]
+    N010["Dec"]
+    N011["Req"]
+    N012["Req"]
+    N013["Addr"]
+    N014["TgtID = RN0<br/>SrcID = SN0<br/>HomeNID = HN0<br/>RDATA"]
+    N015["TgtID = HN0<br/>SrcID = RN0<br/>Resp"]
+    N009 --> N010
+    N010 --> N008
+    N013 --- N014
+    N014 --> N015

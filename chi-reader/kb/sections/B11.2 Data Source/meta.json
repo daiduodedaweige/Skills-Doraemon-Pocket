@@ -1,0 +1,51 @@
+{
+  "pdfId": "B11.2",
+  "sourceFile": "B11.2 Data Source.md",
+  "title": "Data Source",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Source",
+    "B11",
+    "CompleterType",
+    "DataSource",
+    "Group",
+    "Functional",
+    "Processor",
+    "Default"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 11,
+    "objects": 20,
+    "rules": 16,
+    "flows": 0,
+    "verification": 16,
+    "relations": 41,
+    "tables": 8,
+    "figures": 2
+  }
+}

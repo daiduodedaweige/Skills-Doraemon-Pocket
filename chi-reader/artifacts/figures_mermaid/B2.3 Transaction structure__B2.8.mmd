@@ -1,0 +1,43 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: [1a. CopyAtHome request]
+    Home->>Requester: [1a1. Without data transfer]<br/>Comp
+    Requester->>Home: CompAck<br/>[1a2. With data transfer]<br/>CompDBIDResp
+    Requester->>Home: CompAck<br/>[1a2. With data transfer]<br/>CompDBIDResp
+    Home->>Requester: CopyBackWriteData
+    Requester->>Home: CopyBackWriteData
+    Requester->>Home: [1b. No CopyAtHome request]<br/>CompDBIDResp
+    Home->>Requester: [1b. No CopyAtHome request]<br/>CompDBIDResp
+    Requester->>Home: CopyBackWriteData
+    Home->>Requester: CompCMO
+    Requester->>Subordinate: [2. With Persist]
+    Requester->>Home: WriteBackFullCleanShPerSep,<br/>WriteCleanFullCleanShPerSep
+    Home->>Requester: [2a1a. Without data transfer]<br/>Comp
+    Requester->>Home: CompAck<br/>[2a1b. With data trasnfer]<br/>CompDBIDResp
+    Requester->>Home: CompAck<br/>[2a1b. With data trasnfer]<br/>CompDBIDResp
+    Home->>Requester: CopyBackWriteData
+    Requester->>Home: CopyBackWriteData
+    Requester->>Home: [2a2. No CopyAtHome request]<br/>CompDBIDResp
+    Home->>Requester: [2a2. No CopyAtHome request]<br/>CompDBIDResp
+    Requester->>Home: CopyBackWriteData
+    Home->>Requester: [2b1a Separate response from Home]<br/>CompCMO
+    Home->>Requester: Persist<br/>[2b1b. Combined response from Home]<br/>CompPersist
+    Requester->>Home: Persist<br/>[2b1b. Combined response from Home]<br/>CompPersist
+    Home->>Requester: [2b2. Persist from Subordinate]
+    Requester->>Subordinate: [2b2. Persist from Subordinate]
+    Home->>Subordinate: WriteNoSnpPtlCleanShPerSep,<br/>WriteNoSnpFullCleanShPerSep
+    Subordinate->>Home: [2b2a. Separate response]<br/>DBIDResp
+    Subordinate->>Home: Comp<br/>[2b2b. Combined response]<br/>CompDBIDResp
+    Home->>Subordinate: Comp<br/>[2b2b. Combined response]<br/>CompDBIDResp
+    Subordinate->>Home: NonCopyBackWriteData, WriteDataCancel
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: CompCMO
+    Home->>Requester: CompCMO
+    Subordinate->>Requester: Persist<br/>[2b3. Only CMO transaction to Subordinate]
+    Requester->>Subordinate: Persist<br/>[2b3. Only CMO transaction to Subordinate]
+    Home->>Subordinate: CleanSharedPersistSep
+    Subordinate->>Home: Comp
+    Home->>Requester: CompCMO
+    Subordinate->>Requester: Persist

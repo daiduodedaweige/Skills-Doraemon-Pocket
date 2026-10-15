@@ -1,0 +1,51 @@
+{
+  "pdfId": "B13.10",
+  "sourceFile": "B13.10 Protocol flit fields.md",
+  "title": "Protocol flit fields",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "flit",
+    "fields",
+    "B13",
+    "See",
+    "Reserved",
+    "Identifier",
+    "Snoop",
+    "NumDat"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Message field mappings",
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 56,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 42,
+    "tables": 88,
+    "figures": 0
+  }
+}

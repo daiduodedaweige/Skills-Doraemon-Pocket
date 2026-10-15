@@ -1,0 +1,50 @@
+{
+  "pdfId": "B10.6",
+  "sourceFile": "B10.6 Memory Encryption Contexts, MEC.md",
+  "title": "Memory Encryption Contexts, MEC",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Encryption",
+    "Contexts",
+    "MEC",
+    "MECID",
+    "Stash",
+    "B10",
+    "DAT",
+    "DERR"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 9,
+    "objects": 20,
+    "rules": 19,
+    "flows": 0,
+    "verification": 19,
+    "relations": 78,
+    "tables": 1,
+    "figures": 0
+  }
+}

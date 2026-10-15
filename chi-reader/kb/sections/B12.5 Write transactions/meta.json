@@ -1,0 +1,51 @@
+{
+  "pdfId": "B12.5",
+  "sourceFile": "B12.5 Write transactions.md",
+  "title": "Write transactions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Write",
+    "transactions",
+    "TagOp",
+    "Not",
+    "Match",
+    "Transfer",
+    "Update",
+    "MTE"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 18,
+    "rules": 14,
+    "flows": 1,
+    "verification": 15,
+    "relations": 67,
+    "tables": 0,
+    "figures": 0
+  }
+}

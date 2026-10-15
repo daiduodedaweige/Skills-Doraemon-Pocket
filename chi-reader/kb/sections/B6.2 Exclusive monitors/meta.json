@@ -1,0 +1,51 @@
+{
+  "pdfId": "B6.2",
+  "sourceFile": "B6.2 Exclusive monitors.md",
+  "title": "Exclusive monitors",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Exclusive",
+    "monitors",
+    "Store",
+    "System",
+    "IMPLEMENTATION",
+    "PAS",
+    "SPECIFIC",
+    "PoC"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 7,
+    "rules": 7,
+    "flows": 0,
+    "verification": 7,
+    "relations": 13,
+    "tables": 0,
+    "figures": 0
+  }
+}

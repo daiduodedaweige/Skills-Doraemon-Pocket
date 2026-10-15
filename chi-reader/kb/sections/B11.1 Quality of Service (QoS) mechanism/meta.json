@@ -1,0 +1,42 @@
+{
+  "pdfId": "B11.1",
+  "sourceFile": "B11.1 Quality of Service (QoS) mechanism.md",
+  "title": "Quality of Service (QoS) mechanism",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Quality",
+    "of",
+    "Service",
+    "QoS",
+    "mechanism"
+  ],
+  "contentTypes": {
+    "hasChunks": false,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": false,
+    "reviewed": false,
+    "quality": "empty-source",
+    "notes": "Source markdown is empty; only metadata and empty record files were generated."
+  },
+  "recordStats": {
+    "chunks": 0,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

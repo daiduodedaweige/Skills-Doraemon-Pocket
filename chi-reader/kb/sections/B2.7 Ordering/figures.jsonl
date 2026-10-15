@@ -1,0 +1,5 @@
+{"figureId": "B2_7_figure_001", "pdfId": "B2.7", "label": "B2.38", "title": "shows the request ordering of three Read requests.", "sourceChunks": ["B2_7_C017"]}
+{"figureId": "B2_7_figure_002", "pdfId": "B2.7", "label": "B2.38", "title": "Series of ordered Read requests", "sourceChunks": ["B2_7_C019"]}
+{"figureId": "B2_7_figure_003", "pdfId": "B2.7", "label": "B2.38", "title": "shows a single ordered stream of three reads from the Request Node. However, a Request", "sourceChunks": ["B2_7_C022"]}
+{"figureId": "B2_7_figure_004", "pdfId": "B2.7", "label": "B2.39", "title": "shows a typical transaction flow in which an RN-I uses Streaming Ordered WriteUnique transactions.", "sourceChunks": ["B2_7_C027"]}
+{"figureId": "B2_7_figure_005", "pdfId": "B2.7", "label": "B2.39", "title": "Streaming Ordered WriteUnique transactions flow", "sourceChunks": ["B2_7_C028"]}

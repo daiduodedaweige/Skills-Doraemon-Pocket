@@ -1,0 +1,47 @@
+{
+  "pdfId": "B9.4",
+  "sourceFile": "B9.4 Hardware and software error categories.md",
+  "title": "Hardware and software error categories",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Hardware",
+    "and",
+    "software",
+    "error",
+    "categories",
+    "B10",
+    "CDA",
+    "DVM"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 7,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 0,
+    "figures": 0
+  }
+}

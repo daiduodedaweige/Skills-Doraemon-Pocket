@@ -1,0 +1,45 @@
+{
+  "pdfId": "B15.2",
+  "sourceFile": "B15.2 Handshake.md",
+  "title": "Handshake",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Handshake",
+    "Snoop",
+    "SYSCOACK",
+    "Must",
+    "SYSCOREQ",
+    "DVM",
+    "HIGH",
+    "LOW"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 9,
+    "rules": 13,
+    "flows": 1,
+    "verification": 14,
+    "relations": 35,
+    "tables": 3,
+    "figures": 0
+  }
+}

@@ -1,0 +1,7 @@
+{"figureId": "B14_6_figure_001", "pdfId": "B14.6", "label": "B14.7", "title": "Combined Tx and Rx state machines", "sourceChunks": ["B14_6_C001"]}
+{"figureId": "B14_6_figure_002", "pdfId": "B14.6", "label": "B14.7", "title": "shows the combined Tx and Rx state machines for a single component:", "sourceChunks": ["B14_6_C002"]}
+{"figureId": "B14_6_figure_003", "pdfId": "B14.6", "label": "B14.7", "title": "shows the full set of states, including those that can only be reached through race conditions. A more", "sourceChunks": ["B14_6_C004"]}
+{"figureId": "B14_6_figure_004", "pdfId": "B14.6", "label": "B14.8", "title": "shows the expected state transitions.", "sourceChunks": ["B14_6_C005"]}
+{"figureId": "B14_6_figure_005", "pdfId": "B14.6", "label": "B14.8", "title": "Expected Tx and Rx state machines transitions", "sourceChunks": ["B14_6_C006"]}
+{"figureId": "B14_6_figure_006", "pdfId": "B14.6", "label": "B14.8", "title": "shows, using bold arrows, the routes between the stable TxStop/RxStop and TxRun/RxRun states,", "sourceChunks": ["B14_6_C006"]}
+{"figureId": "B14_6_figure_007", "pdfId": "B14.6", "label": "B14.9", "title": "Combined Tx and Rx state machines without race conditions", "sourceChunks": ["B14_6_C012"]}

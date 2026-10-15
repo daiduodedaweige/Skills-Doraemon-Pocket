@@ -1,0 +1,8 @@
+{"tableId": "B2_8_table_001", "pdfId": "B2.8", "label": "B2.11", "title": "lists the legal combinations of MemAttr , SnpAttr , and Order field values and the equivalent ARM", "sourceChunks": ["B2_8_C008"], "rawHeader": "memory type. The Order field is described in B2.7"}
+{"tableId": "B2_8_table_002", "pdfId": "B2.8", "label": "B2.11", "title": "Legal", "sourceChunks": ["B2_8_C008"], "rawHeader": "[1:0]"}
+{"tableId": "B2_8_table_003", "pdfId": "B2.8", "label": "B2.12", "title": "shows the snoop attributes for the different transaction types. The following key is used:", "sourceChunks": ["B2_8_C014"], "rawHeader": "Table B2.12: Snoop attributes for different transaction types"}
+{"tableId": "B2_8_table_004", "pdfId": "B2.8", "label": "B2.12", "title": "Snoop attributes for different transaction types", "sourceChunks": ["B2_8_C015"], "rawHeader": "Y Yes, permitted"}
+{"tableId": "B2_8_table_005", "pdfId": "B2.8", "label": "B2.12", "title": "–Continued from previous page", "sourceChunks": ["B2_8_C015"], "rawHeader": "Transaction Non-snoopable"}
+{"tableId": "B2_8_table_006", "pdfId": "B2.8", "label": "B2.13", "title": "CAH usage at Home", "sourceChunks": ["B2_8_C025"], "rawHeader": "Request CopyBack Write transaction Description"}
+{"tableId": "B2_8_table_007", "pdfId": "B2.8", "label": "B2.13", "title": "–Continued from previous page", "sourceChunks": ["B2_8_C026"], "rawHeader": "Request CopyBack Write transaction Description"}
+{"tableId": "B2_8_table_008", "pdfId": "B2.8", "label": "B2.14", "title": "Permitted CompAck responses for CopyBack Write transactions", "sourceChunks": ["B2_8_C030"], "rawHeader": "CompAck_SD_PD 0b111 SD Expose. Responsibility for"}

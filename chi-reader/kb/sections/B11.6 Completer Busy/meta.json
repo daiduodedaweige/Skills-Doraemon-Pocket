@@ -1,0 +1,45 @@
+{
+  "pdfId": "B11.6",
+  "sourceFile": "B11.6 Completer Busy.md",
+  "title": "Completer Busy",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Completer",
+    "Busy",
+    "CBusy",
+    "Prefetcher",
+    "Can",
+    "B11",
+    "Disable",
+    "Very"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 1,
+    "figures": 0
+  }
+}

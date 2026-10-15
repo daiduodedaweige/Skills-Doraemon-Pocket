@@ -1,0 +1,47 @@
+{
+  "pdfId": "B14.5",
+  "sourceFile": "B14.5 Interface activation and deactivation.md",
+  "title": "Interface activation and deactivation",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Interface",
+    "activation",
+    "and",
+    "deactivation",
+    "Transmitter",
+    "Receiver",
+    "RUN",
+    "B14"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 10,
+    "objects": 14,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 77,
+    "tables": 9,
+    "figures": 3
+  }
+}

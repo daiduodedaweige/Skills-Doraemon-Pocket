@@ -1,0 +1,52 @@
+{
+  "pdfId": "B2.2",
+  "sourceFile": "B2.2 Channel fields.md",
+  "title": "Channel fields",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Channel",
+    "fields",
+    "See",
+    "Identifier",
+    "B13",
+    "Indicates",
+    "Stash",
+    "B11"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 16,
+    "objects": 20,
+    "rules": 4,
+    "flows": 0,
+    "verification": 4,
+    "relations": 15,
+    "tables": 14,
+    "figures": 0
+  }
+}

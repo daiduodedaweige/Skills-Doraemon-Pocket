@@ -1,0 +1,50 @@
+{
+  "pdfId": "C2.1",
+  "sourceFile": "C2.1 Request communicating nodes.md",
+  "title": "Request communicating nodes",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "communicating",
+    "nodes",
+    "ICN",
+    "HN-I",
+    "HN-F",
+    "RN-F",
+    "RN-D",
+    "RN-I"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 20,
+    "rules": 2,
+    "flows": 0,
+    "verification": 2,
+    "relations": 28,
+    "tables": 2,
+    "figures": 0
+  }
+}

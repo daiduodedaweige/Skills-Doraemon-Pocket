@@ -1,0 +1,53 @@
+{
+  "pdfId": "C5.5",
+  "sourceFile": "C5.5 Changes between Issue E.a and Issue E.b.md",
+  "title": "Changes between Issue E.a and Issue E.b",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Changes",
+    "between",
+    "E",
+    "a",
+    "and",
+    "b",
+    "Correction",
+    "DoNotGoToSD"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 15,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 21,
+    "tables": 1,
+    "figures": 0
+  }
+}

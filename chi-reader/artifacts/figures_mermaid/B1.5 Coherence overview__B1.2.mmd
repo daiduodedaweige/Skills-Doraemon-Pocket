@@ -1,0 +1,19 @@
+flowchart LR
+    N001["Requester 1"]
+    N002["Requester 2"]
+    N003["Requester 3"]
+    N004["Optional"]
+    N005["RN-F"]
+    N006["RN-F"]
+    N007["RN-F"]
+    N008["cache"]
+    N009["Cache"]
+    N010["Cache"]
+    N011["Cache"]
+    N012["Coherent interconnect (ICN)<br/>ICN<br/>Cache"]
+    N013["Main"]
+    N014["SN-F"]
+    N015["memory"]
+    N016["Subordinate 1"]
+    N008 --> N012
+    N014 --- N015

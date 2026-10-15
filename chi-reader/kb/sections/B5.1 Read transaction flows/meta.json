@@ -1,0 +1,52 @@
+{
+  "pdfId": "B5.1",
+  "sourceFile": "B5.1 Read transaction flows.md",
+  "title": "Read transaction flows",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "transaction",
+    "flows",
+    "HN-F",
+    "SN-F",
+    "RN-F0",
+    "ReadNoSnp",
+    "RN-F1",
+    "CompAck"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 9,
+    "objects": 20,
+    "rules": 2,
+    "flows": 1,
+    "verification": 3,
+    "relations": 46,
+    "tables": 0,
+    "figures": 17
+  }
+}

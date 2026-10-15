@@ -1,0 +1,7 @@
+sequenceDiagram
+    participant RN_F as RN-F
+    participant HN_F as HN-F
+    RN_F->>HN_F: (PCrdtype = 0b0000)
+    HN_F->>RN_F: RetryAck<br/>(PCrdType = n)
+    HN_F->>RN_F: (PCrdType = n)
+    RN_F->>HN_F: ReadOnce<br/>(AllowRetry = 0)<br/>(PCrdtype = n)

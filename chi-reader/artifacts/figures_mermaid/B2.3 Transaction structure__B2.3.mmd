@@ -1,0 +1,44 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: WriteNoSnpPtl, WriteNoSnpFull, WriteNoSnpDef, WriteUniquePtl, WriteUniqueFull,<br/>WriteUniquePtlStash, WriteUniqueFullStash
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull, WriteNoSnpDef<br/>(DoDWT=1)
+    Subordinate->>Requester: DBIDResp
+    Requester->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Subordinate->>Requester: [TagOp == Match]<br/>TagMatch
+    Requester->>Subordinate: [2. No DWT, no CompAck]<br/>alt
+    Home->>Requester: [2a1. Separate responses from the Home]<br/>DBIDResp, DBIDRespOrd
+    Home->>Requester: Comp<br/>[2a2. Combined response from the Home]<br/>CompDBIDResp
+    Requester->>Home: Comp<br/>[2a2. Combined response from the Home]<br/>CompDBIDResp
+    Home->>Requester: NonCopyBackWriteData, WriteDataCancel
+    Requester->>Home: NonCopyBackWriteData, WriteDataCancel
+    Home->>Requester: [2b1. TagMatch from Home]<br/>TagMatch<br/>[2b2. TagMatch from Subordinate]
+    Requester->>Subordinate: [2b1. TagMatch from Home]<br/>TagMatch<br/>[2b2. TagMatch from Subordinate]
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull<br/>(DoDWT=0)
+    Subordinate->>Home: [2b2a. Separate responses from the Subordinate]<br/>DBIDResp
+    Subordinate->>Home: Comp<br/>[2b2b. Combined response from the Subordinate]<br/>CompDBIDResp
+    Home->>Subordinate: Comp<br/>[2b2b. Combined response from the Subordinate]<br/>CompDBIDResp
+    Subordinate->>Home: NonCopyBackWriteData, WriteDataCancel
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Requester: TagMatch
+    Requester->>Subordinate: [3. No DWT, with CompAck]<br/>alt
+    Home->>Requester: [3a1. Separate responses from the Home]<br/>DBIDResp, DBIDRespOrd
+    Home->>Requester: Comp<br/>[3a2. Combined response from the Home]<br/>CompDBIDResp
+    Requester->>Home: Comp<br/>[3a2. Combined response from the Home]<br/>CompDBIDResp
+    Home->>Requester: Comp<br/>[3a2. Combined response from the Home]<br/>CompDBIDResp
+    Requester->>Home: [3b1. Separate response from the Requester]<br/>NonCopyBackWriteData, WriteDataCancel
+    Requester->>Home: CompAck<br/>[3b2. Combined response from the Requester]<br/>NonCopyBackWriteDataCompAck
+    Requester->>Home: CompAck<br/>[3b2. Combined response from the Requester]<br/>NonCopyBackWriteDataCompAck
+    Requester->>Home: CompAck<br/>[3b2. Combined response from the Requester]<br/>NonCopyBackWriteDataCompAck
+    Home->>Requester: [3c1. TagMatch from Home]<br/>TagMatch<br/>[3c2. TagMatch from Subordinate]
+    Requester->>Subordinate: [3c1. TagMatch from Home]<br/>TagMatch<br/>[3c2. TagMatch from Subordinate]
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull<br/>(DoDWT=0)
+    Subordinate->>Home: [3c2a. Separate responses from the Subordinate]<br/>DBIDResp
+    Subordinate->>Home: Comp<br/>[3c2b. Combined response from the Subordinate]<br/>CompDBIDResp
+    Home->>Subordinate: Comp<br/>[3c2b. Combined response from the Subordinate]<br/>CompDBIDResp
+    Subordinate->>Home: NonCopyBackWriteData, WriteDataCancel
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Requester: TagMatch

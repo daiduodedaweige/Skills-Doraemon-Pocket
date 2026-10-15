@@ -1,0 +1,39 @@
+{"relationId": "B12_9_rel_001", "pdfId": "B12.9", "from": "ARM", "to": "IHI", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_002", "pdfId": "B12.9", "from": "IHI", "to": "ARM", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_003", "pdfId": "B12.9", "from": "SNP", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_004", "pdfId": "B12.9", "from": "SnpResp", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_005", "pdfId": "B12.9", "from": "SnpRespData", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_006", "pdfId": "B12.9", "from": "SnpRespData", "to": "SnpRespDataPtl", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_007", "pdfId": "B12.9", "from": "SnpRespData", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_008", "pdfId": "B12.9", "from": "SnpRespDataPtl", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_009", "pdfId": "B12.9", "from": "SnpRespDataPtl", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_010", "pdfId": "B12.9", "from": "SnpRespDataPtl", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_011", "pdfId": "B12.9", "from": "B12_9_rule_006", "to": "SNP", "relationType": "applies-to", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_012", "pdfId": "B12.9", "from": "B12_9_rule_006", "to": "TagOp", "relationType": "applies-to", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_013", "pdfId": "B12.9", "from": "B12_9_rule_007", "to": "TagOp", "relationType": "applies-to", "sourceChunks": ["B12_9_C001", "B12_9_C002"]}
+{"relationId": "B12_9_rel_014", "pdfId": "B12.9", "from": "B12_9_rule_010", "to": "SnpResp", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_015", "pdfId": "B12.9", "from": "B12_9_rule_010", "to": "TagOp", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_016", "pdfId": "B12.9", "from": "B12_9_rule_011", "to": "SnpResp", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_017", "pdfId": "B12.9", "from": "B12_9_rule_011", "to": "SnpRespData", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_018", "pdfId": "B12.9", "from": "B12_9_rule_011", "to": "SnpRespDataPtl", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_019", "pdfId": "B12.9", "from": "B12_9_rule_011", "to": "TagOp", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_020", "pdfId": "B12.9", "from": "B12_9_rule_012", "to": "TU", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_021", "pdfId": "B12.9", "from": "B12_9_rule_015", "to": "TU", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_022", "pdfId": "B12.9", "from": "B12_9_rule_016", "to": "TU", "relationType": "applies-to", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_023", "pdfId": "B12.9", "from": "B12_9_vp_001", "to": "B12_9_rule_001", "relationType": "verifies", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_024", "pdfId": "B12.9", "from": "B12_9_vp_002", "to": "B12_9_rule_002", "relationType": "verifies", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_025", "pdfId": "B12.9", "from": "B12_9_vp_003", "to": "B12_9_rule_003", "relationType": "verifies", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_026", "pdfId": "B12.9", "from": "B12_9_vp_004", "to": "B12_9_rule_004", "relationType": "verifies", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_027", "pdfId": "B12.9", "from": "B12_9_vp_005", "to": "B12_9_rule_005", "relationType": "verifies", "sourceChunks": ["B12_9_C001", "B12_9_C002"]}
+{"relationId": "B12_9_rel_028", "pdfId": "B12.9", "from": "B12_9_vp_006", "to": "B12_9_rule_006", "relationType": "verifies", "sourceChunks": ["B12_9_C001"]}
+{"relationId": "B12_9_rel_029", "pdfId": "B12.9", "from": "B12_9_vp_007", "to": "B12_9_rule_007", "relationType": "verifies", "sourceChunks": ["B12_9_C001", "B12_9_C002"]}
+{"relationId": "B12_9_rel_030", "pdfId": "B12.9", "from": "B12_9_vp_008", "to": "B12_9_rule_008", "relationType": "verifies", "sourceChunks": ["B12_9_C001", "B12_9_C002"]}
+{"relationId": "B12_9_rel_031", "pdfId": "B12.9", "from": "B12_9_vp_009", "to": "B12_9_rule_009", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_032", "pdfId": "B12.9", "from": "B12_9_vp_010", "to": "B12_9_rule_010", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_033", "pdfId": "B12.9", "from": "B12_9_vp_011", "to": "B12_9_rule_011", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_034", "pdfId": "B12.9", "from": "B12_9_vp_012", "to": "B12_9_rule_012", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_035", "pdfId": "B12.9", "from": "B12_9_vp_013", "to": "B12_9_rule_013", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_036", "pdfId": "B12.9", "from": "B12_9_vp_014", "to": "B12_9_rule_014", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_037", "pdfId": "B12.9", "from": "B12_9_vp_015", "to": "B12_9_rule_015", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_038", "pdfId": "B12.9", "from": "B12_9_vp_016", "to": "B12_9_rule_016", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}
+{"relationId": "B12_9_rel_039", "pdfId": "B12.9", "from": "B12_9_vp_017", "to": "B12_9_rule_017", "relationType": "verifies", "sourceChunks": ["B12_9_C003"]}

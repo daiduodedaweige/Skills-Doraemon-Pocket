@@ -1,0 +1,38 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>RN_F2: WriteUniquePtl
+    RN_F0->>HN_F: WriteUniquePtl
+    RN_F2->>RN_F1: WriteUniquePtl
+    RN_F1->>RN_F2: SnpCleanInvalid
+    HN_F->>RN_F1: SnpCleanInvalid
+    RN_F2->>RN_F1: SnpCleanInvalid
+    RN_F2->>HN_F: SnpCleanInvalid
+    HN_F->>RN_F2: SnpCleanInvalid
+    RN_F1->>RN_F2: DBIDResp
+    HN_F->>RN_F2: SnpCleanInvalid
+    HN_F->>RN_F0: DBIDResp
+    RN_F2->>RN_F1: DBIDResp
+    RN_F2->>HN_F: SnpRespData_I_PD
+    RN_F2->>HN_F: SnpRespData_I_PD
+    RN_F1->>HN_F: SnpRespData_I_PD
+    HN_F->>RN_F2: SnpRespData_I_PD
+    RN_F2->>HN_F: SnpResp_I
+    RN_F1->>RN_F2: NCBWrData
+    HN_F->>RN_F2: SnpResp_I
+    RN_F0->>HN_F: NCBWrData
+    RN_F2->>RN_F1: NCBWrData
+    HN_F->>SN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    RN_F1->>RN_F2: Comp
+    SN_F->>HN_F: WriteNoSnp
+    HN_F->>RN_F0: Comp
+    RN_F2->>RN_F1: Comp
+    HN_F->>SN_F: CompDBIDResp
+    SN_F->>HN_F: CompDBIDResp
+    HN_F->>SN_F: NCBWrData
+    HN_F->>SN_F: NCBWrData
+    SN_F->>HN_F: NCBWrData

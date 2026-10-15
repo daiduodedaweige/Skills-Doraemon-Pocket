@@ -1,0 +1,52 @@
+{
+  "pdfId": "B11.3",
+  "sourceFile": "B11.3 Data Target.md",
+  "title": "Data Target",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Target",
+    "CacheLevel",
+    "Unique",
+    "MemAttr",
+    "B11",
+    "ACDE",
+    "DataSource",
+    "UnusedPrefetch"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 14,
+    "flows": 0,
+    "verification": 14,
+    "relations": 43,
+    "tables": 7,
+    "figures": 0
+  }
+}

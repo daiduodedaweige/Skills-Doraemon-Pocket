@@ -1,0 +1,19 @@
+flowchart LR
+    N001["Requester"]
+    N002["RN-F"]
+    N003["RN-F"]
+    N004["Data"]
+    N005["Req"]
+    N006["Snoop"]
+    N007["Data"]
+    N008["ICN"]
+    N009["Home"]
+    N010["Req"]
+    N011["Data"]
+    N012["Data providers"]
+    N013["Subordinate"]
+    N001 --> N005
+    N002 --> N004
+    N004 --> N006
+    N009 --> N010
+    N013 --> N011

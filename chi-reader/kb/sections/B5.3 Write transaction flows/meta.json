@@ -1,0 +1,51 @@
+{
+  "pdfId": "B5.3",
+  "sourceFile": "B5.3 Write transaction flows.md",
+  "title": "Write transaction flows",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Write",
+    "transaction",
+    "flows",
+    "HN-F",
+    "SN-F",
+    "RN-F0",
+    "WriteBackFull",
+    "WriteUniquePtl"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 11,
+    "rules": 0,
+    "flows": 1,
+    "verification": 1,
+    "relations": 15,
+    "tables": 0,
+    "figures": 5
+  }
+}

@@ -1,0 +1,7 @@
+sequenceDiagram
+    participant Host as Host
+    participant Device as Device
+    Device->>Host: Snoop request<br/>SNP.MECID, if stash snoop and MEC_Support is True
+    Host->>Device: [DataPull]
+    Host->>Device: [DataPull]
+    Host->>Device: Snoop data<br/>DAT.DBID

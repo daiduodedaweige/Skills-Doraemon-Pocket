@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Snoopee as Snoopee
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: ReadOnce<br/>NumReq = 0x3 (4 cache lines)<br/>Addr = 0x0<br/>TxnID=0x0
+    Home->>Subordinate: ReadReceipt<br/>TxnID = 0x8<br/>CacheLineID=0x0
+    Subordinate->>Home: ReadReceipt<br/>TxnID = 0x8<br/>CacheLineID=0x0
+    Subordinate->>Requester: CompData_UC<br/>TxnID = 0x0<br/>CacheLineID=0x0
+    Subordinate->>Home: ReadReceipt<br/>TxnID = 0x8<br/>CacheLineID=0x1
+    Subordinate->>Requester: CompData_UC<br/>TxnID = 0x0<br/>CacheLineID=0x1
+    Home->>Snoopee: SnpOnceFwd<br/>Addr = 0x80<br/>FwdTxnID = 0x0<br/>TxnID = 0xD
+    Snoopee->>Requester: CompData_I<br/>TxnID = 0x0<br/>CacheLineID = 0x2
+    Snoopee->>Home: SnpResp_SC_Fwded_I<br/>TxnID = 0xD
+    Home->>Snoopee: SnpOnceFwd<br/>Addr = 0xC0<br/>FwdTxnID = 0x0<br/>TxnID = 0x7
+    Snoopee->>Requester: CompData_I<br/>TxnID = 0x0<br/>CacheLineID = 0x3
+    Snoopee->>Home: SnpResp_SC_Fwded_I<br/>TxnID = 0x7

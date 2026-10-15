@@ -1,0 +1,47 @@
+{
+  "pdfId": "B13.11",
+  "sourceFile": "B13.11 Link layer Credit Return, LCrdReturn.md",
+  "title": "Link layer Credit Return, LCrdReturn",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "layer",
+    "Credit",
+    "Return",
+    "LCrdReturn",
+    "B14",
+    "ARM",
+    "IHI",
+    "Handshake"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 2,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 0,
+    "figures": 0
+  }
+}

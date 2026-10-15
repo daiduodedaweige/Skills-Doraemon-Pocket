@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate: [1. Combined response from Subordinate]<br/>ReadNoSnp
+    Subordinate->>Home: [Order != 00]<br/>ReadReceipt
+    Subordinate->>Home: CompData
+    Home->>Subordinate: [2. Separate response from Subordinate]<br/>ReadNoSnpSep
+    Home->>Subordinate: [2. Separate response from Subordinate]<br/>ReadNoSnpSep
+    Subordinate->>Home: [Order != 00]<br/>ReadReceipt
+    Subordinate->>Home: DataSepResp

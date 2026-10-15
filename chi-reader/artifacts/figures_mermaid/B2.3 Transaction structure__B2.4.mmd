@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    Requester->>Home: WriteNoSnpZero, WriteUniqueZero
+    Home->>Requester: [1. Separate response from Home]<br/>DBIDResp, DBIDRespOrd
+    Home->>Requester: Comp
+    Requester->>Home: [2. Combined response from Home]<br/>CompDBIDResp
+    Home->>Requester: [2. Combined response from Home]<br/>CompDBIDResp

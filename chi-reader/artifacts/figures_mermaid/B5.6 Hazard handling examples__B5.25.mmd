@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    RN_F1->>HN_F: Req1: ReadShared
+    RN_F1->>HN_F: Req1: ReadShared
+    HN_F->>RN_F1: Req1: ReadShared
+    RN_F0->>HN_F: Req2: WriteBack
+    HN_F->>RN_F0: SnpShared
+    RN_F0->>RN_F1: SnpRespData_SC_PD
+    RN_F1->>RN_F0: SnpRespData_SC_PD
+    RN_F0->>HN_F: SnpRespData_SC_PD
+    RN_F1->>HN_F: CompData_SC
+    HN_F->>RN_F1: CompData_SC
+    HN_F->>RN_F1: CompData_SC
+    RN_F1->>HN_F: CompAck
+    RN_F1->>HN_F: CompAck
+    HN_F->>RN_F1: CompAck
+    HN_F->>RN_F0: CompDBIDResp
+    RN_F0->>RN_F1: CopyBackWriteData_SC
+    RN_F1->>RN_F0: CopyBackWriteData_SC
+    RN_F0->>HN_F: un-blocked

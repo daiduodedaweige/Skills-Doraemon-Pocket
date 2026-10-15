@@ -1,0 +1,47 @@
+{
+  "pdfId": "B7.5",
+  "sourceFile": "B7.5 Stash messages.md",
+  "title": "Stash messages",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Stash",
+    "messages",
+    "DVM",
+    "DAT",
+    "DataPull",
+    "RSP",
+    "See",
+    "B13"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 4,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 1,
+    "tables": 0,
+    "figures": 0
+  }
+}

@@ -1,0 +1,33 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F1 as RN-F1
+    participant ICN_RN as ICN-RN
+    participant ICN_SN as ICN-SN
+    participant SN_F as SN-F
+    RN_F0->>RN_F1: ReadUnique
+    RN_F1->>RN_F0: ReadUnique
+    RN_F0->>ICN_RN: ReadUnique
+    ICN_SN->>SN_F: ReadNoSnp
+    ICN_SN->>SN_F: ReadNoSnp
+    SN_F->>ICN_SN: ReadNoSnp
+    RN_F1->>ICN_RN: SnpUnique
+    ICN_RN->>RN_F1: SnpUnique
+    ICN_RN->>RN_F1: SnpUnique
+    RN_F1->>RN_F1: SnpUnique
+    ICN_RN->>RN_F1: SnpUnique
+    RN_F1->>RN_F1: SnpUnique
+    RN_F1->>RN_F1: SnpResp_I
+    ICN_SN->>SN_F: CompData
+    RN_F1->>ICN_RN: SnpResp_I
+    ICN_RN->>RN_F1: SnpResp_I
+    RN_F1->>RN_F1: SnpResp_I
+    SN_F->>ICN_SN: CompData
+    ICN_RN->>RN_F1: SnpResp_I
+    ICN_RN->>RN_F1: SnpResp_I
+    RN_F1->>RN_F1: CompData_UC
+    ICN_RN->>RN_F0: CompData_UC
+    RN_F1->>RN_F1: CompData_UC
+    RN_F1->>RN_F1: CompAck
+    RN_F0->>ICN_RN: CompAck
+    RN_F1->>RN_F1: CompAck

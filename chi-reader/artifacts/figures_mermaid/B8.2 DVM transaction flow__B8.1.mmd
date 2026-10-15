@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant Requester_0 as Requester 0
+    participant RN_F0 as RN-F0
+    participant Core_1 as Core-1
+    participant Requester_1 as Requester 1
+    participant RN_F1 as RN-F1
+    participant ICN as ICN
+    Requester_0->>Requester_1: DVMOp(Non-sync)
+    Requester_1->>Requester_0: DBIDResp
+    Requester_0->>Requester_1: NonCopyBackWriteData
+    Requester_1->>Core_1: SnpDVMOp_P1
+    Requester_1->>RN_F1: SnpDVMOp_P1
+    Requester_1->>Core_1: SnpDVMOp_P2
+    Requester_1->>RN_F1: SnpDVMOp_P2
+    Core_1->>RN_F0: Snoop sent<br/>to core
+    RN_F1->>ICN: Snoop sent<br/>to core
+    Core_1->>Requester_1: SnpResp_I
+    RN_F1->>Requester_1: SnpResp_I
+    Requester_1->>Requester_0: Comp

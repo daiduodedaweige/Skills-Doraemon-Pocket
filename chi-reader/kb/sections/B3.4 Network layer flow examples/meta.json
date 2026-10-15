@@ -1,0 +1,47 @@
+{
+  "pdfId": "B3.4",
+  "sourceFile": "B3.4 Network layer flow examples.md",
+  "title": "Network layer flow examples",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "layer",
+    "flow",
+    "examples",
+    "TgtID",
+    "RN0",
+    "SrcID",
+    "HN1",
+    "Dec"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 5,
+    "rules": 1,
+    "flows": 1,
+    "verification": 2,
+    "relations": 3,
+    "tables": 0,
+    "figures": 3
+  }
+}

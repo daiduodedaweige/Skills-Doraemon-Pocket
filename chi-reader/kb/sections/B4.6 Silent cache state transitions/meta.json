@@ -1,0 +1,47 @@
+{
+  "pdfId": "B4.6",
+  "sourceFile": "B4.6 Silent cache state transitions.md",
+  "title": "Silent cache state transitions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Silent",
+    "cache",
+    "state",
+    "transitions",
+    "UDP",
+    "SC",
+    "UD",
+    "Sequences"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Cache state rules"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 3,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 4,
+    "tables": 0,
+    "figures": 0
+  }
+}

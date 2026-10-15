@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant RN_F as RN-F
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F->>HN_F: ReadNoSnp<br/>(ExpCompAck = 1)<br/>(Order[1:0] = 0b10)
+    HN_F->>SN_F: ReadNoSnpSep<br/>(Order[1:0] = 0b01)
+    HN_F->>RN_F: RespSepData
+    SN_F->>HN_F: ReadReceipt
+    SN_F->>RN_F: DataSepResp
+    RN_F->>HN_F: CompAck

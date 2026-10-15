@@ -1,0 +1,11 @@
+{"tableId": "B13_9_table_001", "pdfId": "B13.9", "label": "B13.6", "title": "–Continued from previous page", "sourceChunks": ["B13_9_C001"], "rawHeader": "PAS 3"}
+{"tableId": "B13_9_table_002", "pdfId": "B13.9", "label": "B13.6", "title": "–Continued from previous page", "sourceChunks": ["B13_9_C001"], "rawHeader": "Field"}
+{"tableId": "B13_9_table_003", "pdfId": "B13.9", "label": "B13.7", "title": "shows the Response flit format in a RSP channel packet starting at bit 0.", "sourceChunks": ["B13_9_C001"], "rawHeader": "The following key is used:"}
+{"tableId": "B13_9_table_004", "pdfId": "B13.9", "label": "B13.7", "title": "Response flit format", "sourceChunks": ["B13_9_C001"], "rawHeader": "QoS 4"}
+{"tableId": "B13_9_table_005", "pdfId": "B13.9", "label": "B13.7", "title": "–Continued from previous page", "sourceChunks": ["B13_9_C002"], "rawHeader": "TagOp 2"}
+{"tableId": "B13_9_table_006", "pdfId": "B13.9", "label": "B13.8", "title": "shows the Snoop flit format in a SNP channel packet starting at bit 0.", "sourceChunks": ["B13_9_C002"], "rawHeader": "The following key is used:"}
+{"tableId": "B13_9_table_007", "pdfId": "B13.9", "label": "B13.8", "title": "Snoop flit format", "sourceChunks": ["B13_9_C002"], "rawHeader": "-"}
+{"tableId": "B13_9_table_008", "pdfId": "B13.9", "label": "B13.8", "title": "–Continued from previous page", "sourceChunks": ["B13_9_C003"], "rawHeader": "M = 12, 15 -"}
+{"tableId": "B13_9_table_009", "pdfId": "B13.9", "label": "B13.9", "title": "shows the Data flit format in a DAT channel packet starting at bit 0.", "sourceChunks": ["B13_9_C003"], "rawHeader": "The number of data flits required is dependent on the number of data bytes, and the data bus width. See B2.9.4"}
+{"tableId": "B13_9_table_010", "pdfId": "B13.9", "label": "B13.9", "title": "Data flit format", "sourceChunks": ["B13_9_C004"], "rawHeader": "DATFLIT[(D-1):0] format"}
+{"tableId": "B13_9_table_011", "pdfId": "B13.9", "label": "B13.9", "title": "–Continued from previous page", "sourceChunks": ["B13_9_C004"], "rawHeader": "FwdState[2:0]} Used"}

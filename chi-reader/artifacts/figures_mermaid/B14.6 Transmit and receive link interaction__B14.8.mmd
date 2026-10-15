@@ -1,0 +1,151 @@
+flowchart LR
+    N001["RXREQ"]
+    N002["RXACK"]
+    N003["RXREQ"]
+    N004["RXACK"]
+    N005["RXREQ"]
+    N006["RxStop"]
+    N007["RxAct"]
+    N008["RxRun"]
+    N009["RxDeact"]
+    N010["RxStop"]
+    N011["RxAct"]
+    N012["Banned"]
+    N013["TxStop"]
+    N014["TxStop"]
+    N015["TxStop"]
+    N016["Remote"]
+    N017["TxStop"]
+    N018["Output"]
+    N019["Initiate"]
+    N020["RxAct"]
+    N021["RxStop"]
+    N022["RxRun+"]
+    N023["Race"]
+    N024["TXREQ"]
+    N025["Local<br/>Initiate"]
+    N026["Async"]
+    N027["TxAct"]
+    N028["TxAct"]
+    N029["TxAct"]
+    N030["TxAct"]
+    N031["TxAct"]
+    N032["Input"]
+    N033["RxStop"]
+    N034["RxAct"]
+    N035["RxRun"]
+    N036["RxDeact+"]
+    N037["Race"]
+    N038["Async"]
+    N039["TXACK"]
+    N040["Input"]
+    N041["Permitted"]
+    N042["Race"]
+    N043["Banned"]
+    N044["TxRun+"]
+    N045["TxRun"]
+    N046["TxStop"]
+    N047["TxRun"]
+    N048["TxRun"]
+    N049["Remote"]
+    N050["TxRun"]
+    N051["Output"]
+    N052["Initiate"]
+    N053["RxStop"]
+    N054["RxAct"]
+    N055["RxStop"]
+    N056["RxDeact"]
+    N057["RxStop+"]
+    N058["Race"]
+    N059["TXREQ"]
+    N060["Banned"]
+    N061["Local"]
+    N062["Output"]
+    N063["Initiate"]
+    N064["Permitted"]
+    N065["Permitted"]
+    N066["Race"]
+    N067["Async"]
+    N068["TxDeact+"]
+    N069["TxDeact"]
+    N070["TxDeact"]
+    N071["TxDeact"]
+    N072["TxDeact"]
+    N073["TxDeact"]
+    N074["Input"]
+    N075["RxAct"]
+    N076["RxRun"]
+    N077["RxDeact"]
+    N078["RxStop"]
+    N079["RxAct+"]
+    N080["Race"]
+    N081["Async"]
+    N082["TXACK"]
+    N083["Input"]
+    N084["Permitted"]
+    N085["Permitted"]
+    N086["Race"]
+    N087["TxStop+"]
+    N088["TxStop"]
+    N089["TxStop"]
+    N090["TxStop"]
+    N091["TxStop"]
+    N092["RxRun"]
+    N093["RxDeact"]
+    N094["RxDeact"]
+    N095["RxAct"]
+    N096["TXREQ"]
+    N097["Banned<br/>Output"]
+    N098["Permitted"]
+    N099["Race"]
+    N100["TxAct+"]
+    N101["TxAct"]
+    N102["TxAct"]
+    N103["RxDeact"]
+    N104["RxStop"]
+    N006 --> N001
+    N007 --> N002
+    N008 --> N003
+    N009 --> N004
+    N010 --> N005
+    N013 --> N012
+    N020 --> N029
+    N021 --> N016
+    N021 --> N028
+    N033 --> N034
+    N033 --> N044
+    N033 --> N045
+    N034 --> N035
+    N034 --> N045
+    N034 --> N046
+    N035 --> N036
+    N035 --> N046
+    N035 --> N047
+    N036 --> N047
+    N044 --> N045
+    N045 --> N055
+    N054 --> N068
+    N054 --> N069
+    N055 --> N049
+    N055 --> N069
+    N055 --> N070
+    N056 --> N057
+    N056 --> N070
+    N056 --> N071
+    N057 --> N071
+    N068 --> N069
+    N069 --> N077
+    N071 --> N072
+    N076 --> N087
+    N076 --> N088
+    N077 --> N071
+    N077 --> N088
+    N077 --> N089
+    N078 --> N089
+    N078 --> N090
+    N079 --> N090
+    N087 --> N093
+    N093 --> N094
+    N093 --> N100
+    N093 --> N101
+    N103 --> N104

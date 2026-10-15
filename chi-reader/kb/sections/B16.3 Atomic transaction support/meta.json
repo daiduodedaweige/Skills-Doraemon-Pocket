@@ -1,0 +1,47 @@
+{
+  "pdfId": "B16.3",
+  "sourceFile": "B16.3 Atomic transaction support.md",
+  "title": "Atomic transaction support",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Atomic",
+    "transaction",
+    "support",
+    "Field",
+    "Subordinate",
+    "DVM",
+    "MPAM",
+    "Applicable"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 3,
+    "rules": 8,
+    "flows": 1,
+    "verification": 9,
+    "relations": 20,
+    "tables": 2,
+    "figures": 0
+  }
+}

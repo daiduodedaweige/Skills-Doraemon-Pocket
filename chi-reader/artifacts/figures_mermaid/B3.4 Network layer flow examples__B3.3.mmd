@@ -1,0 +1,44 @@
+flowchart LR
+    N001["Initial target"]
+    N002["Remapped target"]
+    N003["RN0"]
+    N004["HN1"]
+    N005["SN0"]
+    N006["TgtID = HN0"]
+    N007["TgtID = HN1"]
+    N008["SrcID = RN0"]
+    N009["SrcID = RN0"]
+    N010["Remap"]
+    N011["Dec"]
+    N012["Dec"]
+    N013["Req"]
+    N014["Req"]
+    N015["Dec"]
+    N016["Addr"]
+    N017["TgtID = RN0<br/>SrcID = HN1<br/>Retry"]
+    N018["PCrdGrant"]
+    N019["TgtID = SN0"]
+    N020["TgtID = HN1"]
+    N021["TgtID = HN1"]
+    N022["SrcID = HN1"]
+    N023["SrcID = RN0"]
+    N024["SrcID = RN0"]
+    N025["ReturnNID = RN0"]
+    N026["Remap"]
+    N027["Dec"]
+    N028["Dec"]
+    N029["Req"]
+    N030["Req"]
+    N031["Req"]
+    N032["Dec"]
+    N033["Addr"]
+    N034["TgtID = RN0<br/>SrcID = SN0<br/>HomeNID = HN1<br/>RDATA"]
+    N035["TgtID = HN1<br/>SrcID = RN0<br/>Resp"]
+    N002 --> N007
+    N010 --> N011
+    N012 --> N010
+    N016 --> N011
+    N026 --> N027
+    N027 --> N025
+    N028 --> N026
+    N033 --> N027

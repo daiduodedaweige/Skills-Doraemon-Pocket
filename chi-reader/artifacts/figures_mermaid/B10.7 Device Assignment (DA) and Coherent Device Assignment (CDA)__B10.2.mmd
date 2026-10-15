@@ -1,0 +1,7 @@
+sequenceDiagram
+    participant Host as Host
+    participant Device as Device
+    Device->>Host: Request<br/>REQ.MECID, or REQ.StreamID and REQ.SecSID1
+    Host->>Device: Completion data<br/>DAT.DBID
+    Device->>Host: Request<br/>REQ.MECID, or REQ.StreamID and REQ.SecSID1
+    Device->>Host: Write data<br/>DAT.DBID

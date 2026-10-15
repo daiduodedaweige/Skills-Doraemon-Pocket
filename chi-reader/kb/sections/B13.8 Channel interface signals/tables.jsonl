@@ -1,0 +1,9 @@
+{"tableId": "B13_8_table_001", "pdfId": "B13.8", "label": "B13.2", "title": "–Continued from previous page", "sourceChunks": ["B13_8_C001"], "rawHeader": "REQSHAREDCRD"}
+{"tableId": "B13_8_table_002", "pdfId": "B13.8", "label": "B13.3", "title": "shows the RSP channel interface signals.", "sourceChunks": ["B13_8_C001"], "rawHeader": "Table B13.3: RSP channel interface signals"}
+{"tableId": "B13_8_table_003", "pdfId": "B13.8", "label": "B13.3", "title": "RSP channel interface signals", "sourceChunks": ["B13_8_C001"], "rawHeader": "Signal Presence"}
+{"tableId": "B13_8_table_004", "pdfId": "B13.8", "label": "B13.3", "title": "–Continued from previous page", "sourceChunks": ["B13_8_C002"], "rawHeader": "Description"}
+{"tableId": "B13_8_table_005", "pdfId": "B13.8", "label": "B13.4", "title": "shows the SNP channel interface signals.", "sourceChunks": ["B13_8_C002"], "rawHeader": "Table B13.4: SNP channel interface signals"}
+{"tableId": "B13_8_table_006", "pdfId": "B13.8", "label": "B13.4", "title": "SNP channel interface signals", "sourceChunks": ["B13_8_C003"], "rawHeader": "Signal Presence"}
+{"tableId": "B13_8_table_007", "pdfId": "B13.8", "label": "B13.4", "title": "–Continued from previous page", "sourceChunks": ["B13_8_C003"], "rawHeader": "SNPLCRDV"}
+{"tableId": "B13_8_table_008", "pdfId": "B13.8", "label": "B13.5", "title": "shows the DAT channel interface signals.", "sourceChunks": ["B13_8_C004"], "rawHeader": "Table B13.5: DAT channel interface signals"}
+{"tableId": "B13_8_table_009", "pdfId": "B13.8", "label": "B13.5", "title": "DAT channel interface signals", "sourceChunks": ["B13_8_C004"], "rawHeader": "Signal Presence"}

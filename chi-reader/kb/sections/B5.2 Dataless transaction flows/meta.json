@@ -1,0 +1,53 @@
+{
+  "pdfId": "B5.2",
+  "sourceFile": "B5.2 Dataless transaction flows.md",
+  "title": "Dataless transaction flows",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Dataless",
+    "transaction",
+    "flows",
+    "HN-F",
+    "SN-F",
+    "RN-F0",
+    "CleanSharedPersistSep",
+    "CleanUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 15,
+    "rules": 1,
+    "flows": 1,
+    "verification": 2,
+    "relations": 32,
+    "tables": 0,
+    "figures": 5
+  }
+}

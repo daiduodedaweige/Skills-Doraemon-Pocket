@@ -1,0 +1,53 @@
+{
+  "pdfId": "B12.13",
+  "sourceFile": "B12.13 TagOp field use summary.md",
+  "title": "TagOp field use summary",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "TagOp",
+    "field",
+    "use",
+    "summary",
+    "B13",
+    "RSP",
+    "SNP",
+    "MakeReadUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 4,
+    "rules": 1,
+    "flows": 0,
+    "verification": 1,
+    "relations": 6,
+    "tables": 0,
+    "figures": 0
+  }
+}

@@ -1,0 +1,27 @@
+{"tableId": "B8_4_table_001", "pdfId": "B8.4", "label": "B8.5", "title": "–", "sourceChunks": ["B8_4_C001"], "rawHeader": "Field Bits"}
+{"tableId": "B8_4_table_002", "pdfId": "B8.4", "label": "B8.5", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C002"], "rawHeader": "Field Bits"}
+{"tableId": "B8_4_table_003", "pdfId": "B8.4", "label": "B8.5", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C002"], "rawHeader": "Field Bits"}
+{"tableId": "B8_4_table_004", "pdfId": "B8.4", "label": "B8.6", "title": "Leaf entry hint for range-based TLB Invalidations", "sourceChunks": ["B8_4_C004"], "rawHeader": "For TLB Invalidations by non-range address, the TTL and TG fields indicate which level of translation table walk"}
+{"tableId": "B8_4_table_005", "pdfId": "B8.4", "label": "B8.8", "title": "Security field encodings for each DVMType", "sourceChunks": ["B8_4_C005"], "rawHeader": "Security TLBI BPI"}
+{"tableId": "B8_4_table_006", "pdfId": "B8.4", "label": "B8.9", "title": "shows the SnpAttr value encoding in DVM transactions.", "sourceChunks": ["B8_4_C011"], "rawHeader": "Table B8.9: SnpAttr value encoding in DVM transactions"}
+{"tableId": "B8_4_table_007", "pdfId": "B8.4", "label": "B8.9", "title": "SnpAttr value encoding in DVM transactions", "sourceChunks": ["B8_4_C012"], "rawHeader": "SnpAttr Domain"}
+{"tableId": "B8_4_table_008", "pdfId": "B8.4", "label": "B8.10", "title": "shows the distribution of the payload in the DVMOp request from the Request Node, using 8-byte", "sourceChunks": ["B8_4_C013"], "rawHeader": "write semantics, and the distribution of the payload in the SnpDVMOp requests from the Miscellaneous Node."}
+{"tableId": "B8_4_table_009", "pdfId": "B8.4", "label": "B8.10", "title": "B8.10", "sourceChunks": ["B8_4_C013"], "rawHeader": "DAT"}
+{"tableId": "B8_4_table_010", "pdfId": "B8.4", "label": "B8.10", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C014"], "rawHeader": "X"}
+{"tableId": "B8_4_table_011", "pdfId": "B8.4", "label": "B8.11", "title": "Fixed field values for a TLBI message", "sourceChunks": ["B8_4_C016"], "rawHeader": "Field Value"}
+{"tableId": "B8_4_table_012", "pdfId": "B8.4", "label": "B8.12", "title": "shows all the supported TLBI operations.", "sourceChunks": ["B8_4_C017"], "rawHeader": "The Arm column indicates the minimum Arm architecture version required to support the message."}
+{"tableId": "B8_4_table_013", "pdfId": "B8.4", "label": "B8.12", "title": "TLBI messages", "sourceChunks": ["B8_4_C017"], "rawHeader": "Arm"}
+{"tableId": "B8_4_table_014", "pdfId": "B8.4", "label": "B8.12", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C018"], "rawHeader": "Operation Arm"}
+{"tableId": "B8_4_table_015", "pdfId": "B8.4", "label": "B8.12", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C018"], "rawHeader": "Operation Arm"}
+{"tableId": "B8_4_table_016", "pdfId": "B8.4", "label": "B8.13", "title": "TG field encodings in TLB instructions that apply to a range of addresses", "sourceChunks": ["B8_4_C024"], "rawHeader": "TG Translation granule size Translation_Granule_Size"}
+{"tableId": "B8_4_table_017", "pdfId": "B8.4", "label": "B8.14", "title": "shows the placement of the Range and Num values in the SnpDVMOp payload.", "sourceChunks": ["B8_4_C025"], "rawHeader": "Table B8.14:"}
+{"tableId": "B8_4_table_018", "pdfId": "B8.4", "label": "B8.14", "title": "B8.14", "sourceChunks": ["B8_4_C025"], "rawHeader": "0 Range"}
+{"tableId": "B8_4_table_019", "pdfId": "B8.4", "label": "B8.15", "title": "Fixed field values for a Branch Predictor Invalidate message", "sourceChunks": ["B8_4_C028"], "rawHeader": "Field Value Status"}
+{"tableId": "B8_4_table_020", "pdfId": "B8.4", "label": "B8.16", "title": "shows the operations supported by BPI.", "sourceChunks": ["B8_4_C028"], "rawHeader": "Table B8.16: Branch Predictor Invalidate operations"}
+{"tableId": "B8_4_table_021", "pdfId": "B8.4", "label": "B8.16", "title": "Branch Predictor Invalidate operations", "sourceChunks": ["B8_4_C028"], "rawHeader": "Operation Arm"}
+{"tableId": "B8_4_table_022", "pdfId": "B8.4", "label": "B8.18", "title": "Physical Instruction Cache Invalidate operations", "sourceChunks": ["B8_4_C031"], "rawHeader": "When VIV is0b11, VI[19:12] is used as part of the PA."}
+{"tableId": "B8_4_table_023", "pdfId": "B8.4", "label": "B8.19", "title": "B8.19", "sourceChunks": ["B8_4_C031"], "rawHeader": "Cache Invalidate message"}
+{"tableId": "B8_4_table_024", "pdfId": "B8.4", "label": "B8.20", "title": "shows the operations supported by VICI.", "sourceChunks": ["B8_4_C031"], "rawHeader": "Leaf"}
+{"tableId": "B8_4_table_025", "pdfId": "B8.4", "label": "B8.20", "title": "Virtual Instruction Cache Invalidate operations", "sourceChunks": ["B8_4_C031"], "rawHeader": "Operation Arm"}
+{"tableId": "B8_4_table_026", "pdfId": "B8.4", "label": "B8.21", "title": "Sync operation fixed values", "sourceChunks": ["B8_4_C032"], "rawHeader": "Field Value Status"}
+{"tableId": "B8_4_table_027", "pdfId": "B8.4", "label": "B8.21", "title": "–Continued from previous page", "sourceChunks": ["B8_4_C032"], "rawHeader": "Field Value Status"}

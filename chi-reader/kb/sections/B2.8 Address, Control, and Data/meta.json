@@ -1,0 +1,50 @@
+{
+  "pdfId": "B2.8",
+  "sourceFile": "B2.8 Address, Control, and Data.md",
+  "title": "Address, Control, and Data",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Address",
+    "Control",
+    "and",
+    "Write",
+    "CAH",
+    "Device",
+    "SnpAttr",
+    "CopyBack"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 31,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 44,
+    "tables": 8,
+    "figures": 0
+  }
+}

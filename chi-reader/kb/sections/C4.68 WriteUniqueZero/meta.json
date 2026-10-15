@@ -1,0 +1,50 @@
+{
+  "pdfId": "C4.68",
+  "sourceFile": "C4.68 WriteUniqueZero.md",
+  "title": "WriteUniqueZero",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "WriteUniqueZero",
+    "Changes",
+    "ARM",
+    "IHI",
+    "Revisions",
+    "This",
+    "Copyright",
+    "Arm"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 3,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 0,
+    "figures": 0
+  }
+}

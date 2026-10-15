@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Snoopee as Snoopee
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: ReadOnce<br/>NumReq = 0x3 (4 cache lines)<br/>Addr = 0x0<br/>TxnID=0x0
+    Home->>Subordinate
+    Subordinate->>Home: ReadReceipt<br/>CacheLineID=0x0<br/>TxnID = 0x8
+    Subordinate->>Requester: CompData_UC<br/>CacheLineID=0x0<br/>TxnID = 0x0
+    Subordinate->>Home: ReadReceipt<br/>CacheLineID=0x1<br/>TxnID = 0x8
+    Subordinate->>Requester: CompData_UC<br/>CacheLineID=0x1<br/>TxnID = 0x0
+    Subordinate->>Home: ReadReceipt<br/>CacheLineID=0x2<br/>TxnID = 0x8
+    Subordinate->>Requester: CompData_UC<br/>CacheLineID=0x2<br/>TxnID = 0x0
+    Subordinate->>Home: ReadReceipt<br/>CacheLineID=0x3<br/>TxnID = 0x8
+    Subordinate->>Requester: CompData_UC<br/>CacheLineID=0x3<br/>TxnID = 0x0

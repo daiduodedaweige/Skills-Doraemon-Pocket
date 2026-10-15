@@ -1,0 +1,2 @@
+{"relationId": "C2_4_rel_001", "pdfId": "C2.4", "from": "ARM", "to": "IHI", "relationType": "co-mentioned", "sourceChunks": ["C2_4_C001"]}
+{"relationId": "C2_4_rel_002", "pdfId": "C2.4", "from": "IHI", "to": "ARM", "relationType": "co-mentioned", "sourceChunks": ["C2_4_C001"]}

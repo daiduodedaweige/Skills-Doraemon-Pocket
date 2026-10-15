@@ -1,0 +1,8 @@
+{"figureId": "B2_6_figure_001", "pdfId": "B2.6", "label": "B2.34", "title": "shows how the Multi-request feature can be used as part of a DMT transaction flow.", "sourceChunks": ["B2_6_C001"]}
+{"figureId": "B2_6_figure_002", "pdfId": "B2.6", "label": "B2.34", "title": "ReadOnce targeting 4 cache lines using DMT flow", "sourceChunks": ["B2_6_C001"]}
+{"figureId": "B2_6_figure_003", "pdfId": "B2.6", "label": "B2.35", "title": "shows how the Multi-request feature can be used as part of a DCT transaction flow.", "sourceChunks": ["B2_6_C002"]}
+{"figureId": "B2_6_figure_004", "pdfId": "B2.6", "label": "B2.35", "title": "ReadOnce targeting 4 cache lines using DCT flow", "sourceChunks": ["B2_6_C003"]}
+{"figureId": "B2_6_figure_005", "pdfId": "B2.6", "label": "B2.36", "title": "shows how the Multi-request feature can be used with a combination of DMT and DCT transaction", "sourceChunks": ["B2_6_C003"]}
+{"figureId": "B2_6_figure_006", "pdfId": "B2.6", "label": "B2.36", "title": "ReadOnce targeting 4 cache lines using DMT and DCT flows", "sourceChunks": ["B2_6_C003"]}
+{"figureId": "B2_6_figure_007", "pdfId": "B2.6", "label": "B2.37", "title": "shows how the Multi-request feature can be used as part of a DWT transaction flow.", "sourceChunks": ["B2_6_C003"]}
+{"figureId": "B2_6_figure_008", "pdfId": "B2.6", "label": "B2.37", "title": "WriteNoSnpFull targeting 4 cache lines using DWT flow", "sourceChunks": ["B2_6_C004"]}

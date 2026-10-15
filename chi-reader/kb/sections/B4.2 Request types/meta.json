@@ -1,0 +1,48 @@
+{
+  "pdfId": "B4.2",
+  "sourceFile": "B4.2 Request types.md",
+  "title": "Request types",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "types",
+    "Write",
+    "CMO",
+    "Atomic",
+    "Subordinate",
+    "MemAttr",
+    "TxnData",
+    "LikelyShared"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 61,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 57,
+    "tables": 57,
+    "figures": 0
+  }
+}

@@ -1,0 +1,24 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F0->>RN_F1: CleanSharedPersistSep
+    RN_F1->>RN_F0: CleanSharedPersistSep
+    RN_F0->>HN_F: CleanSharedPersistSep
+    RN_F1->>HN_F: SnpCleanShared
+    HN_F->>RN_F1: SnpCleanShared
+    HN_F->>RN_F1: SnpCleanShared
+    RN_F1->>HN_F: SnpResp_SC
+    RN_F1->>HN_F: SnpResp_SC
+    HN_F->>RN_F1: SnpResp_SC
+    HN_F->>SN_F: CleanSharedPersistSep
+    HN_F->>SN_F: CleanSharedPersistSep
+    SN_F->>HN_F: CleanSharedPersistSep
+    HN_F->>RN_F0
+    RN_F0->>RN_F1: Comp_SC
+    RN_F1->>RN_F0: Comp_SC
+    SN_F->>HN_F: Comp
+    HN_F->>SN_F: Persist
+    SN_F->>HN_F: Persist
+    SN_F->>RN_F0

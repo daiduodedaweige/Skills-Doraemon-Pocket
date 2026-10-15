@@ -1,0 +1,53 @@
+flowchart LR
+    N001["Requester"]
+    N002["Completer"]
+    N003["*"]
+    N004["TgtID"]
+    N005["R"]
+    N006["(TgtID)"]
+    N007["*"]
+    N008["(SrcID)"]
+    N009["SrcID"]
+    N010["WriteUnique"]
+    N011["*"]
+    N012["TxnID"]
+    N013["TxnID"]
+    N014["(TgtID)"]
+    N015["TgtID"]
+    N016["SrcID"]
+    N017["(SrcID)"]
+    N018["CompDBIDResp"]
+    N019["TxnID"]
+    N020["TxnID"]
+    N021["DBID"]
+    N022["*"]
+    N023["DBID"]
+    N024["TgtID"]
+    N025["(TgtID)"]
+    N026["(SrcID)"]
+    N027["SrcID"]
+    N028["WriteData"]
+    N029["TxnID"]
+    N030["TxnID"]
+    N031["DBID"]
+    N032["DBID"]
+    N033["TgtID"]
+    N034["(TgtID)"]
+    N035["(SrcID)"]
+    N036["SrcID"]
+    N037["CompAck"]
+    N038["TxnID"]
+    N039["TxnID"]
+    N040["DBID"]
+    N041["DBID"]
+    N008 --> N010
+    N010 --> N013
+    N017 --> N018
+    N018 --> N019
+    N029 --- N031
+    N030 --- N032
+    N031 --> N029
+    N032 --> N030
+    N038 --- N040
+    N039 --- N041
+    N040 --> N038

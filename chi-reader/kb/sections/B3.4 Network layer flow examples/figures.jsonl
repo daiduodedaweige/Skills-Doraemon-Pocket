@@ -1,0 +1,3 @@
+{"figureId": "B3_4_figure_001", "pdfId": "B3.4", "label": "B3.2", "title": "TgtID assignment remapping logic", "sourceChunks": ["B3_4_C001"]}
+{"figureId": "B3_4_figure_002", "pdfId": "B3.4", "label": "B3.3", "title": "shows a case of a request getting retried.", "sourceChunks": ["B3_4_C002"]}
+{"figureId": "B3_4_figure_003", "pdfId": "B3.4", "label": "B3.3", "title": "Remapping of TgtID and retried request", "sourceChunks": ["B3_4_C002"]}

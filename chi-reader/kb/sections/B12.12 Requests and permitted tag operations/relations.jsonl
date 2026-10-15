@@ -1,0 +1,8 @@
+{"relationId": "B12_12_rel_001", "pdfId": "B12.12", "from": "CMO", "to": "WriteNoSnpFull", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_002", "pdfId": "B12.12", "from": "WriteBackFull", "to": "CMO", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_003", "pdfId": "B12.12", "from": "WriteCleanFull", "to": "CMO", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_004", "pdfId": "B12.12", "from": "WriteNoSnpFull", "to": "CMO", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_005", "pdfId": "B12.12", "from": "WriteNoSnpPtl", "to": "CMO", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_006", "pdfId": "B12.12", "from": "WriteUniqueFull", "to": "WriteUniqueFullStash", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_007", "pdfId": "B12.12", "from": "WriteUniqueFullStash", "to": "WriteUniqueFull", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}
+{"relationId": "B12_12_rel_008", "pdfId": "B12.12", "from": "WriteUniquePtl", "to": "CMO", "relationType": "co-mentioned", "sourceChunks": ["B12_12_C001"]}

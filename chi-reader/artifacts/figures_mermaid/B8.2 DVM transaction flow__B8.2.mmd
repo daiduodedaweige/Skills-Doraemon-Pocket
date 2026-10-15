@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant Core_1 as Core-1
+    participant RN_F1 as RN-F1
+    participant MN as MN
+    RN_F0->>MN: DVMOp(Sync)
+    MN->>RN_F0: DBIDResp
+    RN_F0->>MN: NonCopyBackWriteData
+    MN->>RN_F1: SnpDVMOp_P1
+    MN->>RN_F1: SnpDVMOp_P2
+    RN_F1->>Core_1: Snoop sent<br/>to the core
+    RN_F1->>MN: SnpResp_I
+    MN->>RN_F0: Comp

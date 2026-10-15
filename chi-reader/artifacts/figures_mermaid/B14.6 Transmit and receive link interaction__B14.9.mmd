@@ -1,0 +1,96 @@
+flowchart LR
+    N001["RXREQ"]
+    N002["RXACK"]
+    N003["RXREQ"]
+    N004["RXACK"]
+    N005["RXREQ"]
+    N006["RxStop"]
+    N007["RxAct"]
+    N008["RxRun"]
+    N009["RxDeact"]
+    N010["RxStop"]
+    N011["RxAct"]
+    N012["TxStop"]
+    N013["TxStop"]
+    N014["Remote"]
+    N015["TxStop"]
+    N016["Initiate"]
+    N017["RxAct"]
+    N018["RxStop"]
+    N019["TXREQ"]
+    N020["Local<br/>Initiate"]
+    N021["TxAct"]
+    N022["TxAct"]
+    N023["TxAct"]
+    N024["TxAct"]
+    N025["RxStop"]
+    N026["RxAct"]
+    N027["RxRun"]
+    N028["TXACK"]
+    N029["Permitted"]
+    N030["TxRun"]
+    N031["TxStop"]
+    N032["TxRun"]
+    N033["Remote"]
+    N034["TxRun"]
+    N035["Initiate"]
+    N036["RxAct"]
+    N037["RxStop"]
+    N038["RxDeact"]
+    N039["TXREQ"]
+    N040["Local<br/>Initiate"]
+    N041["Permitted"]
+    N042["Permitted"]
+    N043["TxDeact"]
+    N044["TxDeact"]
+    N045["TxDeact"]
+    N046["TxDeact"]
+    N047["RxRun"]
+    N048["RxDeact"]
+    N049["RxStop"]
+    N050["TXACK"]
+    N051["Permitted"]
+    N052["Permitted"]
+    N053["TxStop"]
+    N054["TxStop"]
+    N055["TxStop"]
+    N056["TxStop"]
+    N057["RxDeact"]
+    N058["RxDeact"]
+    N059["RxAct"]
+    N060["TXREQ"]
+    N061["Permitted"]
+    N062["TxAct"]
+    N063["TxAct"]
+    N064["RxStop"]
+    N006 --> N007
+    N007 --> N008
+    N008 --> N003
+    N009 --> N010
+    N010 --> N011
+    N017 --> N023
+    N018 --> N014
+    N018 --> N022
+    N025 --> N022
+    N025 --> N030
+    N026 --> N023
+    N026 --> N030
+    N026 --> N031
+    N027 --> N031
+    N027 --> N032
+    N030 --> N031
+    N036 --> N043
+    N037 --> N033
+    N037 --> N043
+    N037 --> N044
+    N038 --> N044
+    N038 --> N045
+    N043 --> N044
+    N047 --> N053
+    N048 --> N045
+    N048 --> N053
+    N048 --> N054
+    N049 --> N054
+    N049 --> N055
+    N057 --> N054
+    N057 --> N062

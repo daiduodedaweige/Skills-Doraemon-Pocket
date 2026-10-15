@@ -1,0 +1,51 @@
+{
+  "pdfId": "B13.9",
+  "sourceFile": "B13.9 Flit packet definitions.md",
+  "title": "Flit packet definitions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Flit",
+    "packet",
+    "definitions",
+    "Used",
+    "Field",
+    "MBZ",
+    "B13",
+    "MECID"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 6,
+    "tables": 11,
+    "figures": 0
+  }
+}

@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>HN_F: ReadOnce
+    RN_F0->>RN_F1: WriteBack
+    RN_F1->>RN_F0: WriteBack
+    RN_F0->>HN_F: SnpOnce
+    HN_F->>RN_F0
+    RN_F0->>HN_F: Hazard detected
+    HN_F->>RN_F1: CompData_I
+    RN_F1->>HN_F: CompAck
+    HN_F->>RN_F0: WriteBack progress
+    RN_F0->>HN_F: CopyBackWriteData_<br/>UD_PD<br/>(Present state = UD,<br/>Next state[implied] = I)
+    HN_F->>SN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    SN_F->>HN_F: WriteNoSnp

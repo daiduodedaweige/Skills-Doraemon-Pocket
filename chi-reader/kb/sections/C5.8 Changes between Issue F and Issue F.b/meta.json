@@ -1,0 +1,55 @@
+{
+  "pdfId": "C5.8",
+  "sourceFile": "C5.8 Changes between Issue F and Issue F.b.md",
+  "title": "Changes between Issue F and Issue F.b",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Changes",
+    "between",
+    "F",
+    "and",
+    "b",
+    "Clarification",
+    "BROADCASTCACHEMAINT",
+    "CopyBack"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 20,
+    "rules": 3,
+    "flows": 0,
+    "verification": 3,
+    "relations": 19,
+    "tables": 3,
+    "figures": 0
+  }
+}

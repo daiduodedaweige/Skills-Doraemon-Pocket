@@ -1,0 +1,4 @@
+{"tableId": "B11_4_table_001", "pdfId": "B11.4", "label": "B11.12", "title": "MPAMSP encodings", "sourceChunks": ["B11_4_C001"], "rawHeader": "Table B11.12 shows the MPAMSP encodings."}
+{"tableId": "B11_4_table_002", "pdfId": "B11.4", "label": "B11.12", "title": "shows the MPAMSP encodings.", "sourceChunks": ["B11_4_C001"], "rawHeader": "MPAMSP Partition description"}
+{"tableId": "B11_4_table_003", "pdfId": "B11.4", "label": "B11.13", "title": "Default values for MPAM subfields", "sourceChunks": ["B11_4_C001"], "rawHeader": "B11.4.2"}
+{"tableId": "B11_4_table_004", "pdfId": "B11.4", "label": "B11.13", "title": "shows the default values for MPAM fields when not supported or not propagated.", "sourceChunks": ["B11_4_C002"], "rawHeader": "MPAM"}

@@ -1,0 +1,8 @@
+{"tableId": "B11_2_table_001", "pdfId": "B11.2", "label": "B11.2", "title": "DataSource CompleterType encoding", "sourceChunks": ["B11_2_C001"], "rawHeader": "DataSource[4:2] Architected Recommendation"}
+{"tableId": "B11_2_table_002", "pdfId": "B11.2", "label": "B11.3", "title": "DataSource HitD encoding", "sourceChunks": ["B11_2_C002"], "rawHeader": "DataSource[5] Description"}
+{"tableId": "B11_2_table_003", "pdfId": "B11.2", "label": "B11.3", "title": "–Continued from previous page", "sourceChunks": ["B11_2_C002"], "rawHeader": "DataSource[5] Description"}
+{"tableId": "B11_2_table_004", "pdfId": "B11.2", "label": "B11.4", "title": "DataSource Functional encoding when CompleterType is Default", "sourceChunks": ["B11_2_C004"], "rawHeader": "When the CompleterType is Memory Group 1, Memory Group 2, or Memory Group 3, the encoding of the"}
+{"tableId": "B11_2_table_005", "pdfId": "B11.2", "label": "B11.5", "title": "B11.5", "sourceChunks": ["B11_2_C004"], "rawHeader": "DataSource[7:6] Description"}
+{"tableId": "B11_2_table_006", "pdfId": "B11.2", "label": "B11.5", "title": "–Continued from previous page", "sourceChunks": ["B11_2_C004"], "rawHeader": "DataSource[7:6] Description"}
+{"tableId": "B11_2_table_007", "pdfId": "B11.2", "label": "B11.6", "title": "DataSource Functional encoding when CompleterType is a cache encoding", "sourceChunks": ["B11_2_C005"], "rawHeader": "DataSource[7:6] Description"}
+{"tableId": "B11_2_table_008", "pdfId": "B11.2", "label": "B11.7", "title": "Example system description", "sourceChunks": ["B11_2_C007"], "rawHeader": "Point CompleterDistance CompleterType"}

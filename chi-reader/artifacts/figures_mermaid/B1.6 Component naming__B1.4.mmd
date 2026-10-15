@@ -1,0 +1,27 @@
+flowchart LR
+    N001["Requesters<br/>(Fully coherent)"]
+    N002["Requester<br/>(IO coherent)"]
+    N003["RN-F0"]
+    N004["RN-F1"]
+    N005["RN-F2"]
+    N006["ICN"]
+    N007["MN"]
+    N008["RN-I"]
+    N009["HN-I"]
+    N010["HN-F"]
+    N011["HN-F"]
+    N012["SN-I"]
+    N013["SN-F"]
+    N014["Subordinate"]
+    N015["Subordinate"]
+    N016["(Peripheral or Normal"]
+    N017["(Normal Memory)"]
+    N018["Memory, or both)"]
+    N019["Subordinates"]
+    N001 --- N003
+    N002 --> N008
+    N005 --- N001
+    N009 --- N012
+    N010 --- N011
+    N015 --> N013
+    N016 --> N012

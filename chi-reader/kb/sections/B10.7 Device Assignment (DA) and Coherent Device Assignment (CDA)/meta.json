@@ -1,0 +1,49 @@
+{
+  "pdfId": "B10.7",
+  "sourceFile": "B10.7 Device Assignment (DA) and Coherent Device Assignment (CDA).md",
+  "title": "Device Assignment (DA) and Coherent Device Assignment (CDA)",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Device",
+    "Assignment",
+    "DA",
+    "and",
+    "Coherent",
+    "CDA",
+    "MECID",
+    "DCM"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 14,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 95,
+    "tables": 7,
+    "figures": 8
+  }
+}

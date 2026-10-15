@@ -1,0 +1,7 @@
+{"relationId": "B11_7_rel_001", "pdfId": "B11.7", "from": "CompAck", "to": "CompData", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_002", "pdfId": "B11.7", "from": "CompAck", "to": "RespSepData", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_003", "pdfId": "B11.7", "from": "CompData", "to": "CompAck", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_004", "pdfId": "B11.7", "from": "CompData", "to": "RespSepData", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_005", "pdfId": "B11.7", "from": "RespSepData", "to": "CompAck", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_006", "pdfId": "B11.7", "from": "RespSepData", "to": "CompData", "relationType": "co-mentioned", "sourceChunks": ["B11_7_C001"]}
+{"relationId": "B11_7_rel_007", "pdfId": "B11.7", "from": "B11_7_vp_001", "to": "B11_7_rule_001", "relationType": "verifies", "sourceChunks": ["B11_7_C002"]}

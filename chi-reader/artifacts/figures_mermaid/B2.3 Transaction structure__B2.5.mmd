@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    Requester->>Home: WriteBackFull, WriteBackPtl, WriteCleanFull, WriteEvictOrEvict, WriteEvictFull
+    Home->>Requester: [1a. Without data transfer]<br/>Comp
+    Requester->>Home: CompAck
+    Requester->>Home: [1b. With data transfer]<br/>CompDBIDResp
+    Home->>Requester: [1b. With data transfer]<br/>CompDBIDResp
+    Requester->>Home: CopyBackWriteData
+    Requester->>Home: [2 Not WriteEvictOrEvict and not CopyAtHome request]<br/>CompDBIDResp
+    Home->>Requester: [2 Not WriteEvictOrEvict and not CopyAtHome request]<br/>CompDBIDResp
+    Requester->>Home: CopyBackWriteData

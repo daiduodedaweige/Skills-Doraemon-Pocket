@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate: Comp
+    Subordinate->>Home: Comp
+    Home->>Subordinate: [2. Transactions with separate Persist]<br/>CleanSharedPersistSep
+    Home->>Subordinate: [2. Transactions with separate Persist]<br/>CleanSharedPersistSep
+    Subordinate->>Home: [2a. Separate response from Subordinate]<br/>Comp
+    Subordinate->>Home: Persist
+    Home->>Subordinate: [2b.Combined response from Subordinate]<br/>CompPersist
+    Subordinate->>Home: [2b.Combined response from Subordinate]<br/>CompPersist

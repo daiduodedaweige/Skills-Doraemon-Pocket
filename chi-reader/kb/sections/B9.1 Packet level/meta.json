@@ -1,0 +1,47 @@
+{
+  "pdfId": "B9.1",
+  "sourceFile": "B9.1 Packet level.md",
+  "title": "Packet level",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "level",
+    "DERR",
+    "NDERR",
+    "RespErr",
+    "EXOK",
+    "Write",
+    "Snoop",
+    "Error"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 24,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 53,
+    "tables": 32,
+    "figures": 0
+  }
+}

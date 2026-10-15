@@ -1,0 +1,81 @@
+flowchart LR
+    N001["Requester"]
+    N002["Completer"]
+    N003["(TgtID)"]
+    N004["*"]
+    N005["TgtID"]
+    N006["R"]
+    N007["(SrcID)"]
+    N008["SrcID"]
+    N009["*"]
+    N010["WriteNoSnp"]
+    N011["*"]
+    N012["TxnID"]
+    N013["TxnID"]
+    N014["(TgtID)"]
+    N015["TgtID"]
+    N016["SrcID"]
+    N017["(SrcID)"]
+    N018["DBIDResp"]
+    N019["TxnID"]
+    N020["TxnID"]
+    N021["DBID"]
+    N022["DBID"]
+    N023["*"]
+    N024["(TgtID)"]
+    N025["TgtID"]
+    N026["SrcID"]
+    N027["(SrcID)"]
+    N028["TxnID"]
+    N029["NCBWrData"]
+    N030["TxnID"]
+    N031["DBID"]
+    N032["DBID"]
+    N033["(TgtID)"]
+    N034["TgtID"]
+    N035["SrcID"]
+    N036["(SrcID)"]
+    N037["Comp"]
+    N038["TxnID"]
+    N039["TxnID<br/>DBID"]
+    N040["DBID"]
+    N041["Optional"]
+    N042["TgtID"]
+    N043["TgtID"]
+    N044["(SrcID)"]
+    N045["(SrcID)"]
+    N046["CompAck"]
+    N047["TxnID"]
+    N048["TxnID"]
+    N049["DBID"]
+    N050["DBID"]
+    N051["Optional"]
+    N052["TgtID"]
+    N053["TgtID"]
+    N054["(SrcID)"]
+    N055["(SrcID)"]
+    N056["NCBWrDataCompAck"]
+    N057["TxnID"]
+    N058["TxnID"]
+    N059["DBID"]
+    N060["DBID"]
+    N061["NCBWrData = NonCopyBackWriteData<br/>NCBWrDataCompAck = NonCopyBackWriteDataCompAck"]
+    N010 --> N013
+    N018 --> N019
+    N028 --> N031
+    N030 --- N032
+    N031 --> N028
+    N032 --> N030
+    N041 --- N042
+    N043 --- N041
+    N047 --- N049
+    N048 --- N050
+    N049 --> N047
+    N050 --> N048
+    N051 --- N052
+    N053 --- N051
+    N055 --> N056
+    N056 --> N054
+    N057 --- N059
+    N058 --- N061
+    N059 --> N057

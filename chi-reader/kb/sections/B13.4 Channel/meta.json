@@ -1,0 +1,49 @@
+{
+  "pdfId": "B13.4",
+  "sourceFile": "B13.4 Channel.md",
+  "title": "Channel",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Channel",
+    "DAT",
+    "REQ",
+    "RSP",
+    "SNP",
+    "Must",
+    "CompAck",
+    "CompData"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 6,
+    "rules": 8,
+    "flows": 0,
+    "verification": 8,
+    "relations": 17,
+    "tables": 0,
+    "figures": 0
+  }
+}

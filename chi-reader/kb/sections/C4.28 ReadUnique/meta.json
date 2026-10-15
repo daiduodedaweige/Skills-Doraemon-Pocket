@@ -1,0 +1,41 @@
+{
+  "pdfId": "C4.28",
+  "sourceFile": "C4.28 ReadUnique.md",
+  "title": "ReadUnique",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "ReadUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": false,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": false,
+    "reviewed": false,
+    "quality": "empty-source",
+    "notes": "Source markdown is empty; only metadata and empty record files were generated."
+  },
+  "recordStats": {
+    "chunks": 0,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

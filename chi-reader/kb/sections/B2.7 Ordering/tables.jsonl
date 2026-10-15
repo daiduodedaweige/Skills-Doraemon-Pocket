@@ -1,0 +1,6 @@
+{"tableId": "B2_7_table_001", "pdfId": "B2.7", "label": "B2.7", "title": "–Continued from previous page", "sourceChunks": ["B2_7_C001"], "rawHeader": "Transaction Location"}
+{"tableId": "B2_7_table_002", "pdfId": "B2.7", "label": "B2.8", "title": "shows the Request types that require a CompAck response, and the corresponding Requester types that", "sourceChunks": ["B2_7_C008"], "rawHeader": "are required to provide that response. The following key is used:"}
+{"tableId": "B2_7_table_003", "pdfId": "B2.7", "label": "B2.8", "title": "Requester CompAck requirement", "sourceChunks": ["B2_7_C008"], "rawHeader": "N No, not required"}
+{"tableId": "B2_7_table_004", "pdfId": "B2.7", "label": "B2.8", "title": "–Continued from previous page", "sourceChunks": ["B2_7_C009"], "rawHeader": "Request type CompAck required"}
+{"tableId": "B2_7_table_005", "pdfId": "B2.7", "label": "B2.9", "title": "shows the Order field encodings.", "sourceChunks": ["B2_7_C012"], "rawHeader": "when accepting the Read request."}
+{"tableId": "B2_7_table_006", "pdfId": "B2.7", "label": "B2.9", "title": "–Continued from previous page", "sourceChunks": ["B2_7_C012"], "rawHeader": "Order[1:0] Description"}

@@ -1,0 +1,88 @@
+{"tableId": "B13_10_table_001", "pdfId": "B13.10", "label": "B13.10", "title": "StashNIDValid value encodings", "sourceChunks": ["B13_10_C006"], "rawHeader": "Table B13.10 shows the StashNIDValid value encodings."}
+{"tableId": "B13_10_table_002", "pdfId": "B13.10", "label": "B13.10", "title": "shows the StashNIDValid value encodings.", "sourceChunks": ["B13_10_C006"], "rawHeader": "StashNIDValid Description"}
+{"tableId": "B13_10_table_003", "pdfId": "B13.10", "label": "B13.11", "title": "shows the StashLPIDValid value encodings.", "sourceChunks": ["B13_10_C007"], "rawHeader": "Table B13.11: StashLPIDValid value encodings"}
+{"tableId": "B13_10_table_004", "pdfId": "B13.10", "label": "B13.11", "title": "StashLPIDValid value encodings", "sourceChunks": ["B13_10_C007"], "rawHeader": "StashLPIDValid Description"}
+{"tableId": "B13_10_table_005", "pdfId": "B13.10", "label": "B13.12", "title": "shows the opcodes for the Request channel.", "sourceChunks": ["B13_10_C010"], "rawHeader": "Table B13.12: REQ channel opcodes"}
+{"tableId": "B13_10_table_006", "pdfId": "B13.10", "label": "B13.12", "title": "REQ channel opcodes", "sourceChunks": ["B13_10_C010"], "rawHeader": "Request command"}
+{"tableId": "B13_10_table_007", "pdfId": "B13.10", "label": "B13.12", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C011"], "rawHeader": "Reserved Reserved"}
+{"tableId": "B13_10_table_008", "pdfId": "B13.10", "label": "B13.12", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C011"], "rawHeader": "0x3A"}
+{"tableId": "B13_10_table_009", "pdfId": "B13.10", "label": "B13.13", "title": "shows the sub-opcodes for AtomicStore and AtomicLoad .", "sourceChunks": ["B13_10_C012"], "rawHeader": "Opcode[5:3] Opcode[2:0] Operation"}
+{"tableId": "B13_10_table_010", "pdfId": "B13.10", "label": "B13.13", "title": "Sub-opcodes for AtomicStore and AtomicLoad", "sourceChunks": ["B13_10_C012"], "rawHeader": "Request command"}
+{"tableId": "B13_10_table_011", "pdfId": "B13.10", "label": "B13.14", "title": "shows the opcodes for the Response channel.", "sourceChunks": ["B13_10_C012"], "rawHeader": "Table B13.14: RSP channel opcodes"}
+{"tableId": "B13_10_table_012", "pdfId": "B13.10", "label": "B13.14", "title": "RSP channel opcodes", "sourceChunks": ["B13_10_C012"], "rawHeader": "Opcode[4:0] Response"}
+{"tableId": "B13_10_table_013", "pdfId": "B13.10", "label": "B13.14", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C012"], "rawHeader": "Opcode[4:0] Response"}
+{"tableId": "B13_10_table_014", "pdfId": "B13.10", "label": "B13.15", "title": "shows the opcodes for the Snoop channel.", "sourceChunks": ["B13_10_C013"], "rawHeader": "channel opcodes"}
+{"tableId": "B13_10_table_015", "pdfId": "B13.10", "label": "B13.15", "title": "SNP", "sourceChunks": ["B13_10_C013"], "rawHeader": "Snoop"}
+{"tableId": "B13_10_table_016", "pdfId": "B13.10", "label": "B13.15", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C013"], "rawHeader": "Opcode[4:0] Snoop command"}
+{"tableId": "B13_10_table_017", "pdfId": "B13.10", "label": "B13.16", "title": "shows the opcodes for the Data channel.", "sourceChunks": ["B13_10_C013"], "rawHeader": "channel opcodes"}
+{"tableId": "B13_10_table_018", "pdfId": "B13.10", "label": "B13.16", "title": "DAT", "sourceChunks": ["B13_10_C013"], "rawHeader": "Data"}
+{"tableId": "B13_10_table_019", "pdfId": "B13.10", "label": "B13.16", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C014"], "rawHeader": "Opcode[3:0] Data command"}
+{"tableId": "B13_10_table_020", "pdfId": "B13.10", "label": "B13.17", "title": "Size field value encodings", "sourceChunks": ["B13_10_C017"], "rawHeader": "Table B13.17 shows the Size field value encodings."}
+{"tableId": "B13_10_table_021", "pdfId": "B13.10", "label": "B13.17", "title": "shows the Size field value encodings.", "sourceChunks": ["B13_10_C017"], "rawHeader": "Size[2:0] Bytes"}
+{"tableId": "B13_10_table_022", "pdfId": "B13.10", "label": "B13.18", "title": "shows the MemAttr value encodings.", "sourceChunks": ["B13_10_C017"], "rawHeader": "Table B13.18: MemAttr value encodings"}
+{"tableId": "B13_10_table_023", "pdfId": "B13.10", "label": "B13.18", "title": "MemAttr value encodings", "sourceChunks": ["B13_10_C017"], "rawHeader": "MemAttr[3:0] Name Description"}
+{"tableId": "B13_10_table_024", "pdfId": "B13.10", "label": "B13.19", "title": "shows the SnpAttr value encodings.", "sourceChunks": ["B13_10_C017"], "rawHeader": "SnpAttr value encodings"}
+{"tableId": "B13_10_table_025", "pdfId": "B13.10", "label": "B13.19", "title": "B13.19", "sourceChunks": ["B13_10_C017"], "rawHeader": "SnpAttr Description"}
+{"tableId": "B13_10_table_026", "pdfId": "B13.10", "label": "B13.20", "title": "shows the DoDWT value encodings.", "sourceChunks": ["B13_10_C019"], "rawHeader": "Table B13.20: DoDWT value encodings"}
+{"tableId": "B13_10_table_027", "pdfId": "B13.10", "label": "B13.20", "title": "DoDWT value encodings", "sourceChunks": ["B13_10_C019"], "rawHeader": "DoDWT DBIDResp. TgtID value DBIDResp."}
+{"tableId": "B13_10_table_028", "pdfId": "B13.10", "label": "B13.21", "title": "shows the LikelyShared field value encodings.", "sourceChunks": ["B13_10_C019"], "rawHeader": "Table B13.21: LikelyShared value encodings"}
+{"tableId": "B13_10_table_029", "pdfId": "B13.10", "label": "B13.21", "title": "LikelyShared value encodings", "sourceChunks": ["B13_10_C019"], "rawHeader": "LikelyShared Description"}
+{"tableId": "B13_10_table_030", "pdfId": "B13.10", "label": "B2.9", "title": "shows the Order field value encodings.", "sourceChunks": ["B13_10_C020"], "rawHeader": "The following key is used:"}
+{"tableId": "B13_10_table_031", "pdfId": "B13.10", "label": "B13.22", "title": "Order value encodings", "sourceChunks": ["B13_10_C020"], "rawHeader": "Order[1:0] Description"}
+{"tableId": "B13_10_table_032", "pdfId": "B13.10", "label": "B13.22", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C020"], "rawHeader": "Order[1:0] Description"}
+{"tableId": "B13_10_table_033", "pdfId": "B13.10", "label": "B13.23", "title": "Excl value encodings", "sourceChunks": ["B13_10_C021"], "rawHeader": "• MakeReadUnique"}
+{"tableId": "B13_10_table_034", "pdfId": "B13.10", "label": "B13.23", "title": "shows the Excl value encodings.", "sourceChunks": ["B13_10_C021"], "rawHeader": "Excl Description"}
+{"tableId": "B13_10_table_035", "pdfId": "B13.10", "label": "B13.24", "title": "Endian value encodings", "sourceChunks": ["B13_10_C023"], "rawHeader": "Table B13.24 shows the Endian value encodings."}
+{"tableId": "B13_10_table_036", "pdfId": "B13.10", "label": "B13.24", "title": "shows the Endian value encodings.", "sourceChunks": ["B13_10_C023"], "rawHeader": "Endian Description"}
+{"tableId": "B13_10_table_037", "pdfId": "B13.10", "label": "B13.25", "title": "shows the AllowRetry value encodings.", "sourceChunks": ["B13_10_C024"], "rawHeader": "Table B13.25: AllowRetry value encodings"}
+{"tableId": "B13_10_table_038", "pdfId": "B13.10", "label": "B13.25", "title": "AllowRetry value encodings", "sourceChunks": ["B13_10_C024"], "rawHeader": "AllowRetry Description"}
+{"tableId": "B13_10_table_039", "pdfId": "B13.10", "label": "B13.26", "title": "shows the ExpCompAck value encodings.", "sourceChunks": ["B13_10_C024"], "rawHeader": "Table B13.26: ExpCompAck value encodings"}
+{"tableId": "B13_10_table_040", "pdfId": "B13.10", "label": "B13.26", "title": "ExpCompAck value encodings", "sourceChunks": ["B13_10_C024"], "rawHeader": "ExpCompAck Description"}
+{"tableId": "B13_10_table_041", "pdfId": "B13.10", "label": "B13.27", "title": "shows the SnoopMe value encodings.", "sourceChunks": ["B13_10_C025"], "rawHeader": "Table B13.27: SnoopMe value encodings"}
+{"tableId": "B13_10_table_042", "pdfId": "B13.10", "label": "B13.27", "title": "SnoopMe value encodings", "sourceChunks": ["B13_10_C025"], "rawHeader": "SnoopMe Description"}
+{"tableId": "B13_10_table_043", "pdfId": "B13.10", "label": "B13.28", "title": "shows the DataPull field value encodings.", "sourceChunks": ["B13_10_C026"], "rawHeader": "DataPull Description"}
+{"tableId": "B13_10_table_044", "pdfId": "B13.10", "label": "B13.28", "title": "DataPull value encodings", "sourceChunks": ["B13_10_C027"], "rawHeader": "0b1 The Home must send a Snoop to the Requester"}
+{"tableId": "B13_10_table_045", "pdfId": "B13.10", "label": "B13.29", "title": "DoNotGoToSD value encodings", "sourceChunks": ["B13_10_C028"], "rawHeader": "• SnpCleanShared"}
+{"tableId": "B13_10_table_046", "pdfId": "B13.10", "label": "B13.29", "title": "shows the DoNotGoToSD value encodings.", "sourceChunks": ["B13_10_C028"], "rawHeader": "DoNotGoToSD Description"}
+{"tableId": "B13_10_table_047", "pdfId": "B13.10", "label": "B13.30", "title": "PCrdType value encodings", "sourceChunks": ["B13_10_C028"], "rawHeader": "0b1 Transitioning to SD state is not permitted."}
+{"tableId": "B13_10_table_048", "pdfId": "B13.10", "label": "B13.30", "title": "shows the PCrdType value encodings.", "sourceChunks": ["B13_10_C029"], "rawHeader": "PCrdType"}
+{"tableId": "B13_10_table_049", "pdfId": "B13.10", "label": "B13.31", "title": "shows the TagOp value encodings.", "sourceChunks": ["B13_10_C029"], "rawHeader": "Table B13.31: TagOp value encodings"}
+{"tableId": "B13_10_table_050", "pdfId": "B13.10", "label": "B13.31", "title": "TagOp value encodings", "sourceChunks": ["B13_10_C029"], "rawHeader": "TagOp[1:0] Tag Operation Description"}
+{"tableId": "B13_10_table_051", "pdfId": "B13.10", "label": "B13.32", "title": "TraceTag value encodings", "sourceChunks": ["B13_10_C032"], "rawHeader": "• StashDone"}
+{"tableId": "B13_10_table_052", "pdfId": "B13.10", "label": "B13.32", "title": "shows the TraceTag field value encodings.", "sourceChunks": ["B13_10_C032"], "rawHeader": "TraceTag Description"}
+{"tableId": "B13_10_table_053", "pdfId": "B13.10", "label": "B13.33", "title": "shows the RespErr value encodings.", "sourceChunks": ["B13_10_C032"], "rawHeader": "Table B13.33: RespErr value encodings"}
+{"tableId": "B13_10_table_054", "pdfId": "B13.10", "label": "B13.33", "title": "RespErr value encodings", "sourceChunks": ["B13_10_C032"], "rawHeader": "RespErr[1:0] Description"}
+{"tableId": "B13_10_table_055", "pdfId": "B13.10", "label": "B13.34", "title": "shows the Resp value encodings.", "sourceChunks": ["B13_10_C033"], "rawHeader": "Resp[2:0] Description"}
+{"tableId": "B13_10_table_056", "pdfId": "B13.10", "label": "B13.34", "title": "Resp value encodings", "sourceChunks": ["B13_10_C033"], "rawHeader": "Resp[2] PassDirty. Indicates that the data included in the response"}
+{"tableId": "B13_10_table_057", "pdfId": "B13.10", "label": "B13.34", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C033"], "rawHeader": "Resp[2:0] Description"}
+{"tableId": "B13_10_table_058", "pdfId": "B13.10", "label": "B13.35", "title": "Valid Resp value encodings for different message", "sourceChunks": ["B13_10_C034"], "rawHeader": "Resp[1:0] For snoop responses, this field indicates the final state of the"}
+{"tableId": "B13_10_table_059", "pdfId": "B13.10", "label": "B13.35", "title": "shows the valid Resp value encodings.", "sourceChunks": ["B13_10_C034"], "rawHeader": "different message types"}
+{"tableId": "B13_10_table_060", "pdfId": "B13.10", "label": "B13.35", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C035"], "rawHeader": "Response type Resp[2:0] State"}
+{"tableId": "B13_10_table_061", "pdfId": "B13.10", "label": "B9.1", "title": "for more", "sourceChunks": ["B13_10_C035"], "rawHeader": "information"}
+{"tableId": "B13_10_table_062", "pdfId": "B13.10", "label": "B13.35", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C035"], "rawHeader": "Response type Resp[2:0] State"}
+{"tableId": "B13_10_table_063", "pdfId": "B13.10", "label": "B13.36", "title": "shows the FwdState value encodings.", "sourceChunks": ["B13_10_C036"], "rawHeader": "Table B13.36: FwdState value encodings"}
+{"tableId": "B13_10_table_064", "pdfId": "B13.10", "label": "B13.36", "title": "FwdState value encodings", "sourceChunks": ["B13_10_C036"], "rawHeader": "FwdState Description"}
+{"tableId": "B13_10_table_065", "pdfId": "B13.10", "label": "B13.37", "title": "enumerates the FwdState value encodings.", "sourceChunks": ["B13_10_C037"], "rawHeader": "Table B13.37: Valid FwdState value encodings"}
+{"tableId": "B13_10_table_066", "pdfId": "B13.10", "label": "B13.37", "title": "Valid FwdState value encodings", "sourceChunks": ["B13_10_C037"], "rawHeader": "FwdState[2:0] State Comment"}
+{"tableId": "B13_10_table_067", "pdfId": "B13.10", "label": "B13.38", "title": "shows the CCID value encodings.", "sourceChunks": ["B13_10_C038"], "rawHeader": "Table B13.38: CCID value encodings"}
+{"tableId": "B13_10_table_068", "pdfId": "B13.10", "label": "B13.38", "title": "CCID value encodings", "sourceChunks": ["B13_10_C038"], "rawHeader": "CCID[1:0] Critical data chunk"}
+{"tableId": "B13_10_table_069", "pdfId": "B13.10", "label": "B13.39", "title": "shows the DataID field value encodings.", "sourceChunks": ["B13_10_C038"], "rawHeader": "Table B13.39: DataID value encodings"}
+{"tableId": "B13_10_table_070", "pdfId": "B13.10", "label": "B13.39", "title": "DataID value encodings", "sourceChunks": ["B13_10_C038"], "rawHeader": "DataID Data width"}
+{"tableId": "B13_10_table_071", "pdfId": "B13.10", "label": "B13.40", "title": "shows the BE value encodings.", "sourceChunks": ["B13_10_C039"], "rawHeader": "BE"}
+{"tableId": "B13_10_table_072", "pdfId": "B13.10", "label": "B13.40", "title": "BE value encodings", "sourceChunks": ["B13_10_C039"], "rawHeader": "The DataCheck field is used to detect Data Errors in the DAT packet."}
+{"tableId": "B13_10_table_073", "pdfId": "B13.10", "label": "B13.41", "title": "shows the Poison value encodings.", "sourceChunks": ["B13_10_C039"], "rawHeader": "Table B13.41: Poison value encodings"}
+{"tableId": "B13_10_table_074", "pdfId": "B13.10", "label": "B13.41", "title": "Poison value encodings", "sourceChunks": ["B13_10_C039"], "rawHeader": "Poison Description"}
+{"tableId": "B13_10_table_075", "pdfId": "B13.10", "label": "B13.42", "title": "PrefetchTgtHint encoding", "sourceChunks": ["B13_10_C042"], "rawHeader": "The Read included an associated PrefetchTgt request."}
+{"tableId": "B13_10_table_076", "pdfId": "B13.10", "label": "B13.42", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C042"], "rawHeader": "PrefetchTgtHint Description"}
+{"tableId": "B13_10_table_077", "pdfId": "B13.10", "label": "B13.43", "title": "shows the encoding for NumDat.", "sourceChunks": ["B13_10_C043"], "rawHeader": "Table B13.43: NumDat field encoding"}
+{"tableId": "B13_10_table_078", "pdfId": "B13.10", "label": "B13.43", "title": "NumDat field encoding", "sourceChunks": ["B13_10_C043"], "rawHeader": "0b00 or Default when not supported 0 packets"}
+{"tableId": "B13_10_table_079", "pdfId": "B13.10", "label": "B13.44", "title": "shows the encoding for Replicate, and how it defines the field values for any elided packet.", "sourceChunks": ["B13_10_C045"], "rawHeader": "Table B13.44: Replicate field encoding"}
+{"tableId": "B13_10_table_080", "pdfId": "B13.10", "label": "B13.44", "title": "Replicate field encoding", "sourceChunks": ["B13_10_C045"], "rawHeader": "Replicate Description"}
+{"tableId": "B13_10_table_081", "pdfId": "B13.10", "label": "B13.45", "title": "shows the Request size based upon the MultiReq , Size , and NumReq fields.", "sourceChunks": ["B13_10_C051"], "rawHeader": "Table B13.45: Valid encodings for MultiReq, Size, and NumReq fields"}
+{"tableId": "B13_10_table_082", "pdfId": "B13.10", "label": "B13.45", "title": "Valid encodings for MultiReq, Size, and NumReq fields", "sourceChunks": ["B13_10_C051"], "rawHeader": "MultiReq { 3’b0 , Size [2:0]} / Number of bytes being"}
+{"tableId": "B13_10_table_083", "pdfId": "B13.10", "label": "B13.45", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C051"], "rawHeader": "MultiReq { 3’b0 , Size [2:0]} / Number of bytes being"}
+{"tableId": "B13_10_table_084", "pdfId": "B13.10", "label": "B13.45", "title": "–Continued from previous page", "sourceChunks": ["B13_10_C051"], "rawHeader": "MultiReq { 3’b0 , Size [2:0]} / Number of bytes being"}
+{"tableId": "B13_10_table_085", "pdfId": "B13.10", "label": "B13.46", "title": "MismatchedMECID value encodings", "sourceChunks": ["B13_10_C054"], "rawHeader": "Table B13.46 shows the MismatchedMECID value encodings."}
+{"tableId": "B13_10_table_086", "pdfId": "B13.10", "label": "B13.46", "title": "shows the MismatchedMECID value encodings.", "sourceChunks": ["B13_10_C054"], "rawHeader": "MismatchedMECID Description"}
+{"tableId": "B13_10_table_087", "pdfId": "B13.10", "label": "B13.47", "title": "PAS encodings", "sourceChunks": ["B13_10_C054"], "rawHeader": "The PAS field determines the PAS that the request or snoop is targeting."}
+{"tableId": "B13_10_table_088", "pdfId": "B13.10", "label": "B13.47", "title": "shows the PAS encodings for the REQ and SNP channels in relation to MECID .", "sourceChunks": ["B13_10_C055"], "rawHeader": "PAS[2:0] Description MECID"}

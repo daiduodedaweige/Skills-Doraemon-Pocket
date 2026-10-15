@@ -1,0 +1,17 @@
+{"figureId": "B5_1_figure_001", "pdfId": "B5.1", "label": "B5.2", "title": "DMT Read transaction example with snoops and data from memory", "sourceChunks": ["B5_1_C001"]}
+{"figureId": "B5_1_figure_002", "pdfId": "B5.1", "label": "B5.3", "title": "shows an example flow for a DCT transaction. The Requester is RN-F0 and the forwarding cache is at", "sourceChunks": ["B5_1_C001"]}
+{"figureId": "B5_1_figure_003", "pdfId": "B5.1", "label": "B5.3", "title": "DCT from cache line in UC state", "sourceChunks": ["B5_1_C002"]}
+{"figureId": "B5_1_figure_004", "pdfId": "B5.1", "label": "B5.4", "title": "shows an example DCT transaction flow that sends the data to HN-F and forwards the data to the", "sourceChunks": ["B5_1_C002"]}
+{"figureId": "B5_1_figure_005", "pdfId": "B5.1", "label": "B5.4", "title": "Double data return in DCT transaction", "sourceChunks": ["B5_1_C003"]}
+{"figureId": "B5_1_figure_006", "pdfId": "B5.1", "label": "B5.5", "title": "shows an example of the flow without DMT using the ReadNoSnp transaction. In Figure B5.5 , the", "sourceChunks": ["B5_1_C004"]}
+{"figureId": "B5_1_figure_007", "pdfId": "B5.1", "label": "B5.5", "title": "ReadNoSnp transaction flow", "sourceChunks": ["B5_1_C004"]}
+{"figureId": "B5_1_figure_008", "pdfId": "B5.1", "label": "B5.6", "title": "shows the transaction flow.", "sourceChunks": ["B5_1_C005"]}
+{"figureId": "B5_1_figure_009", "pdfId": "B5.1", "label": "B5.6", "title": "ReadUnique with partial data snoop response", "sourceChunks": ["B5_1_C005"]}
+{"figureId": "B5_1_figure_010", "pdfId": "B5.1", "label": "B5.7", "title": "shows the transaction flow.", "sourceChunks": ["B5_1_C005"]}
+{"figureId": "B5_1_figure_011", "pdfId": "B5.1", "label": "B5.7", "title": "ReadClean with partial data snoop response", "sourceChunks": ["B5_1_C006"]}
+{"figureId": "B5_1_figure_012", "pdfId": "B5.1", "label": "B5.8", "title": "shows the optimized flow for an unordered ReadOnce request.", "sourceChunks": ["B5_1_C006"]}
+{"figureId": "B5_1_figure_013", "pdfId": "B5.1", "label": "B5.8", "title": "DMT optimization for an unordered ReadOnce", "sourceChunks": ["B5_1_C007"]}
+{"figureId": "B5_1_figure_014", "pdfId": "B5.1", "label": "B5.9", "title": "shows an example DMT transaction flow with separate Non-data and Data-only response.", "sourceChunks": ["B5_1_C007"]}
+{"figureId": "B5_1_figure_015", "pdfId": "B5.1", "label": "B5.9", "title": "DMT Read transaction example with separate Non-data and Data-only", "sourceChunks": ["B5_1_C008"]}
+{"figureId": "B5_1_figure_016", "pdfId": "B5.1", "label": "B5.10", "title": "shows an example DMT transaction flow with ordering and separate Non-data and Data-only.", "sourceChunks": ["B5_1_C008"]}
+{"figureId": "B5_1_figure_017", "pdfId": "B5.1", "label": "B5.10", "title": "DMT Read transaction example with ordering and separate Non-data and Data-only", "sourceChunks": ["B5_1_C008"]}

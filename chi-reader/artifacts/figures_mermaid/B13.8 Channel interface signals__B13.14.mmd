@@ -1,0 +1,42 @@
+flowchart LR
+    N001["Table B13.4 – Continued from previous page"]
+    N002["Signal"]
+    N003["Presence"]
+    N004["Description"]
+    N005["SNPLCRDV"]
+    N006["Always."]
+    N007["SNPFLITRP[clog 2 ( Num_RP_SNP )-1:0]"]
+    N008["Num_RP_SNP > 1"]
+    N009["Snoop Flit Resource Plane<br/>Identifier. Indicates on which RP<br/>SNPFLIT[(R-1):0] is being<br/>transferred."]
+    N010["SNPSHAREDCRD"]
+    N011["Shared_Credits_SNP == True"]
+    N012["Snoop Shared Credits. Indication<br/>that a SNP shared credit that is<br/>being used by the Transmitter."]
+    N013["SNPLCRDV[( Num_RP_SNP )-1:0]"]
+    N014["Always."]
+    N015["SNPLCRDSHV"]
+    N016["Shared_Credits_SNP == True"]
+    N017["Snoop Shared L-Credit Valid.<br/>Receiver sets this signal HIGH to<br/>grant a SNP channel shared<br/>L-Credit to the Transmitter"]
+    N018["B13.8.4"]
+    N019["Data, DAT, channel"]
+    N020["Transmitter"]
+    N021["Receiver"]
+    N022["TXDATFLITPEND"]
+    N023["RXDATFLITPEND"]
+    N024["DATFLITPEND<br/>DATFLITV"]
+    N025["TXDATFLITV"]
+    N026["RXDATFLITV"]
+    N027["DATFLIT[(D-1):0]"]
+    N028["TXDATFLIT"]
+    N029["RXDATFLIT"]
+    N030["TXDATLCRDV"]
+    N031["RXDATLCRDV"]
+    N032["DATLCRDV"]
+    N002 --- N001
+    N007 --- N009
+    N010 --- N012
+    N013 --- N012
+    N015 --- N017
+    N022 --> N023
+    N025 --> N026
+    N028 --> N029
+    N031 --> N030

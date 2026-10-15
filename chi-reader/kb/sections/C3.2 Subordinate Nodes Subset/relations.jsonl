@@ -1,0 +1,5 @@
+{"relationId": "C3_2_rel_001", "pdfId": "C3.2", "from": "ARM", "to": "IHI", "relationType": "co-mentioned", "sourceChunks": ["C3_2_C002"]}
+{"relationId": "C3_2_rel_002", "pdfId": "C3.2", "from": "CopyBack", "to": "WriteEvictFull", "relationType": "co-mentioned", "sourceChunks": ["C3_2_C001"]}
+{"relationId": "C3_2_rel_003", "pdfId": "C3.2", "from": "IHI", "to": "ARM", "relationType": "co-mentioned", "sourceChunks": ["C3_2_C002"]}
+{"relationId": "C3_2_rel_004", "pdfId": "C3.2", "from": "MakeReadUnique", "to": "ReadUnique", "relationType": "co-mentioned", "sourceChunks": ["C3_2_C001"]}
+{"relationId": "C3_2_rel_005", "pdfId": "C3.2", "from": "ReadOnceCleanInvalid", "to": "ReadOnce", "relationType": "co-mentioned", "sourceChunks": ["C3_2_C001"]}

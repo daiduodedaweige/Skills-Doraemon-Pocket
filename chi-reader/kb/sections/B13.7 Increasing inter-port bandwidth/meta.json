@@ -1,0 +1,49 @@
+{
+  "pdfId": "B13.7",
+  "sourceFile": "B13.7 Increasing inter-port bandwidth.md",
+  "title": "Increasing inter-port bandwidth",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Increasing",
+    "inter",
+    "port",
+    "bandwidth",
+    "Mask_Result",
+    "B13",
+    "DAT",
+    "TXREQ"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 13,
+    "rules": 12,
+    "flows": 0,
+    "verification": 12,
+    "relations": 30,
+    "tables": 0,
+    "figures": 2
+  }
+}

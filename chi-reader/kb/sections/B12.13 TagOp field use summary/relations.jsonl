@@ -1,0 +1,6 @@
+{"relationId": "B12_13_rel_001", "pdfId": "B12.13", "from": "MakeReadUnique", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_13_C001"]}
+{"relationId": "B12_13_rel_002", "pdfId": "B12.13", "from": "SNP", "to": "TagOp", "relationType": "co-mentioned", "sourceChunks": ["B12_13_C001"]}
+{"relationId": "B12_13_rel_003", "pdfId": "B12.13", "from": "TagOp", "to": "MakeReadUnique", "relationType": "co-mentioned", "sourceChunks": ["B12_13_C001"]}
+{"relationId": "B12_13_rel_004", "pdfId": "B12.13", "from": "B12_13_rule_001", "to": "RSP", "relationType": "applies-to", "sourceChunks": ["B12_13_C001"]}
+{"relationId": "B12_13_rel_005", "pdfId": "B12.13", "from": "B12_13_rule_001", "to": "TagOp", "relationType": "applies-to", "sourceChunks": ["B12_13_C001"]}
+{"relationId": "B12_13_rel_006", "pdfId": "B12.13", "from": "B12_13_vp_001", "to": "B12_13_rule_001", "relationType": "verifies", "sourceChunks": ["B12_13_C001"]}

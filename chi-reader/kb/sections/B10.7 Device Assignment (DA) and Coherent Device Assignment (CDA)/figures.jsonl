@@ -1,0 +1,8 @@
+{"figureId": "B10_7_figure_001", "pdfId": "B10.7", "label": "B10.3", "title": "shows the fields that are applicable for device requests to HCM memory locations, or to DCM", "sourceChunks": ["B10_7_C003"]}
+{"figureId": "B10_7_figure_002", "pdfId": "B10.7", "label": "B10.2", "title": "RME-CDA fields in device requests to DCM locations", "sourceChunks": ["B10_7_C003"]}
+{"figureId": "B10_7_figure_003", "pdfId": "B10.7", "label": "B10.3", "title": "shows the fields that are applicable for host requests to DCM memory locations.", "sourceChunks": ["B10_7_C004"]}
+{"figureId": "B10_7_figure_004", "pdfId": "B10.7", "label": "B10.3", "title": "RME-CDA fields in host requests to DCM locations", "sourceChunks": ["B10_7_C004"]}
+{"figureId": "B10_7_figure_005", "pdfId": "B10.7", "label": "B10.3", "title": "shows the fields that are applicable for device snoops to DCM memory locations that have been", "sourceChunks": ["B10_7_C004"]}
+{"figureId": "B10_7_figure_006", "pdfId": "B10.7", "label": "B10.4", "title": "RME-CDA", "sourceChunks": ["B10_7_C005"]}
+{"figureId": "B10_7_figure_007", "pdfId": "B10.7", "label": "B10.5", "title": "shows the fields that have been cached in the device and are applicable for host snoops to HCM", "sourceChunks": ["B10_7_C005"]}
+{"figureId": "B10_7_figure_008", "pdfId": "B10.7", "label": "B10.5", "title": "RME-CDA fields in host snoop to cached HCM locations", "sourceChunks": ["B10_7_C006"]}

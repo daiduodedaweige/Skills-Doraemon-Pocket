@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant RN_F as RN-F
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F->>SN_F: Note
+    SN_F->>RN_F: The Evict request is a hint. A Comp response can be given by HN-F without updating the Snoop Filter or<br/>Snoop Directory.
+    RN_F->>HN_F: Evict
+    RN_F->>HN_F: Comp_I
+    HN_F->>RN_F: Comp_I
+    HN_F->>RN_F: Comp_I

@@ -1,0 +1,33 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    participant Snoopee as Snoopee
+    Requester->>Home: ReadClean, ReadNotSharedDirty, ReadShared,<br/>ReadUnique, ReadPreferUnique, MakeReadUnique
+    Home->>Requester: [1. Combined response from Home]<br/>CompData
+    Requester->>Snoopee: [2. Separate Data and Response from Home]<br/>RespSepData
+    Home->>Requester: [2. Separate Data and Response from Home]<br/>RespSepData
+    Home->>Requester: DataSepResp
+    Requester->>Snoopee: [3. Combined response from Subordinate]
+    Home->>Subordinate: ReadNoSnp
+    Subordinate->>Home: [Order != 00]<br/>ReadReceipt
+    Subordinate->>Requester: CompData
+    Requester->>Snoopee: [4. Response from Home, Data from Subordinate]<br/>RespSepData
+    Home->>Requester: [4. Response from Home, Data from Subordinate]<br/>RespSepData
+    Home->>Subordinate: ReadNoSnpSep
+    Subordinate->>Home: ReadReceipt
+    Subordinate->>Requester: DataSepResp
+    Requester->>Snoopee: [5. Forwarding snoop]
+    Home->>Snoopee: Snp*Fwd
+    Snoopee->>Requester: [5a. With response to Home]<br/>CompData
+    Snoopee->>Home: SnpRespFwded
+    Requester->>Snoopee: [5b. With data to Home]<br/>CompData
+    Snoopee->>Requester: [5b. With data to Home]<br/>CompData
+    Snoopee->>Home: SnpRespDataFwded
+    Requester->>Snoopee: [5c. Failed through RSP channel, must use alternative]
+    Snoopee->>Home: SnpResp
+    Requester->>Snoopee: [5d. Failed through DAT channel, must use alternative]
+    Snoopee->>Home: SnpRespData, SnpRespDataPtl
+    Requester->>Snoopee: [6. MakeReadUnique only]<br/>Comp
+    Home->>Requester: [6. MakeReadUnique only]<br/>Comp
+    Requester->>Home: CompAck

@@ -1,0 +1,49 @@
+{
+  "pdfId": "B14.2",
+  "sourceFile": "B14.2 Link layer Credit.md",
+  "title": "Link layer Credit",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "layer",
+    "Credit",
+    "Transmitter",
+    "Receiver",
+    "Cycle",
+    "LCRDV",
+    "Resource",
+    "Planes"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 6,
+    "objects": 11,
+    "rules": 14,
+    "flows": 0,
+    "verification": 14,
+    "relations": 35,
+    "tables": 0,
+    "figures": 3
+  }
+}

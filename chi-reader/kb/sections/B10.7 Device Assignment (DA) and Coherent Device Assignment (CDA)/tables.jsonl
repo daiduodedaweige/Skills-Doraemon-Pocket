@@ -1,0 +1,7 @@
+{"tableId": "B10_7_table_001", "pdfId": "B10.7", "label": "B10.1", "title": "shows the host requirements depending on the MEC_Support and DevAssign_Support property", "sourceChunks": ["B10_7_C006"], "rawHeader": "values."}
+{"tableId": "B10_7_table_002", "pdfId": "B10.7", "label": "B10.1", "title": "Host requirements", "sourceChunks": ["B10_7_C006"], "rawHeader": "Scenario MEC_Support Description"}
+{"tableId": "B10_7_table_003", "pdfId": "B10.7", "label": "B10.1", "title": "–Continued from previous page", "sourceChunks": ["B10_7_C009"], "rawHeader": "Scenario MEC_Support Description"}
+{"tableId": "B10_7_table_004", "pdfId": "B10.7", "label": "B10.2", "title": "shows the device requirements depending on the MEC_Support and DevAssign_Support property", "sourceChunks": ["B10_7_C010"], "rawHeader": "values."}
+{"tableId": "B10_7_table_005", "pdfId": "B10.7", "label": "B10.2", "title": "Device requirements", "sourceChunks": ["B10_7_C010"], "rawHeader": "Scenario MEC_Support Description"}
+{"tableId": "B10_7_table_006", "pdfId": "B10.7", "label": "B10.2", "title": "–Continued from previous page", "sourceChunks": ["B10_7_C012"], "rawHeader": "Scenario MEC_Support Description"}
+{"tableId": "B10_7_table_007", "pdfId": "B10.7", "label": "B10.3", "title": "B10.3", "sourceChunks": ["B10_7_C014"], "rawHeader": "in a device request to the host"}

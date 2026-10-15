@@ -1,0 +1,52 @@
+{
+  "pdfId": "B12.4",
+  "sourceFile": "B12.4 Read transaction rules.md",
+  "title": "Read transaction rules",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "transaction",
+    "rules",
+    "Invalid",
+    "Clean",
+    "TagOp",
+    "Dirty",
+    "Transfer",
+    "ReadPreferUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 19,
+    "rules": 25,
+    "flows": 1,
+    "verification": 26,
+    "relations": 86,
+    "tables": 3,
+    "figures": 0
+  }
+}

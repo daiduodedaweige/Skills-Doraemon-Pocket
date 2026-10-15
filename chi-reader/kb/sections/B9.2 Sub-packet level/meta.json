@@ -1,0 +1,48 @@
+{
+  "pdfId": "B9.2",
+  "sourceFile": "B9.2 Sub-packet level.md",
+  "title": "Sub-packet level",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Sub",
+    "packet",
+    "level",
+    "DataCheck",
+    "Poison",
+    "DERR",
+    "DAT",
+    "RespErr"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 5,
+    "rules": 5,
+    "flows": 0,
+    "verification": 5,
+    "relations": 19,
+    "tables": 0,
+    "figures": 0
+  }
+}

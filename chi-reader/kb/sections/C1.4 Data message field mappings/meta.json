@@ -1,0 +1,54 @@
+{
+  "pdfId": "C1.4",
+  "sourceFile": "C1.4 Data message field mappings.md",
+  "title": "Data message field mappings",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "message",
+    "field",
+    "mappings",
+    "CompData",
+    "CopyBackWriteData",
+    "DBID",
+    "DataSepResp",
+    "DataSource"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types",
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 15,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 24,
+    "tables": 1,
+    "figures": 0
+  }
+}

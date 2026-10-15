@@ -1,0 +1,53 @@
+{
+  "pdfId": "B5.5",
+  "sourceFile": "B5.5 Stash transaction flows.md",
+  "title": "Stash transaction flows",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Stash",
+    "transaction",
+    "flows",
+    "HN-F",
+    "RN-F1",
+    "CompData",
+    "StashOnceShared",
+    "CompAck"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 12,
+    "rules": 0,
+    "flows": 1,
+    "verification": 1,
+    "relations": 30,
+    "tables": 0,
+    "figures": 2
+  }
+}

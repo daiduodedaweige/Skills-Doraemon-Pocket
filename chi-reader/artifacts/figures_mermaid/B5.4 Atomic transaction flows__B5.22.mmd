@@ -1,0 +1,58 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>RN_F2: AtomicStore<br/>(Normal, Snoopable)
+    RN_F2->>RN_F1: AtomicStore<br/>(Normal, Snoopable)
+    RN_F1->>RN_F2: AtomicStore<br/>(Normal, Snoopable)
+    RN_F0->>HN_F: AtomicStore<br/>(Normal, Snoopable)
+    RN_F2->>RN_F1: AtomicStore<br/>(Normal, Snoopable)
+    RN_F1->>RN_F2: DBIDResp
+    HN_F->>RN_F0: DBIDResp
+    RN_F2->>RN_F1: DBIDResp
+    HN_F->>RN_F1: DBIDResp
+    RN_F2->>HN_F: SnpUnique
+    HN_F->>RN_F2: SnpUnique
+    RN_F1->>RN_F2: SnpUnique
+    HN_F->>RN_F2: SnpUnique
+    RN_F2->>RN_F1: SnpUnique
+    RN_F2->>HN_F: SnpRespData_I_PD<br/>(InitialData)
+    RN_F2->>HN_F: SnpRespData_I_PD<br/>(InitialData)
+    HN_F->>RN_F2: SnpRespData_I_PD<br/>(InitialData)
+    RN_F2->>HN_F: SnpRespData_I_PD<br/>(InitialData)
+    HN_F->>RN_F2: SnpRespData_I_PD<br/>(InitialData)
+    RN_F1->>HN_F: NCBWrData
+    RN_F1->>HN_F: NCBWrData
+    RN_F1->>RN_F2: NCBWrData
+    RN_F2->>HN_F: SnpResp_I
+    RN_F1->>RN_F2: NCBWrData
+    RN_F2->>RN_F1: NCBWrData
+    HN_F->>RN_F2: SnpResp_I
+    RN_F0->>HN_F: (TxnData)
+    RN_F2->>RN_F1: (TxnData)
+    HN_F->>SN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    SN_F->>HN_F: WriteNoSnp
+    HN_F->>SN_F: CompDBIDResp
+    HN_F->>RN_F0: Comp
+    SN_F->>HN_F: CompDBIDResp
+    SN_F->>HN_F: CompDBIDResp
+    HN_F->>SN_F: CompDBIDResp
+    HN_F->>SN_F: NCBWrData<br/>(InitialData)<br/>AtomicStore
+    SN_F->>HN_F: NCBWrData<br/>(InitialData)<br/>AtomicStore
+    HN_F->>SN_F: NCBWrData<br/>(InitialData)<br/>AtomicStore
+    SN_F->>HN_F: NCBWrData<br/>(InitialData)<br/>AtomicStore
+    HN_F->>SN_F: NCBWrData<br/>(InitialData)<br/>AtomicStore
+    HN_F->>SN_F
+    SN_F->>HN_F
+    HN_F->>SN_F
+    SN_F->>HN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    SN_F->>HN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    HN_F->>SN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    HN_F->>SN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    SN_F->>HN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    HN_F->>SN_F: DBIDResp<br/>NCBWrData<br/>(TxnData)
+    SN_F->>HN_F
+    SN_F->>HN_F: Comp

@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: Comp
+    Home->>Requester: Comp
+    Requester->>Subordinate: [2. Transactions with CompAck]<br/>CleanUnique, MakeUnique
+    Requester->>Home: [2. Transactions with CompAck]<br/>CleanUnique, MakeUnique
+    Home->>Requester: Comp
+    Requester->>Home: CompAck
+    Requester->>Subordinate: [3. Transactions with Persist]<br/>CleanSharedPersistSep
+    Requester->>Home: [3. Transactions with Persist]<br/>CleanSharedPersistSep
+    Home->>Requester: [3a. Separate response from Home]<br/>Comp
+    Home->>Requester: Persist
+    Requester->>Subordinate: [3b.Combined response from Home]<br/>CompPersist
+    Home->>Requester: [3c. Response from Home and Subordinate]
+    Requester->>Subordinate: [3c. Response from Home and Subordinate]
+    Home->>Subordinate: CleanSharedPersistSep
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Subordinate->>Requester: Persist

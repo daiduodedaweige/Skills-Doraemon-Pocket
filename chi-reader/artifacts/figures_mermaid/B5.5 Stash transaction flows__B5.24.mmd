@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant RN as RN
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>HN_F: StashOnceShared<br/>(StashNID = RN-F1)
+    RN->>HN_F: StashOnceShared<br/>(StashNID = RN-F1)
+    HN_F->>RN_F1: StashOnceShared<br/>(StashNID = RN-F1)
+    RN_F1->>HN_F: StashOnceShared<br/>(StashNID = RN-F1)
+    HN_F->>RN_F1: StashOnceShared<br/>(StashNID = RN-F1)
+    HN_F->>SN_F: ReadNoSnp
+    HN_F->>SN_F: ReadNoSnp
+    HN_F->>RN_F1: SnpStashShared
+    SN_F->>HN_F: ReadNoSnp
+    RN_F1->>HN_F: SnpResp_I_Read
+    HN_F->>RN: SnpResp_I_Read
+    HN_F->>SN_F: CompData_I
+    SN_F->>HN_F: CompData_I
+    SN_F->>HN_F: CompData_I
+    HN_F->>RN_F1
+    RN_F1->>HN_F: CompAck

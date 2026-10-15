@@ -1,0 +1,44 @@
+{"figureId": "B2_3_figure_001", "pdfId": "B2.3", "label": "B2.1", "title": "shows the possible transaction flows for an Allocating Read transaction.", "sourceChunks": ["B2_3_C002"]}
+{"figureId": "B2_3_figure_002", "pdfId": "B2.3", "label": "B2.1", "title": "Allocating Read", "sourceChunks": ["B2_3_C003"]}
+{"figureId": "B2_3_figure_003", "pdfId": "B2.3", "label": "B2.2", "title": "shows the possible transaction flows for a Non-allocating Read transaction.", "sourceChunks": ["B2_3_C009"]}
+{"figureId": "B2_3_figure_004", "pdfId": "B2.3", "label": "B2.2", "title": "Non-allocating Read", "sourceChunks": ["B2_3_C010"]}
+{"figureId": "B2_3_figure_005", "pdfId": "B2.3", "label": "B2.3", "title": "shows the possible transaction flows for an Immediate Write transaction.", "sourceChunks": ["B2_3_C019"]}
+{"figureId": "B2_3_figure_006", "pdfId": "B2.3", "label": "B2.3", "title": "Immediate Write", "sourceChunks": ["B2_3_C020"]}
+{"figureId": "B2_3_figure_007", "pdfId": "B2.3", "label": "B2.4", "title": "shows the possible transaction flows for a Write Zero transaction.", "sourceChunks": ["B2_3_C030"]}
+{"figureId": "B2_3_figure_008", "pdfId": "B2.3", "label": "B2.4", "title": "Write Zero", "sourceChunks": ["B2_3_C030"]}
+{"figureId": "B2_3_figure_009", "pdfId": "B2.3", "label": "B2.5", "title": "shows the possible transaction flows for a CopyBack Write transaction.", "sourceChunks": ["B2_3_C031"]}
+{"figureId": "B2_3_figure_010", "pdfId": "B2.3", "label": "B2.5", "title": "CopyBack Write", "sourceChunks": ["B2_3_C031"]}
+{"figureId": "B2_3_figure_011", "pdfId": "B2.3", "label": "B2.6", "title": "shows the possible transaction flows for a Combined Write and CMO transaction. This only covers", "sourceChunks": ["B2_3_C033"]}
+{"figureId": "B2_3_figure_012", "pdfId": "B2.3", "label": "B2.6", "title": "Combined Immediate Write and CMO", "sourceChunks": ["B2_3_C034"]}
+{"figureId": "B2_3_figure_013", "pdfId": "B2.3", "label": "B2.7", "title": "shows the possible transaction flows for Combined Immediate Write and Persist CMO transaction.", "sourceChunks": ["B2_3_C041"]}
+{"figureId": "B2_3_figure_014", "pdfId": "B2.3", "label": "B2.7", "title": "Combined Immediate Write and Persist CMO", "sourceChunks": ["B2_3_C043"]}
+{"figureId": "B2_3_figure_015", "pdfId": "B2.3", "label": "B2.8", "title": "shows the possible transaction flows for a Combined CopyBack Write and CMO transaction.", "sourceChunks": ["B2_3_C057"]}
+{"figureId": "B2_3_figure_016", "pdfId": "B2.3", "label": "B2.8", "title": "Combined CopyBack Write and CMO", "sourceChunks": ["B2_3_C058"]}
+{"figureId": "B2_3_figure_017", "pdfId": "B2.3", "label": "B2.9", "title": "shows the possible transaction flows for an Atomic transaction.", "sourceChunks": ["B2_3_C065"]}
+{"figureId": "B2_3_figure_018", "pdfId": "B2.3", "label": "B2.9", "title": "Atomic transactions", "sourceChunks": ["B2_3_C068"]}
+{"figureId": "B2_3_figure_019", "pdfId": "B2.3", "label": "B2.10", "title": "shows the possible transaction flows for stash transactions.", "sourceChunks": ["B2_3_C070"]}
+{"figureId": "B2_3_figure_020", "pdfId": "B2.3", "label": "B2.10", "title": "Stash transactions", "sourceChunks": ["B2_3_C071"]}
+{"figureId": "B2_3_figure_021", "pdfId": "B2.3", "label": "B2.11", "title": "shows the transaction flow for a Dataless transaction.", "sourceChunks": ["B2_3_C075"]}
+{"figureId": "B2_3_figure_022", "pdfId": "B2.3", "label": "B2.11", "title": "Dataless transactions", "sourceChunks": ["B2_3_C076"]}
+{"figureId": "B2_3_figure_023", "pdfId": "B2.3", "label": "B2.12", "title": "shows the transaction flow for a Prefetch transaction.", "sourceChunks": ["B2_3_C077"]}
+{"figureId": "B2_3_figure_024", "pdfId": "B2.3", "label": "B2.12", "title": "Prefetch transactions", "sourceChunks": ["B2_3_C077"]}
+{"figureId": "B2_3_figure_025", "pdfId": "B2.3", "label": "B2.13", "title": "shows the transaction flows for a DVM transaction.", "sourceChunks": ["B2_3_C078"]}
+{"figureId": "B2_3_figure_026", "pdfId": "B2.3", "label": "B2.13", "title": "DVM transactions", "sourceChunks": ["B2_3_C078"]}
+{"figureId": "B2_3_figure_027", "pdfId": "B2.3", "label": "B2.14", "title": "shows the possible transaction flows for a Retry sequence.", "sourceChunks": ["B2_3_C080"]}
+{"figureId": "B2_3_figure_028", "pdfId": "B2.3", "label": "B2.14", "title": "Retry transactions", "sourceChunks": ["B2_3_C080"]}
+{"figureId": "B2_3_figure_029", "pdfId": "B2.3", "label": "B2.15", "title": "shows the possible transaction flows for a Home to Subordinate Read transaction.", "sourceChunks": ["B2_3_C081"]}
+{"figureId": "B2_3_figure_030", "pdfId": "B2.3", "label": "B2.15", "title": "Home to Subordinate Read transactions", "sourceChunks": ["B2_3_C082"]}
+{"figureId": "B2_3_figure_031", "pdfId": "B2.3", "label": "B2.16", "title": "shows the possible transaction flows for a Home to Subordinate Write transaction.", "sourceChunks": ["B2_3_C082"]}
+{"figureId": "B2_3_figure_032", "pdfId": "B2.3", "label": "B2.16", "title": "Home to Subordinate Write transactions", "sourceChunks": ["B2_3_C083"]}
+{"figureId": "B2_3_figure_033", "pdfId": "B2.3", "label": "B2.17", "title": "shows the possible transaction flows for a Home to Subordinate Write Zero transaction.", "sourceChunks": ["B2_3_C084"]}
+{"figureId": "B2_3_figure_034", "pdfId": "B2.3", "label": "B2.17", "title": "Home to Subordinate Write Zero transactions", "sourceChunks": ["B2_3_C084"]}
+{"figureId": "B2_3_figure_035", "pdfId": "B2.3", "label": "B2.18", "title": "shows the possible transaction flows for a Home to Subordinate Combined Write and CMO", "sourceChunks": ["B2_3_C085"]}
+{"figureId": "B2_3_figure_036", "pdfId": "B2.3", "label": "B2.18", "title": "Home to Subordinate Combined Write and CMO transactions", "sourceChunks": ["B2_3_C086"]}
+{"figureId": "B2_3_figure_037", "pdfId": "B2.3", "label": "B2.19", "title": "shows the transaction flows for a Home to Subordinate Dataless transaction.", "sourceChunks": ["B2_3_C088"]}
+{"figureId": "B2_3_figure_038", "pdfId": "B2.3", "label": "B2.19", "title": "Home to Subordinate Dataless transactions", "sourceChunks": ["B2_3_C088"]}
+{"figureId": "B2_3_figure_039", "pdfId": "B2.3", "label": "B2.20", "title": "shows the possible transaction flows for Home to Subordinate Atomic transactions.", "sourceChunks": ["B2_3_C089"]}
+{"figureId": "B2_3_figure_040", "pdfId": "B2.3", "label": "B2.20", "title": "Home to Subordinate Atomic transactions", "sourceChunks": ["B2_3_C090"]}
+{"figureId": "B2_3_figure_041", "pdfId": "B2.3", "label": "B2.21", "title": "shows the possible transaction flows for a Home to Snoopee transaction.", "sourceChunks": ["B2_3_C092"]}
+{"figureId": "B2_3_figure_042", "pdfId": "B2.3", "label": "B2.21", "title": "Home to Snoopee transactions", "sourceChunks": ["B2_3_C092"]}
+{"figureId": "B2_3_figure_043", "pdfId": "B2.3", "label": "B2.22", "title": "shows the transaction flow for a Home to Snoopee DVM transaction, SnpDVMOp.", "sourceChunks": ["B2_3_C093"]}
+{"figureId": "B2_3_figure_044", "pdfId": "B2.3", "label": "B2.22", "title": "Home to Snoopee DVM transactions", "sourceChunks": ["B2_3_C093"]}

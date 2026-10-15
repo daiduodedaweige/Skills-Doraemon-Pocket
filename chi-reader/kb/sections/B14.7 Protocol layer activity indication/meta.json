@@ -1,0 +1,53 @@
+{
+  "pdfId": "B14.7",
+  "sourceFile": "B14.7 Protocol layer activity indication.md",
+  "title": "Protocol layer activity indication",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "layer",
+    "activity",
+    "indication",
+    "TXSACTIVE",
+    "RXSACTIVE",
+    "B14",
+    "RN-D",
+    "RN-F"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types",
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 14,
+    "flows": 0,
+    "verification": 14,
+    "relations": 60,
+    "tables": 0,
+    "figures": 1
+  }
+}

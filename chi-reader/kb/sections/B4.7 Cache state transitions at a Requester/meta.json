@@ -1,0 +1,52 @@
+{
+  "pdfId": "B4.7",
+  "sourceFile": "B4.7 Cache state transitions at a Requester.md",
+  "title": "Cache state transitions at a Requester",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "state",
+    "transitions",
+    "at",
+    "a",
+    "RespSepData",
+    "CompData_SC",
+    "Comp",
+    "MakeReadUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 23,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 84,
+    "tables": 23,
+    "figures": 0
+  }
+}

@@ -1,0 +1,21 @@
+{"relationId": "B11_4_rel_001", "pdfId": "B11.4", "from": "DataPull", "to": "MPAM", "relationType": "co-mentioned", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_002", "pdfId": "B11.4", "from": "MPAM", "to": "MPAMSP", "relationType": "co-mentioned", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_003", "pdfId": "B11.4", "from": "MPAMSP", "to": "MPAM", "relationType": "co-mentioned", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_004", "pdfId": "B11.4", "from": "PAS", "to": "MPAM", "relationType": "co-mentioned", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_005", "pdfId": "B11.4", "from": "PAS", "to": "MPAMSP", "relationType": "co-mentioned", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_006", "pdfId": "B11.4", "from": "B11_4_rule_001", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C001"]}
+{"relationId": "B11_4_rel_007", "pdfId": "B11.4", "from": "B11_4_rule_001", "to": "MPAMSP", "relationType": "applies-to", "sourceChunks": ["B11_4_C001"]}
+{"relationId": "B11_4_rel_008", "pdfId": "B11.4", "from": "B11_4_rule_001", "to": "PAS", "relationType": "applies-to", "sourceChunks": ["B11_4_C001"]}
+{"relationId": "B11_4_rel_009", "pdfId": "B11.4", "from": "B11_4_rule_003", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_010", "pdfId": "B11.4", "from": "B11_4_rule_004", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_011", "pdfId": "B11.4", "from": "B11_4_rule_005", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_012", "pdfId": "B11.4", "from": "B11_4_rule_006", "to": "DataPull", "relationType": "applies-to", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_013", "pdfId": "B11.4", "from": "B11_4_rule_006", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_014", "pdfId": "B11.4", "from": "B11_4_rule_007", "to": "MPAM", "relationType": "applies-to", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_015", "pdfId": "B11.4", "from": "B11_4_vp_001", "to": "B11_4_rule_001", "relationType": "verifies", "sourceChunks": ["B11_4_C001"]}
+{"relationId": "B11_4_rel_016", "pdfId": "B11.4", "from": "B11_4_vp_002", "to": "B11_4_rule_002", "relationType": "verifies", "sourceChunks": ["B11_4_C001"]}
+{"relationId": "B11_4_rel_017", "pdfId": "B11.4", "from": "B11_4_vp_003", "to": "B11_4_rule_003", "relationType": "verifies", "sourceChunks": ["B11_4_C001", "B11_4_C002"]}
+{"relationId": "B11_4_rel_018", "pdfId": "B11.4", "from": "B11_4_vp_004", "to": "B11_4_rule_004", "relationType": "verifies", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_019", "pdfId": "B11.4", "from": "B11_4_vp_005", "to": "B11_4_rule_005", "relationType": "verifies", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_020", "pdfId": "B11.4", "from": "B11_4_vp_006", "to": "B11_4_rule_006", "relationType": "verifies", "sourceChunks": ["B11_4_C002"]}
+{"relationId": "B11_4_rel_021", "pdfId": "B11.4", "from": "B11_4_vp_007", "to": "B11_4_rule_007", "relationType": "verifies", "sourceChunks": ["B11_4_C002"]}

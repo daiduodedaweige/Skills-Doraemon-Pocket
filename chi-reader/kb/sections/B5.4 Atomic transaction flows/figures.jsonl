@@ -1,0 +1,8 @@
+{"figureId": "B5_4_figure_001", "pdfId": "B5.4", "label": "B5.19", "title": "shows the atomic operation executed at the Home Node.", "sourceChunks": ["B5_4_C004"]}
+{"figureId": "B5_4_figure_002", "pdfId": "B5.4", "label": "B5.19", "title": "AtomicLoad, AtomicSwap, or AtomicCompare executed at Home Node", "sourceChunks": ["B5_4_C004"]}
+{"figureId": "B5_4_figure_003", "pdfId": "B5.4", "label": "B5.20", "title": "shows the atomic operation executed at HN-F. The flow is similar to the Atomic transaction with", "sourceChunks": ["B5_4_C005"]}
+{"figureId": "B5_4_figure_004", "pdfId": "B5.4", "label": "B5.20", "title": "AtomicStore executed at HN-F", "sourceChunks": ["B5_4_C005"]}
+{"figureId": "B5_4_figure_005", "pdfId": "B5.4", "label": "B5.21", "title": "shows the atomic operation executed at the Home Node. The flow is similar to the Atomic", "sourceChunks": ["B5_4_C006"]}
+{"figureId": "B5_4_figure_006", "pdfId": "B5.4", "label": "B5.21", "title": "AtomicStore executed at Home Node", "sourceChunks": ["B5_4_C007"]}
+{"figureId": "B5_4_figure_007", "pdfId": "B5.4", "label": "B5.22", "title": "shows an example Atomic transaction flow where the SN-F is executing the atomic operation.", "sourceChunks": ["B5_4_C007"]}
+{"figureId": "B5_4_figure_008", "pdfId": "B5.4", "label": "B5.22", "title": "AtomicStore executed at SN-F", "sourceChunks": ["B5_4_C008"]}

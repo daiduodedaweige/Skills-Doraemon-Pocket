@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Completer as Completer
+    Requester->>Completer: Request without Credit
+    Completer->>Requester: RetryAck
+    Completer->>Requester: PCrdGrant
+    Requester->>Completer: [1. Request re-sent]<br/>Request with Credit
+    Requester->>Completer: [2. Request canceled]<br/>PCrdReturn
+    Requester->>Completer: [2. Request canceled]<br/>PCrdReturn

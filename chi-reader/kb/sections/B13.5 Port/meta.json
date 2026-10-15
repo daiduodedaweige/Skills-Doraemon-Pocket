@@ -1,0 +1,49 @@
+{
+  "pdfId": "B13.5",
+  "sourceFile": "B13.5 Port.md",
+  "title": "Port",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Port",
+    "DAT",
+    "RSP",
+    "REQ",
+    "RN-F",
+    "RXDATFLIT",
+    "RXDATFLITPEND",
+    "RXDATFLITV"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 1
+  }
+}

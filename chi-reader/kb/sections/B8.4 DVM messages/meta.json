@@ -1,0 +1,47 @@
+{
+  "pdfId": "B8.4",
+  "sourceFile": "B8.4 DVM messages.md",
+  "title": "DVM messages",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "DVM",
+    "messages",
+    "TLBI",
+    "ASID",
+    "VMID",
+    "Secure",
+    "Guest",
+    "Leaf"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 33,
+    "objects": 20,
+    "rules": 23,
+    "flows": 0,
+    "verification": 23,
+    "relations": 77,
+    "tables": 27,
+    "figures": 0
+  }
+}

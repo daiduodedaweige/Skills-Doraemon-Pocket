@@ -1,0 +1,97 @@
+flowchart LR
+    classDef protocol fill:#cfcfcf,stroke:#555,color:#111;
+    classDef router fill:#ffffff,stroke:#555,color:#111;
+    classDef label fill:none,stroke:none,color:#111;
+    classDef box fill:#ffffff,stroke:#555,color:#111;
+
+    subgraph Layout[" "]
+        direction LR
+
+        subgraph MeshWrap[" "]
+            direction TB
+            M0(("0")) --- R01[" "] --- M1(("1")) --- R12[" "] --- M2(("2")) --- R23[" "] --- M3(("3"))
+            M4(("4")) --- R45[" "] --- M5(("5")) --- R56[" "] --- M6(("6")) --- R67[" "] --- M7(("7"))
+            M8(("8")) --- R89[" "] --- M9(("9")) --- R910[" "] --- M10(("10")) --- R1011[" "] --- M11(("11"))
+            M12(("12")) --- R1213[" "] --- M13(("13")) --- R1314[" "] --- M14(("14")) --- R1415[" "] --- M15(("15"))
+
+            R01 --- R45 --- R89 --- R1213
+            R12 --- R56 --- R910 --- R1314
+            R23 --- R67 --- R1011 --- R1415
+
+            M13 ~~~ MeshLabel["4×4 Mesh"]
+        end
+
+        subgraph RightCol[" "]
+            direction TB
+
+            subgraph RingWrap[" "]
+                direction TB
+                G0(("0")) --- GR01[" "] --- G1(("1")) --- GR12[" "] --- G2(("2")) --- GR23[" "] --- G3(("3"))
+                GR01 --- RVL[" "]
+                GR23 --- RVR[" "]
+                RVL --- RB0[" "] --- RB1[" "] --- RVR
+                RB1 ~~~ RingLabel["Ring"]
+            end
+
+            subgraph CrossWrap[" "]
+                direction TB
+                subgraph CrossTop[" "]
+                    direction LR
+                    subgraph CrossLeft[" "]
+                        direction TB
+                        C0(("0"))
+                        C1(("1"))
+                        C2(("2"))
+                        C3(("3"))
+                    end
+                    CB["4×4<br/>Crossbar"]
+                end
+
+                subgraph CrossBottom[" "]
+                    direction LR
+                    C4(("4"))
+                    C5(("5"))
+                    C6(("6"))
+                    C7(("7"))
+                end
+
+                C0 --- CB
+                C1 --- CB
+                C2 --- CB
+                C3 --- CB
+                CB --- C4
+                CB --- C5
+                CB --- C6
+                CB --- C7
+            end
+        end
+    end
+
+    subgraph Legend[" "]
+        direction TB
+        subgraph LegendRow1[" "]
+            direction LR
+            LP((" ")) ~~~ LT["Protocol node such as processor complex, memory controller, or IO complex"]
+        end
+        subgraph LegendRow2[" "]
+            direction LR
+            LR0[" "] ~~~ LRT["Router"]
+        end
+    end
+
+    class M0,M1,M2,M3,M4,M5,M6,M7,M8,M9,M10,M11,M12,M13,M14,M15,G0,G1,G2,G3,C0,C1,C2,C3,C4,C5,C6,C7,LP protocol;
+    class R01,R12,R23,R45,R56,R67,R89,R910,R1011,R1213,R1314,R1415,GR01,GR12,GR23,RVL,RVR,RB0,RB1,LR0 router;
+    class CB box;
+    class MeshLabel,RingLabel,LT,LRT label;
+
+    style Layout fill:none,stroke:none
+    style MeshWrap fill:none,stroke:none
+    style RightCol fill:none,stroke:none
+    style RingWrap fill:none,stroke:none
+    style CrossWrap fill:none,stroke:none
+    style CrossTop fill:none,stroke:none
+    style CrossLeft fill:none,stroke:none
+    style CrossBottom fill:none,stroke:none
+    style Legend fill:none,stroke:none
+    style LegendRow1 fill:none,stroke:none
+    style LegendRow2 fill:none,stroke:none

@@ -1,0 +1,47 @@
+{
+  "pdfId": "B12.11",
+  "sourceFile": "B12.11 Error response.md",
+  "title": "Error response",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Error",
+    "response",
+    "MTE",
+    "TagOp",
+    "Completer",
+    "TagMatch",
+    "OK",
+    "Invalid"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 4,
+    "rules": 6,
+    "flows": 0,
+    "verification": 6,
+    "relations": 11,
+    "tables": 0,
+    "figures": 0
+  }
+}

@@ -1,0 +1,49 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F0->>RN_F1: ReadShared<br/>(TxnID = A)
+    RN_F0->>RN_F1: ReadShared<br/>(TxnID = A)
+    RN_F1->>RN_F0: ReadShared<br/>(TxnID = A)
+    RN_F0->>HN_F: ReadShared<br/>(TxnID = A)
+    RN_F1->>RN_F0: ReadShared<br/>(TxnID = A)
+    RN_F1->>HN_F
+    HN_F->>RN_F1: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    RN_F1->>HN_F: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    RN_F1->>HN_F: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    HN_F->>RN_F1: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    HN_F->>RN_F1: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    RN_F1->>HN_F: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    HN_F->>RN_F1: SnpSharedFwd<br/>(FwdNID = RN-F0)<br/>(FwdTxnID = A)<br/>(TxnID = B)
+    HN_F->>RN_F1
+    RN_F0->>RN_F1: CompData_SC
+    RN_F1->>HN_F: SnpRespData_SC_PD_Fwded_SC
+    RN_F0->>RN_F1: CompData_SC
+    RN_F1->>RN_F0: CompData_SC
+    RN_F1->>HN_F: SnpRespData_SC_PD_Fwded_SC
+    RN_F1->>HN_F: SnpRespData_SC_PD_Fwded_SC
+    HN_F->>RN_F1: SnpRespData_SC_PD_Fwded_SC
+    RN_F1->>RN_F0: (HomeNID = HN-F)
+    RN_F0->>RN_F1: (HomeNID = HN-F)
+    RN_F1->>RN_F0: (HomeNID = HN-F)
+    HN_F->>RN_F1: (TxnID = B)
+    RN_F1->>RN_F0: (TxnID = A)<br/>(DBID = B)
+    RN_F0->>RN_F1: (TxnID = A)<br/>(DBID = B)
+    RN_F1->>RN_F0: (TxnID = A)<br/>(DBID = B)
+    HN_F->>SN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    SN_F->>HN_F: WriteNoSnp
+    RN_F0->>RN_F1
+    RN_F0->>RN_F1: CompAck<br/>(TgtID = HN-F)<br/>(TxnID = B)
+    RN_F1->>RN_F0: CompAck<br/>(TgtID = HN-F)<br/>(TxnID = B)
+    RN_F1->>RN_F0: CompAck<br/>(TgtID = HN-F)<br/>(TxnID = B)
+    RN_F0->>RN_F1: CompAck<br/>(TgtID = HN-F)<br/>(TxnID = B)
+    HN_F->>SN_F: CompDBIDResp
+    SN_F->>HN_F: CompDBIDResp
+    RN_F1->>RN_F0
+    SN_F->>HN_F: CompDBIDResp
+    RN_F0->>HN_F
+    HN_F->>SN_F: NCBWrData
+    HN_F->>SN_F: NCBWrData
+    SN_F->>HN_F: NCBWrData

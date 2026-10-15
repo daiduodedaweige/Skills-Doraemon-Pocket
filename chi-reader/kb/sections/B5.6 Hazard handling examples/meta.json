@@ -1,0 +1,54 @@
+{
+  "pdfId": "B5.6",
+  "sourceFile": "B5.6 Hazard handling examples.md",
+  "title": "Hazard handling examples",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Hazard",
+    "handling",
+    "examples",
+    "HN-F",
+    "ReadShared",
+    "CopyBack",
+    "WriteBack",
+    "CompAck"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 20,
+    "rules": 4,
+    "flows": 1,
+    "verification": 5,
+    "relations": 32,
+    "tables": 0,
+    "figures": 6
+  }
+}

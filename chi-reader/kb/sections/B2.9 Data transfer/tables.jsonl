@@ -1,0 +1,4 @@
+{"tableId": "B2_9_table_001", "pdfId": "B2.9", "label": "B2.17", "title": "Possible NumDat and Replicate values", "sourceChunks": ["B2_9_C008"], "rawHeader": "Table B2.17 ."}
+{"tableId": "B2_9_table_002", "pdfId": "B2.9", "label": "B2.17", "title": ".", "sourceChunks": ["B2_9_C008"], "rawHeader": "Data Width Request size NumDat [1:0] Replicate"}
+{"tableId": "B2_9_table_003", "pdfId": "B2.9", "label": "B2.18", "title": "shows the permitted data sizes, and the relationship between inbound and outbound valid data size for", "sourceChunks": ["B2_9_C013"], "rawHeader": "each Atomic transaction type. The size of the data value returned in response to an AtomicCompare transaction is"}
+{"tableId": "B2_9_table_004", "pdfId": "B2.9", "label": "B2.18", "title": "Atomic transaction outbound and inbound data sizes", "sourceChunks": ["B2_9_C013"], "rawHeader": "Atomic transaction Outbound (bytes) Inbound"}

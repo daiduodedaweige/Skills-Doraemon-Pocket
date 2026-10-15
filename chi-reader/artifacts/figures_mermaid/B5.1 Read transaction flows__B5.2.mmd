@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F0->>HN_F: ReadShared
+    HN_F->>RN_F1: SnpShared
+    RN_F1->>HN_F: SnpResp_I
+    HN_F->>SN_F: ReadNoSnp
+    SN_F->>RN_F0: CompData_UC
+    RN_F0->>HN_F: CompAck

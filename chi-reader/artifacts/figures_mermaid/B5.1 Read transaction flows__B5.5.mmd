@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F0->>HN_F: ReadNoSnp<br/>(ExpCompAck==1)
+    HN_F->>SN_F: ReadNoSnp
+    HN_F->>SN_F: ReadNoSnp
+    SN_F->>HN_F: ReadNoSnp
+    HN_F->>SN_F: CompData_I
+    SN_F->>HN_F: CompData_I
+    SN_F->>HN_F: CompData_I
+    RN_F1->>HN_F: CompData_I
+    HN_F->>RN_F1: CompData_I
+    HN_F->>RN_F0
+    RN_F0->>RN_F1: CompAck
+    RN_F1->>RN_F0: CompAck
+    RN_F0->>HN_F

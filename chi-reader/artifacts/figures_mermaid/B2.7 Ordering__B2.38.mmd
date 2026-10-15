@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant RN as RN
+    participant HN as HN
+    RN->>HN: ReadNoSnp-1
+    HN->>RN: ReadReceipt-1
+    RN->>HN: ReadNoSnp-2
+    HN->>RN: RetryAck-2
+    HN->>RN: PCrdGrant
+    RN->>HN: ReadNoSnp-2
+    HN->>RN: ReadReceipt-2
+    RN->>HN: ReadNoSnp-3
+    HN->>RN: ReadReceipt-3

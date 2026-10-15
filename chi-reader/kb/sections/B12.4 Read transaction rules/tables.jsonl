@@ -1,0 +1,3 @@
+{"tableId": "B12_4_table_001", "pdfId": "B12.4", "label": "B12.2", "title": "shows the permitted initial data state along with tag state for different Read transactions and permitted", "sourceChunks": ["B12_4_C006"], "rawHeader": "TagOp value in the corresponding request. The combination of tag and data states must obey the coherency rules"}
+{"tableId": "B12_4_table_002", "pdfId": "B12.4", "label": "B12.2", "title": "Permitted initial Tag states and request TagOp values in Read transactions", "sourceChunks": ["B12_4_C006"], "rawHeader": "Request TagOp"}
+{"tableId": "B12_4_table_003", "pdfId": "B12.4", "label": "B12.2", "title": "–Continued from previous page", "sourceChunks": ["B12_4_C006"], "rawHeader": "Request TagOp"}

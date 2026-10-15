@@ -1,0 +1,52 @@
+{
+  "pdfId": "B1.4",
+  "sourceFile": "B1.4 Transaction classification.md",
+  "title": "Transaction classification",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "classification",
+    "StashOnce",
+    "WriteNoSnpPtlCleanShPerSep",
+    "CMO",
+    "WriteNoSnpFullCleanInv",
+    "WriteNoSnpFullCleanInvPoPA",
+    "WriteNoSnpFullCleanInvStrg",
+    "WriteNoSnpFullCleanSh"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 21,
+    "tables": 4,
+    "figures": 0
+  }
+}

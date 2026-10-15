@@ -1,0 +1,47 @@
+{
+  "pdfId": "B9.3",
+  "sourceFile": "B9.3 Use of interface parity.md",
+  "title": "Use of interface parity",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Use",
+    "of",
+    "interface",
+    "parity",
+    "RESETn",
+    "Check",
+    "See",
+    "B13"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 20,
+    "rules": 3,
+    "flows": 0,
+    "verification": 3,
+    "relations": 52,
+    "tables": 3,
+    "figures": 0
+  }
+}

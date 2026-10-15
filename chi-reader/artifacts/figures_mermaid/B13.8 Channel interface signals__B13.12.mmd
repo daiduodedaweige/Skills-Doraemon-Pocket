@@ -1,0 +1,36 @@
+flowchart LR
+    N001["Table B13.2 – Continued from previous page"]
+    N002["Signal"]
+    N003["Presence"]
+    N004["Description"]
+    N005["REQSHAREDCRD"]
+    N006["Shared_Credits_REQ == True"]
+    N007["Request Shared Credits. Indication<br/>that a REQ shared credit is being<br/>used by the Transmitter."]
+    N008["REQLCRDV[( Num_RP_REQ )-1:0]"]
+    N009["Always."]
+    N010["REQLCRDSHV"]
+    N011["Shared_Credit_REQ == True"]
+    N012["Request Shared L-Credit Valid.<br/>Receiver sets this signal HIGH to<br/>grant a REQ channel shared<br/>L-Credit to the Transmitter."]
+    N013["B13.8.2"]
+    N014["Response, RSP, channel"]
+    N015["Transmitter"]
+    N016["Receiver"]
+    N017["TXRSPFLITPEND"]
+    N018["RXRSPFLITPEND"]
+    N019["RSPFLITPEND<br/>RSPFLITV"]
+    N020["TXRSPFLITV"]
+    N021["RXRSPFLITV"]
+    N022["RSPFLIT[(T-1):0]"]
+    N023["TXRSPFLIT"]
+    N024["RXRSPFLIT"]
+    N025["TXRSPLCRDV"]
+    N026["RXRSPLCRDV"]
+    N027["RSPLCRDV"]
+    N002 --- N001
+    N002 --- N007
+    N008 --- N007
+    N010 --- N012
+    N017 --> N018
+    N020 --> N021
+    N023 --> N024
+    N026 --> N025

@@ -1,0 +1,53 @@
+{
+  "pdfId": "B4.11",
+  "sourceFile": "B4.11 Hazard conditions.md",
+  "title": "Hazard conditions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Hazard",
+    "conditions",
+    "HN-F",
+    "CopyBack",
+    "CompAck",
+    "RetryAck",
+    "SN-F",
+    "WriteUnique"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 18,
+    "rules": 7,
+    "flows": 0,
+    "verification": 7,
+    "relations": 34,
+    "tables": 0,
+    "figures": 0
+  }
+}

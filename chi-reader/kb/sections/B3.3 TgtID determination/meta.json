@@ -1,0 +1,53 @@
+{
+  "pdfId": "B3.3",
+  "sourceFile": "B3.3 TgtID determination.md",
+  "title": "TgtID determination",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "TgtID",
+    "determination",
+    "SrcID",
+    "SnpResp",
+    "ReturnNID",
+    "CompAck",
+    "CompData",
+    "RespSepData"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 20,
+    "rules": 1,
+    "flows": 0,
+    "verification": 1,
+    "relations": 25,
+    "tables": 1,
+    "figures": 0
+  }
+}

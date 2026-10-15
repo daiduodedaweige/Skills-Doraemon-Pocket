@@ -1,0 +1,5 @@
+{"relationId": "C3_1_rel_001", "pdfId": "C3.1", "from": "CopyBack", "to": "WriteBackFull", "relationType": "co-mentioned", "sourceChunks": ["C3_1_C001", "C3_1_C002"]}
+{"relationId": "C3_1_rel_002", "pdfId": "C3.1", "from": "MakeReadUnique", "to": "ReadUnique", "relationType": "co-mentioned", "sourceChunks": ["C3_1_C001"]}
+{"relationId": "C3_1_rel_003", "pdfId": "C3.1", "from": "ReadUnique", "to": "MakeReadUnique", "relationType": "co-mentioned", "sourceChunks": ["C3_1_C001"]}
+{"relationId": "C3_1_rel_004", "pdfId": "C3.1", "from": "WriteBackFull", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["C3_1_C001", "C3_1_C002"]}
+{"relationId": "C3_1_rel_005", "pdfId": "C3.1", "from": "WriteBackFullCleanInv", "to": "WriteBackFull", "relationType": "co-mentioned", "sourceChunks": ["C3_1_C002"]}

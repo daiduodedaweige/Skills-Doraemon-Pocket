@@ -1,0 +1,47 @@
+{
+  "pdfId": "C5.9",
+  "sourceFile": "C5.9 Changes between Issue F.b and Issue G.md",
+  "title": "Changes between Issue F.b and Issue G",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Changes",
+    "between",
+    "F",
+    "b",
+    "and",
+    "G",
+    "DAT",
+    "DataPull"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 2,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 1,
+    "figures": 0
+  }
+}

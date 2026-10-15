@@ -1,0 +1,54 @@
+{
+  "pdfId": "B6.3",
+  "sourceFile": "B6.3 Exclusive transactions.md",
+  "title": "Exclusive transactions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Exclusive",
+    "transactions",
+    "Store",
+    "Excl",
+    "MakeReadUnique",
+    "Okay",
+    "Load",
+    "Snoopable"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 19,
+    "objects": 20,
+    "rules": 25,
+    "flows": 1,
+    "verification": 26,
+    "relations": 62,
+    "tables": 3,
+    "figures": 0
+  }
+}

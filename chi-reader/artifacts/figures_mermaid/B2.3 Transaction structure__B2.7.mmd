@@ -1,0 +1,58 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: WriteNoSnpPtlCleanShPerSep, WriteNoSnpFullCleanShPerSep,<br/>WriteUniquePtlCleanShPerSep, WriteUniqueFullCleanShPerSep
+    Home->>Subordinate: WriteNoSnpPtlCleanShPerSep, WriteNoSnpFullCleanShPerSep<br/>(DoDWT=1)
+    Subordinate->>Requester: DBIDResp<br/>NonCopyBackWriteData, WriteDataCancel
+    Requester->>Subordinate: Comp
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Subordinate->>Home: CompCMO
+    Home->>Requester: CompCMO<br/>Persist<br/>[2. Non-combined write to Subordinate with DWT]
+    Subordinate->>Requester: CompCMO<br/>Persist<br/>[2. Non-combined write to Subordinate with DWT]
+    Requester->>Subordinate: CompCMO<br/>Persist<br/>[2. Non-combined write to Subordinate with DWT]
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull<br/>(DoDWT=1)
+    Subordinate->>Requester: DBIDResp<br/>NonCopyBackWriteData, WriteDataCancel
+    Requester->>Subordinate: Comp
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Home->>Subordinate: CleanSharedPersistSep<br/>Comp
+    Subordinate->>Home: CleanSharedPersistSep<br/>Comp
+    Home->>Requester
+    Subordinate->>Requester
+    Requester->>Subordinate: CompCMO<br/>Persist<br/>[2b. No CMO to Subordinate as part of transaction]<br/>alt<br/>[2b1. Separate response from Home]<br/>CompCMO<br/>Persist<br/>[2b2. Combined response from Home]<br/>CompPersist
+    Home->>Requester: CompCMO<br/>Persist<br/>[2b. No CMO to Subordinate as part of transaction]<br/>alt<br/>[2b1. Separate response from Home]<br/>CompCMO<br/>Persist<br/>[2b2. Combined response from Home]<br/>CompPersist
+    Home->>Requester
+    Requester->>Home
+    Home->>Requester
+    Requester->>Subordinate: [3. No DWT]<br/>alt
+    Home->>Requester: [3a1. Separate responses from Home]<br/>DBIDResp, DBIDRespOrd<br/>Comp<br/>[3a2. Combined response from Home]<br/>CompDBIDResp
+    Home->>Requester: [3a1. Separate responses from Home]<br/>DBIDResp, DBIDRespOrd<br/>Comp<br/>[3a2. Combined response from Home]<br/>CompDBIDResp
+    Requester->>Home: [3a1. Separate responses from Home]<br/>DBIDResp, DBIDRespOrd<br/>Comp<br/>[3a2. Combined response from Home]<br/>CompDBIDResp
+    Home->>Requester
+    Requester->>Home
+    Requester->>Home: alt
+    Requester->>Home: [3b1. No CompAck required]<br/>NonCopyBackWriteData, WriteDataCancel<br/>[3b2. CompAck required]<br/>alt<br/>[3b2a. Separate response from Requester]<br/>NonCopyBackWriteData, WriteDataCancel<br/>CompAck<br/>[3b2b. Combined response from Requester]<br/>NonCopyBackWriteDataCompAck
+    Requester->>Home
+    Requester->>Home
+    Requester->>Home: [3c1. Combined write without DWT to Subordinate]
+    Home->>Subordinate: WriteNoSnpPtlCleanShPerSep, WriteNoSnpFullCleanShPerSep<br/>(DoDWT=0)
+    Subordinate->>Home: [3c1a. Separate responses from Subordinate]<br/>DBIDResp<br/>Comp<br/>[3c1b. Combined response from Subordinate]<br/>CompDBIDResp
+    Subordinate->>Home: [3c1a. Separate responses from Subordinate]<br/>DBIDResp<br/>Comp<br/>[3c1b. Combined response from Subordinate]<br/>CompDBIDResp
+    Home->>Subordinate: [3c1a. Separate responses from Subordinate]<br/>DBIDResp<br/>Comp<br/>[3c1b. Combined response from Subordinate]<br/>CompDBIDResp
+    Subordinate->>Home: NonCopyBackWriteData, WriteDataCancel<br/>CompCMO
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel<br/>CompCMO
+    Subordinate->>Home: NonCopyBackWriteData, WriteDataCancel<br/>CompCMO
+    Home->>Requester
+    Subordinate->>Requester
+    Requester->>Subordinate: CompCMO<br/>Persist<br/>[3c2. All CMO responses from Home]<br/>alt<br/>[3c2a. Separate response from Home]<br/>CompCMO<br/>Persist<br/>[3c2b. Combined response from Home]<br/>CompPersist
+    Home->>Requester: CompCMO<br/>Persist<br/>[3c2. All CMO responses from Home]<br/>alt<br/>[3c2a. Separate response from Home]<br/>CompCMO<br/>Persist<br/>[3c2b. Combined response from Home]<br/>CompPersist
+    Home->>Requester
+    Requester->>Home
+    Home->>Requester: [3c3. Only CMO transaction to Subordinate]
+    Requester->>Subordinate: [3c3. Only CMO transaction to Subordinate]
+    Home->>Subordinate: CleanSharedPersistSep<br/>Comp
+    Subordinate->>Home: CleanSharedPersistSep<br/>Comp
+    Home->>Requester: CompCMO<br/>Persist
+    Subordinate->>Requester: CompCMO<br/>Persist

@@ -1,0 +1,50 @@
+sequenceDiagram
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    participant RN_I as RN-I
+    HN_F->>RN_I: WriteUnique-A
+    RN_I->>HN_F: WriteUnique-A
+    RN_I->>HN_F: WriteUnique-A
+    HN_F->>RN_I: DBIDResp-A
+    RN_F2->>HN_F: SnpCleanInvalid-A
+    HN_F->>RN_F2: SnpCleanInvalid-A
+    HN_F->>RN_I: DBIDResp-A
+    RN_I->>HN_F: DBIDResp-A
+    HN_F->>RN_F2: SnpCleanInvalid-A
+    RN_F2->>HN_F: SnpResp_I-A
+    HN_F->>RN_I: NCBWrData-A
+    RN_I->>HN_F: NCBWrData-A
+    RN_I->>HN_F: NCBWrData-A
+    HN_F->>RN_I: WriteUnique-B
+    RN_I->>HN_F: WriteUnique-B
+    RN_I->>HN_F: WriteUnique-B
+    RN_F1->>RN_F2: SnpCleanInvalid-A
+    RN_F2->>RN_F1: SnpCleanInvalid-A
+    RN_F2->>HN_F: SnpCleanInvalid-B
+    HN_F->>RN_F2: SnpCleanInvalid-B
+    HN_F->>RN_F1: SnpCleanInvalid-B
+    RN_F2->>HN_F: SnpCleanInvalid-B
+    RN_F1->>RN_F2: SnpResp_I-B
+    HN_F->>RN_F2: SnpCleanInvalid-B
+    HN_F->>RN_F2: SnpCleanInvalid-B
+    RN_F2->>RN_F1: SnpResp_I-B
+    RN_F1->>HN_F: SnpResp_I-B
+    RN_F1->>RN_F2: SnpResp_I-A
+    RN_F2->>HN_F: SnpResp_I-B
+    RN_F2->>RN_F1: SnpResp_I-A
+    RN_F2->>HN_F: SnpResp_I-B
+    HN_F->>RN_F2: SnpResp_I-B
+    RN_F1->>HN_F: SnpResp_I-B
+    HN_F->>RN_I: Comp-B
+    HN_F->>RN_I: Comp-B
+    RN_I->>HN_F: Comp-B
+    HN_F->>RN_I: Comp-A
+    HN_F->>RN_I: Comp-A
+    RN_I->>HN_F: Comp-A
+    HN_F->>RN_I: CompAck-A
+    RN_I->>HN_F: CompAck-A
+    RN_I->>HN_F: CompAck-A
+    HN_F->>RN_I: CompAck-B
+    RN_I->>HN_F: CompAck-B
+    RN_I->>HN_F: CompAck-B

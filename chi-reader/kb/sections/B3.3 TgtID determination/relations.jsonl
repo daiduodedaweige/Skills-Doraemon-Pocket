@@ -1,0 +1,25 @@
+{"relationId": "B3_3_rel_001", "pdfId": "B3.3", "from": "CompAck", "to": "NonCopyBackWriteDataCompAck", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_002", "pdfId": "B3.3", "from": "CompAck", "to": "WriteData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_003", "pdfId": "B3.3", "from": "CompStashDone", "to": "StashDone", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_004", "pdfId": "B3.3", "from": "IMPLEMENTATION", "to": "SPECIFIC", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_005", "pdfId": "B3.3", "from": "NonCopyBackWriteDataCompAck", "to": "CompAck", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_006", "pdfId": "B3.3", "from": "NonCopyBackWriteDataCompAck", "to": "WriteData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_007", "pdfId": "B3.3", "from": "SPECIFIC", "to": "IMPLEMENTATION", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_008", "pdfId": "B3.3", "from": "SnpResp", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_009", "pdfId": "B3.3", "from": "SnpResp", "to": "SnpRespDataPtl", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_010", "pdfId": "B3.3", "from": "SnpRespData", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_011", "pdfId": "B3.3", "from": "SnpRespData", "to": "SnpRespDataPtl", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_012", "pdfId": "B3.3", "from": "SnpRespDataFwded", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_013", "pdfId": "B3.3", "from": "SnpRespDataFwded", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_014", "pdfId": "B3.3", "from": "SnpRespDataFwded", "to": "SnpRespDataPtl", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_015", "pdfId": "B3.3", "from": "SnpRespDataFwded", "to": "SnpRespFwded", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_016", "pdfId": "B3.3", "from": "SnpRespDataPtl", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_017", "pdfId": "B3.3", "from": "SnpRespDataPtl", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_018", "pdfId": "B3.3", "from": "SnpRespFwded", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_019", "pdfId": "B3.3", "from": "SnpRespFwded", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_020", "pdfId": "B3.3", "from": "SnpRespFwded", "to": "SnpRespDataFwded", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_021", "pdfId": "B3.3", "from": "SnpRespFwded", "to": "SnpRespDataPtl", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_022", "pdfId": "B3.3", "from": "StashDone", "to": "CompStashDone", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C002"]}
+{"relationId": "B3_3_rel_023", "pdfId": "B3.3", "from": "WriteData", "to": "CompAck", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_024", "pdfId": "B3.3", "from": "WriteData", "to": "NonCopyBackWriteDataCompAck", "relationType": "co-mentioned", "sourceChunks": ["B3_3_C001", "B3_3_C002"]}
+{"relationId": "B3_3_rel_025", "pdfId": "B3.3", "from": "B3_3_vp_001", "to": "B3_3_rule_001", "relationType": "verifies", "sourceChunks": ["B3_3_C002"]}

@@ -1,0 +1,33 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant UDP as UDP
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    RN_F0->>HN_F: Note
+    HN_F->>RN_F0: 6. RN-F0 deallocates the request and sends CompAck towards the HN-F.
+    UDP->>RN_F1: ReadUnique
+    RN_F0->>RN_F2: ReadUnique
+    RN_F1->>UDP: ReadUnique
+    RN_F2->>HN_F: ReadNoSnp
+    HN_F->>RN_F2: ReadNoSnp
+    HN_F->>RN_F2: ReadNoSnp
+    RN_F1->>RN_F2: SnpUnique
+    RN_F2->>UDP: SnpUnique
+    RN_F2->>RN_F1: SnpUnique
+    UDP->>RN_F1: SnpUnique
+    RN_F1->>UDP: SnpUnique
+    UDP->>RN_F1: SnpRespDataPtl_I_PD
+    RN_F1->>RN_F2: SnpResp_I
+    RN_F1->>RN_F2: SnpResp_I
+    RN_F1->>UDP: SnpRespDataPtl_I_PD
+    RN_F2->>HN_F: CompData_I
+    RN_F2->>RN_F1: SnpResp_I
+    HN_F->>RN_F2: CompData_I
+    UDP->>RN_F2: SnpResp_I
+    UDP->>RN_F1: CompData_UD_PD
+    RN_F2->>RN_F0: CompData_UD_PD
+    RN_F1->>UDP: CompData_UD_PD
+    UDP->>RN_F1: CompAck
+    RN_F0->>RN_F2: CompAck
+    RN_F1->>UDP: CompAck

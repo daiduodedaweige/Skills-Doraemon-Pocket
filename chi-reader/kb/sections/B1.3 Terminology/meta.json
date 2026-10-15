@@ -1,0 +1,47 @@
+{
+  "pdfId": "B1.3",
+  "sourceFile": "B1.3 Terminology.md",
+  "title": "Terminology",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Terminology",
+    "Physical",
+    "IPA",
+    "Subordinate",
+    "ICN",
+    "Point",
+    "Address",
+    "DVM"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 13,
+    "rules": 2,
+    "flows": 0,
+    "verification": 2,
+    "relations": 15,
+    "tables": 0,
+    "figures": 0
+  }
+}

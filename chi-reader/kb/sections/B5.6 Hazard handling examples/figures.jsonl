@@ -1,0 +1,6 @@
+{"figureId": "B5_6_figure_001", "pdfId": "B5.6", "label": "B5.26", "title": "shows a further example of a Snoop request hazarding with an outstanding CopyBack request. In", "sourceChunks": ["B5_6_C002"]}
+{"figureId": "B5_6_figure_002", "pdfId": "B5.6", "label": "B5.26", "title": "CopyBack-Snoop hazard with no cache state change example", "sourceChunks": ["B5_6_C002"]}
+{"figureId": "B5_6_figure_003", "pdfId": "B5.6", "label": "B5.27", "title": "shows an example where a ReadShared and a ReadUnique , for the same cache line, arrive at the", "sourceChunks": ["B5_6_C003"]}
+{"figureId": "B5_6_figure_004", "pdfId": "B5.6", "label": "B5.27", "title": "Read-Read request hazard example", "sourceChunks": ["B5_6_C003"]}
+{"figureId": "B5_6_figure_005", "pdfId": "B5.6", "label": "B5.28", "title": "shows the case where a ReadShared and a WriteBack , for the same cache line, arrive at the HN-F at", "sourceChunks": ["B5_6_C005"]}
+{"figureId": "B5_6_figure_006", "pdfId": "B5.6", "label": "B5.28", "title": "Read - CopyBack or Dataless - CopyBack hazard example", "sourceChunks": ["B5_6_C005"]}

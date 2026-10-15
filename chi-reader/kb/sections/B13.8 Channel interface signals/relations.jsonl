@@ -1,0 +1,29 @@
+{"relationId": "B13_8_rel_001", "pdfId": "B13.8", "from": "DATFLIT", "to": "DAT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004", "B13_8_C005"]}
+{"relationId": "B13_8_rel_002", "pdfId": "B13.8", "from": "DATFLITPEND", "to": "DAT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_003", "pdfId": "B13.8", "from": "DATFLITPEND", "to": "DATFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_004", "pdfId": "B13.8", "from": "DATFLITPEND", "to": "RXDATFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_005", "pdfId": "B13.8", "from": "DATFLITPEND", "to": "RXDATFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_006", "pdfId": "B13.8", "from": "HIGH", "to": "REQ", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002", "B13_8_C003"]}
+{"relationId": "B13_8_rel_007", "pdfId": "B13.8", "from": "HIGH", "to": "REQLCRDV", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002", "B13_8_C003"]}
+{"relationId": "B13_8_rel_008", "pdfId": "B13.8", "from": "REQLCRDV", "to": "REQ", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001"]}
+{"relationId": "B13_8_rel_009", "pdfId": "B13.8", "from": "REQLCRDV", "to": "RP", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001"]}
+{"relationId": "B13_8_rel_010", "pdfId": "B13.8", "from": "RP", "to": "REQ", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002", "B13_8_C003"]}
+{"relationId": "B13_8_rel_011", "pdfId": "B13.8", "from": "RP", "to": "REQLCRDV", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002", "B13_8_C003"]}
+{"relationId": "B13_8_rel_012", "pdfId": "B13.8", "from": "RSPFLIT", "to": "RSP", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_013", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "RSP", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_014", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "RSPFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_015", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "RXRSPFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_016", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "RXRSPFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_017", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "TXRSPFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_018", "pdfId": "B13.8", "from": "RSPFLITPEND", "to": "TXRSPFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_019", "pdfId": "B13.8", "from": "RSPLCRDV", "to": "RSP", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_020", "pdfId": "B13.8", "from": "RSPLCRDV", "to": "RXRSPLCRDV", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_021", "pdfId": "B13.8", "from": "RSPLCRDV", "to": "TXRSPLCRDV", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C001", "B13_8_C002"]}
+{"relationId": "B13_8_rel_022", "pdfId": "B13.8", "from": "RXDATFLIT", "to": "DAT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_023", "pdfId": "B13.8", "from": "RXDATFLIT", "to": "DATFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_024", "pdfId": "B13.8", "from": "RXDATFLIT", "to": "DATFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_025", "pdfId": "B13.8", "from": "RXDATFLIT", "to": "RXDATFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_026", "pdfId": "B13.8", "from": "RXDATFLITPEND", "to": "DAT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_027", "pdfId": "B13.8", "from": "RXDATFLITPEND", "to": "DATFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_028", "pdfId": "B13.8", "from": "RXDATFLITPEND", "to": "DATFLITPEND", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}
+{"relationId": "B13_8_rel_029", "pdfId": "B13.8", "from": "RXDATFLITPEND", "to": "RXDATFLIT", "relationType": "co-mentioned", "sourceChunks": ["B13_8_C004"]}

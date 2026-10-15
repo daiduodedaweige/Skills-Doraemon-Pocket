@@ -1,0 +1,49 @@
+{
+  "pdfId": "B13.8",
+  "sourceFile": "B13.8 Channel interface signals.md",
+  "title": "Channel interface signals",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Channel",
+    "interface",
+    "signals",
+    "B13",
+    "L-Credit",
+    "Transmitter",
+    "HIGH",
+    "SNP"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 29,
+    "tables": 9,
+    "figures": 6
+  }
+}

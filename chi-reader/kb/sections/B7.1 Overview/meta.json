@@ -1,0 +1,52 @@
+{
+  "pdfId": "B7.1",
+  "sourceFile": "B7.1 Overview.md",
+  "title": "Overview",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "DataPull",
+    "Snoop",
+    "ReadUnique",
+    "Stash",
+    "SnpRespData",
+    "DataPullfor",
+    "ReadNotSharedDirty",
+    "SnpMakeInvalidStash"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 10,
+    "rules": 2,
+    "flows": 0,
+    "verification": 2,
+    "relations": 14,
+    "tables": 2,
+    "figures": 0
+  }
+}

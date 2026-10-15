@@ -1,0 +1,54 @@
+{
+  "pdfId": "B7.3",
+  "sourceFile": "B7.3 Independent Stash request.md",
+  "title": "Independent Stash request",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Independent",
+    "Stash",
+    "request",
+    "DataPull",
+    "StashOnce",
+    "DBID",
+    "DMT",
+    "ReadNotSharedDirty"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 12,
+    "rules": 14,
+    "flows": 0,
+    "verification": 14,
+    "relations": 33,
+    "tables": 0,
+    "figures": 0
+  }
+}

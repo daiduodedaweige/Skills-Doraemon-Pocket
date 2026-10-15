@@ -1,0 +1,55 @@
+{
+  "pdfId": "B2.6",
+  "sourceFile": "B2.6 Multi-request.md",
+  "title": "Multi-request",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Multi",
+    "request",
+    "TxnID",
+    "CacheLineID",
+    "Addr",
+    "DCT",
+    "DMT",
+    "NumReq"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 14,
+    "rules": 2,
+    "flows": 0,
+    "verification": 2,
+    "relations": 11,
+    "tables": 0,
+    "figures": 8
+  }
+}

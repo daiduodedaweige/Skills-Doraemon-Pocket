@@ -1,0 +1,54 @@
+flowchart LR
+    N001["Requester"]
+    N002["Completer"]
+    N003["*"]
+    N004["TgtID"]
+    N005["R"]
+    N006["(TgtID)"]
+    N007["*"]
+    N008["(SrcID)"]
+    N009["SrcID"]
+    N010["Request"]
+    N011["*"]
+    N012["TxnID"]
+    N013["TxnID"]
+    N014["(TgtID)"]
+    N015["TgtID<br/>(SrcID)"]
+    N016["SrcID"]
+    N017["RetryAck"]
+    N018["TxnID"]
+    N019["TxnID"]
+    N020["DBID"]
+    N021["DBID<br/>PCrdType *"]
+    N022["PCrdType"]
+    N023["(TgtID)"]
+    N024["(TgtID)"]
+    N025["SrcID"]
+    N026["SrcID"]
+    N027["PCrdGrant"]
+    N028["TxnID"]
+    N029["TxnID"]
+    N030["DBID"]
+    N031["DBID"]
+    N032["PCrdType"]
+    N033["PCrdType"]
+    N034["(TgtID)"]
+    N035["TgtID"]
+    N036["R"]
+    N037["(SrcID)"]
+    N038["SrcID"]
+    N039["Request with Credit"]
+    N040["TxnID"]
+    N041["*"]
+    N042["TxnID<br/>PCrdType"]
+    N043["PCrdType"]
+    N018 --- N022
+    N020 --- N022
+    N028 --- N032
+    N028 --> N032
+    N029 --- N033
+    N033 --> N029
+    N036 --> N035
+    N037 --> N036
+    N039 --> N040
+    N042 --> N039

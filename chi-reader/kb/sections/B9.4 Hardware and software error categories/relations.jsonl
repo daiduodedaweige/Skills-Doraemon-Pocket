@@ -1,0 +1,2 @@
+{"relationId": "B9_4_rel_001", "pdfId": "B9.4", "from": "CDA", "to": "DA", "relationType": "co-mentioned", "sourceChunks": ["B9_4_C001"]}
+{"relationId": "B9_4_rel_002", "pdfId": "B9.4", "from": "DA", "to": "CDA", "relationType": "co-mentioned", "sourceChunks": ["B9_4_C001"]}

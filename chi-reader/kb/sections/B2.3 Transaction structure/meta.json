@@ -1,0 +1,47 @@
+{
+  "pdfId": "B2.3",
+  "sourceFile": "B2.3 Transaction structure.md",
+  "title": "Transaction structure",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "structure",
+    "Subordinate",
+    "Comp",
+    "Combined",
+    "Write",
+    "Alt",
+    "CMO",
+    "DBIDResp"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 94,
+    "objects": 20,
+    "rules": 25,
+    "flows": 1,
+    "verification": 26,
+    "relations": 68,
+    "tables": 2,
+    "figures": 44
+  }
+}

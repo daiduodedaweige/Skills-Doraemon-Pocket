@@ -1,0 +1,54 @@
+{
+  "pdfId": "B5.4",
+  "sourceFile": "B5.4 Atomic transaction flows.md",
+  "title": "Atomic transaction flows",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Atomic",
+    "transaction",
+    "flows",
+    "HN-F",
+    "AtomicStore",
+    "SN-F",
+    "InitialData",
+    "RN-F0"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 9,
+    "objects": 18,
+    "rules": 3,
+    "flows": 1,
+    "verification": 4,
+    "relations": 57,
+    "tables": 0,
+    "figures": 8
+  }
+}

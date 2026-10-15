@@ -1,0 +1,51 @@
+{
+  "pdfId": "B11.7",
+  "sourceFile": "B11.7 Trace Tag.md",
+  "title": "Trace Tag",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Trace",
+    "B12",
+    "Subordinate",
+    "CompAck",
+    "CompData",
+    "HN-F",
+    "HN-I",
+    "ReadNoSnpSep"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 11,
+    "rules": 1,
+    "flows": 0,
+    "verification": 1,
+    "relations": 7,
+    "tables": 0,
+    "figures": 0
+  }
+}

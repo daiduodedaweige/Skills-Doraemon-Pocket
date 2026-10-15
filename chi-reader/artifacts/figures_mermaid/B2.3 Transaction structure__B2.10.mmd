@@ -1,0 +1,33 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Stashee as Stashee
+    Requester->>Home: [1. Write with Stash Hint]<br/>WriteUniquePtlStash, WriteUniqueFullStash
+    Home->>Stashee: [1a. SnpUniqueStash]<br/>SnpUniqueStash
+    Stashee->>Home: [1a1. No DataPull]<br/>SnpResp
+    Stashee->>Home: SnpRespData, SnpRespDataPtl
+    Home->>Stashee: [1a2. DataPull]<br/>SnpResp
+    Stashee->>Home: [1a2. DataPull]<br/>SnpResp
+    Stashee->>Home: SnpRespData, SnpRespDataPtl
+    Home->>Stashee: [1b. Other stash snoops]<br/>SnpMakeInvalidStash, SnpStashUnique, SnpStashShared
+    Home->>Stashee: [1b. Other stash snoops]<br/>SnpMakeInvalidStash, SnpStashUnique, SnpStashShared
+    Stashee->>Home: [1b1. No DataPull]<br/>SnpResp
+    Home->>Stashee: [1b2. DataPull]<br/>SnpResp
+    Stashee->>Home: [1b2. DataPull]<br/>SnpResp
+    Requester->>Stashee: [2. Independent Stash without StashDone response]<br/>StashOnceUnique, StashOnceShared
+    Requester->>Home: [2. Independent Stash without StashDone response]<br/>StashOnceUnique, StashOnceShared
+    Home->>Stashee: SnpStashUnique, SnpStashShared
+    Stashee->>Home: [2b. DataPull]
+    Home->>Stashee: [2b. DataPull]
+    Stashee->>Home: SnpResp
+    Home->>Requester: Comp<br/>[3. Independent Stash with StashDone response]<br/>StashOnceSepUnique, StashOnceSepShared
+    Requester->>Stashee: Comp<br/>[3. Independent Stash with StashDone response]<br/>StashOnceSepUnique, StashOnceSepShared
+    Requester->>Home: opt
+    Home->>Stashee: SnpStashUnique, SnpStashShared
+    Stashee->>Home: [3a1. No DataPull]<br/>SnpResp
+    Home->>Stashee: [3a2. DataPull]<br/>SnpResp
+    Stashee->>Home: [3a2. DataPull]<br/>SnpResp
+    Home->>Requester: [3b1. Separate response from Home]<br/>Comp
+    Home->>Requester: StashDone<br/>[3b2. Combined response from Home]<br/>CompStashDone
+    Requester->>Home: StashDone<br/>[3b2. Combined response from Home]<br/>CompStashDone
+    Home->>Requester: StashDone<br/>[3b2. Combined response from Home]<br/>CompStashDone

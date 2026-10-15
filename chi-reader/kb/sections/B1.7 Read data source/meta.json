@@ -1,0 +1,48 @@
+{
+  "pdfId": "B1.7",
+  "sourceFile": "B1.7 Read data source.md",
+  "title": "Read data source",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "data",
+    "source",
+    "This",
+    "Channels",
+    "Channel",
+    "Multi-request",
+    "Ordering",
+    "Address"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

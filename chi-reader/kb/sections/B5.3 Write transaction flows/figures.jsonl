@@ -1,0 +1,5 @@
+{"figureId": "B5_3_figure_001", "pdfId": "B5.3", "label": "B5.15", "title": "shows the flow, the copy of data being transferred is marked in bold.", "sourceChunks": ["B5_3_C001"]}
+{"figureId": "B5_3_figure_002", "pdfId": "B5.3", "label": "B5.16", "title": "shows the transaction flow.", "sourceChunks": ["B5_3_C001"]}
+{"figureId": "B5_3_figure_003", "pdfId": "B5.3", "label": "B5.16", "title": "WriteUniquePtl with snoop", "sourceChunks": ["B5_3_C001"]}
+{"figureId": "B5_3_figure_004", "pdfId": "B5.3", "label": "B5.17", "title": "shows the transaction flow.", "sourceChunks": ["B5_3_C002"]}
+{"figureId": "B5_3_figure_005", "pdfId": "B5.3", "label": "B5.17", "title": "WriteBackFull transaction flow", "sourceChunks": ["B5_3_C002"]}

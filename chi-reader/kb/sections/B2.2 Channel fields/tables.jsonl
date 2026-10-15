@@ -1,0 +1,14 @@
+{"tableId": "B2_2_table_001", "pdfId": "B2.2", "label": "B2.2", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C001"], "rawHeader": "Field Affects"}
+{"tableId": "B2_2_table_002", "pdfId": "B2.2", "label": "B2.2", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C001"], "rawHeader": "Field Affects"}
+{"tableId": "B2_2_table_003", "pdfId": "B2.2", "label": "B2.2", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C001"], "rawHeader": "Field Affects"}
+{"tableId": "B2_2_table_004", "pdfId": "B2.2", "label": "B2.3", "title": "describes the fields associated with a Response packet.", "sourceChunks": ["B2_2_C006"], "rawHeader": "Table B2.3: Response packet fields"}
+{"tableId": "B2_2_table_005", "pdfId": "B2.2", "label": "B2.3", "title": "Response packet fields", "sourceChunks": ["B2_2_C006"], "rawHeader": "Field Description"}
+{"tableId": "B2_2_table_006", "pdfId": "B2.2", "label": "B2.3", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C008"], "rawHeader": "Field Description"}
+{"tableId": "B2_2_table_007", "pdfId": "B2.2", "label": "B2.4", "title": "shows the Snoop request fields. Many of the Snoop request fields are the same as fields defined for the", "sourceChunks": ["B2_2_C008"], "rawHeader": "Request channel."}
+{"tableId": "B2_2_table_008", "pdfId": "B2.2", "label": "B2.4", "title": "Snoop request fields", "sourceChunks": ["B2_2_C008"], "rawHeader": "Field Affects"}
+{"tableId": "B2_2_table_009", "pdfId": "B2.2", "label": "B2.4", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C010"], "rawHeader": "Field Affects"}
+{"tableId": "B2_2_table_010", "pdfId": "B2.2", "label": "B2.5", "title": "describes the fields associated with a Data packet. Data packets can be sent on the RDAT or WDAT", "sourceChunks": ["B2_2_C011"], "rawHeader": "channels. The fields in a Data packet do not affect the transaction structure."}
+{"tableId": "B2_2_table_011", "pdfId": "B2.2", "label": "B2.5", "title": "Data packet fields", "sourceChunks": ["B2_2_C011"], "rawHeader": "Field Description"}
+{"tableId": "B2_2_table_012", "pdfId": "B2.2", "label": "B2.2", "title": ". See B11.4 MPAM .", "sourceChunks": ["B2_2_C012"], "rawHeader": "TraceTag No Trace Tag. As defined in Table B2.2 . See Chapter System B11 Control,"}
+{"tableId": "B2_2_table_013", "pdfId": "B2.2", "label": "B2.5", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C012"], "rawHeader": "Field Description"}
+{"tableId": "B2_2_table_014", "pdfId": "B2.2", "label": "B2.5", "title": "–Continued from previous page", "sourceChunks": ["B2_2_C012"], "rawHeader": "Field Description"}

@@ -1,0 +1,15 @@
+{"relationId": "B13_6_rel_001", "pdfId": "B13.6", "from": "GPU", "to": "IO", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_002", "pdfId": "B13.6", "from": "IO", "to": "RN-I", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_003", "pdfId": "B13.6", "from": "IO", "to": "SNP", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_004", "pdfId": "B13.6", "from": "RN-I", "to": "IO", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_005", "pdfId": "B13.6", "from": "RN-I", "to": "SNP", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_006", "pdfId": "B13.6", "from": "RX", "to": "SN-F", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_007", "pdfId": "B13.6", "from": "RX", "to": "SN-I", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_008", "pdfId": "B13.6", "from": "RX", "to": "TX", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_009", "pdfId": "B13.6", "from": "SN-F", "to": "SN-I", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_010", "pdfId": "B13.6", "from": "SN-I", "to": "SN-F", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_011", "pdfId": "B13.6", "from": "SNP", "to": "IO", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_012", "pdfId": "B13.6", "from": "SNP", "to": "RN-I", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_013", "pdfId": "B13.6", "from": "TX", "to": "RX", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_014", "pdfId": "B13.6", "from": "TX", "to": "SN-F", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}
+{"relationId": "B13_6_rel_015", "pdfId": "B13.6", "from": "TX", "to": "SN-I", "relationType": "co-mentioned", "sourceChunks": ["B13_6_C001"]}

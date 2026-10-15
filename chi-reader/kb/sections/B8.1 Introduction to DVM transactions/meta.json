@@ -1,0 +1,40 @@
+{
+  "pdfId": "B8.1",
+  "sourceFile": "B8.1 Introduction to DVM transactions.md",
+  "title": "Introduction to DVM transactions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "to",
+    "DVM",
+    "transactions"
+  ],
+  "contentTypes": {
+    "hasChunks": false,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": false,
+    "reviewed": false,
+    "quality": "empty-source",
+    "notes": "Source markdown is empty; only metadata and empty record files were generated."
+  },
+  "recordStats": {
+    "chunks": 0,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

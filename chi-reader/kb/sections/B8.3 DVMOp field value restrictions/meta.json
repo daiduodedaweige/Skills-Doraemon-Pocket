@@ -1,0 +1,51 @@
+{
+  "pdfId": "B8.3",
+  "sourceFile": "B8.3 DVMOp field value restrictions.md",
+  "title": "DVMOp field value restrictions",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "DVMOp",
+    "field",
+    "value",
+    "restrictions",
+    "Must",
+    "None",
+    "Can",
+    "SnpResp"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 60,
+    "tables": 11,
+    "figures": 0
+  }
+}

@@ -1,0 +1,2 @@
+{"relationId": "C5_9_rel_001", "pdfId": "C5.9", "from": "DAT", "to": "DataPull", "relationType": "co-mentioned", "sourceChunks": ["C5_9_C001"]}
+{"relationId": "C5_9_rel_002", "pdfId": "C5.9", "from": "DataPull", "to": "DAT", "relationType": "co-mentioned", "sourceChunks": ["C5_9_C001"]}

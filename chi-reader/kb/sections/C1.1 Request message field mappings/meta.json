@@ -1,0 +1,50 @@
+{
+  "pdfId": "C1.1",
+  "sourceFile": "C1.1 Request message field mappings.md",
+  "title": "Request message field mappings",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "message",
+    "field",
+    "mappings",
+    "Write",
+    "Part",
+    "CAH",
+    "AllowRetry",
+    "DataTarget"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 13,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 38,
+    "tables": 12,
+    "figures": 0
+  }
+}

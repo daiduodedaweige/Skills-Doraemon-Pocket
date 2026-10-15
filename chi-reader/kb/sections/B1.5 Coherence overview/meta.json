@@ -1,0 +1,47 @@
+{
+  "pdfId": "B1.5",
+  "sourceFile": "B1.5 Coherence overview.md",
+  "title": "Coherence overview",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Coherence",
+    "overview",
+    "When",
+    "UCE",
+    "UDP",
+    "Unique",
+    "Dirty",
+    "Full"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Cache state rules"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 6,
+    "rules": 1,
+    "flows": 0,
+    "verification": 1,
+    "relations": 13,
+    "tables": 0,
+    "figures": 2
+  }
+}

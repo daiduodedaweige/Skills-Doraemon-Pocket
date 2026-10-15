@@ -1,0 +1,52 @@
+{
+  "pdfId": "B4.3",
+  "sourceFile": "B4.3 Snoop request types.md",
+  "title": "Snoop request types",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Snoop",
+    "request",
+    "types",
+    "Snoopee",
+    "SnpQuery",
+    "Must",
+    "Unique",
+    "Dirty"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 20,
+    "rules": 10,
+    "flows": 0,
+    "verification": 10,
+    "relations": 17,
+    "tables": 0,
+    "figures": 0
+  }
+}

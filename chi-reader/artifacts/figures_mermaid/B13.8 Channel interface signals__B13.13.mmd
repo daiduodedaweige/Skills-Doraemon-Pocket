@@ -1,0 +1,47 @@
+flowchart LR
+    N001["Table B13.3 – Continued from previous page"]
+    N002["Signal"]
+    N003["Presence"]
+    N004["Description"]
+    N005["Response Flit. See B13.9.2 Response flit for a description"]
+    N006["RSPFLIT[(T-1):0]"]
+    N007["Always."]
+    N008["of the RSP flit format."]
+    N009["RSPLCRDV"]
+    N010["Always."]
+    N011["B13.8.3"]
+    N012["Snoop, SNP, channel"]
+    N013["Figure B13.13 shows the SNP channel interface pins, where S is the width of SNPFLIT ."]
+    N014["Transmitter"]
+    N015["Receiver"]
+    N016["SNPFLITPEND"]
+    N017["TXSNPFLITPEND"]
+    N018["RXSNPFLITPEND"]
+    N019["SNPFLITV"]
+    N020["TXSNPFLITV"]
+    N021["RXSNPFLITV"]
+    N022["SNPFLIT[FLIT_WIDTH-1:0]"]
+    N023["TXSNPFLIT"]
+    N024["RXSNPFLIT"]
+    N025["SNPFLITRP[clog 2 (Num_RP_SNP)-1:0]"]
+    N026["TXSNPFLITRP"]
+    N027["RXSNPFLITRP"]
+    N028["SNPSHAREDCRD"]
+    N029["TXSNPSHAREDCRD"]
+    N030["RXSNPSHAREDCRD"]
+    N031["RXSNPLCRDV"]
+    N032["TXSNPLCRDV"]
+    N033["SNPLCRDV[Num_RP_SNP-1:0]"]
+    N034["SNPLCRDSHV"]
+    N035["TXSNPLCRDSHV"]
+    N036["RXSNPLCRDSHV"]
+    N002 --- N001
+    N002 --- N005
+    N009 --- N005
+    N017 --> N018
+    N020 --> N021
+    N023 --> N024
+    N026 --> N027
+    N029 --> N030
+    N031 --> N032
+    N036 --> N035

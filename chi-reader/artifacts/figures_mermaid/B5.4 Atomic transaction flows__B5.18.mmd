@@ -1,0 +1,56 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F2_UD as RN-F2<br/>UD
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>RN_F2_UD: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_UD->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F1->>RN_F2_UD: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F0->>HN_F: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_UD->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F1->>RN_F2_UD: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_UD->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    SN_F->>HN_F
+    RN_F2_UD->>HN_F: SnpUnique
+    HN_F->>SN_F: ReadNoSnp
+    HN_F->>RN_F2_UD: SnpUnique
+    HN_F->>RN_F0: SnpUnique
+    HN_F->>SN_F: ReadNoSnp
+    HN_F->>RN_F2_UD: SnpUnique
+    HN_F->>RN_F1: SnpUnique
+    SN_F->>HN_F: ReadNoSnp
+    RN_F1->>RN_F2_UD: SnpUnique
+    RN_F0->>RN_F1: DBIDResp
+    RN_F2_UD->>RN_F1: SnpUnique
+    RN_F1->>RN_F0: DBIDResp
+    HN_F->>SN_F: RespData_I
+    RN_F2_UD->>HN_F: SnpRespData_I_PD
+    RN_F1->>RN_F2_UD: SnpResp_I
+    SN_F->>HN_F: RespData_I
+    RN_F2_UD->>HN_F: SnpRespData_I_PD
+    RN_F2_UD->>HN_F: SnpRespData_I_PD
+    HN_F->>RN_F2_UD: SnpRespData_I_PD
+    RN_F2_UD->>RN_F1: SnpResp_I
+    RN_F1->>HN_F: (InitialData)
+    HN_F->>RN_F2_UD: (InitialData)
+    RN_F1->>RN_F2_UD: NCBWrData<br/>(TxnData)
+    RN_F0->>HN_F: NCBWrData<br/>(TxnData)
+    RN_F2_UD->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2_UD: NCBWrData<br/>(TxnData)
+    RN_F2_UD->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2_UD: CompData_I
+    HN_F->>SN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    RN_F2_UD->>RN_F1: CompData_I
+    RN_F1->>RN_F2_UD: CompData_I
+    HN_F->>RN_F0: (InitialData)
+    SN_F->>HN_F: WriteNoSnp
+    RN_F2_UD->>RN_F1: (InitialData)
+    HN_F->>SN_F: CompDBIDResp
+    SN_F->>HN_F: CompDBIDResp
+    SN_F->>HN_F: NCBWrData<br/>(NewData)
+    HN_F->>SN_F: NCBWrData<br/>(NewData)
+    SN_F->>HN_F: NCBWrData<br/>(NewData)
+    HN_F->>SN_F: NCBWrData<br/>(NewData)
+    SN_F->>HN_F: NCBWrData<br/>(NewData)

@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    Requester->>Home: [1. AtomicStore]<br/>AtomicStore
+    Home->>Requester: [1a. Separate responses]<br/>DBIDResp, DBIDRespOrd
+    Home->>Requester: Comp
+    Requester->>Home: [1b. Combined response]<br/>CompDBIDResp
+    Home->>Requester: [1b. Combined response]<br/>CompDBIDResp
+    Requester->>Home: NonCopyBackWriteData
+    Home->>Requester: [TagMatch response]<br/>TagMatch
+    Requester->>Home: [2. Other Atomic Transactions]<br/>AtomicLoad, AtomicSwap, or AtomicCompare
+    Requester->>Home: [2. Other Atomic Transactions]<br/>AtomicLoad, AtomicSwap, or AtomicCompare
+    Home->>Requester: DBIDResp, DBIDRespOrd
+    Requester->>Home: NonCopyBackWriteData
+    Home->>Requester: CompData
+    Home->>Requester: [TagMatch response]<br/>TagMatch

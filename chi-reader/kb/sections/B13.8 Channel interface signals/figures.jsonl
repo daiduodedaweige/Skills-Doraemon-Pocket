@@ -1,0 +1,6 @@
+{"figureId": "B13_8_figure_001", "pdfId": "B13.8", "label": "B13.12", "title": "shows the RSP channel interface pins, where T is the width RSPFLIT of . The same interface is", "sourceChunks": ["B13_8_C001"]}
+{"figureId": "B13_8_figure_002", "pdfId": "B13.8", "label": "B13.12", "title": "RSP channel interface pins", "sourceChunks": ["B13_8_C001"]}
+{"figureId": "B13_8_figure_003", "pdfId": "B13.8", "label": "B13.13", "title": "shows the SNP channel interface pins, where S is the width SNPFLIT of .", "sourceChunks": ["B13_8_C002"]}
+{"figureId": "B13_8_figure_004", "pdfId": "B13.8", "label": "B13.13", "title": "SNP channel interface pins", "sourceChunks": ["B13_8_C002"]}
+{"figureId": "B13_8_figure_005", "pdfId": "B13.8", "label": "B13.14", "title": "shows the DAT channel interface pins, where D is the width DATFLIT of . The same interface is", "sourceChunks": ["B13_8_C004"]}
+{"figureId": "B13_8_figure_006", "pdfId": "B13.8", "label": "B13.14", "title": "DAT channel interface", "sourceChunks": ["B13_8_C004"]}

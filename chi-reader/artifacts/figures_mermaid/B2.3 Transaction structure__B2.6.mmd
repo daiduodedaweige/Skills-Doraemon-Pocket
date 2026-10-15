@@ -1,0 +1,31 @@
+sequenceDiagram
+    participant Requester as Requester
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Requester->>Home: [1. Combined Write to Subordinate with DWT]
+    Home->>Subordinate
+    Subordinate->>Requester: DBIDResp
+    Requester->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Subordinate->>Home: CompCMO
+    Home->>Requester: CompCMO
+    Requester->>Subordinate: [2. Non-combined write to Subordinate with DWT]
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull<br/>(DoDWT=1)
+    Subordinate->>Requester: DBIDResp
+    Requester->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: Comp
+    Home->>Requester: Comp
+    Home->>Requester: CompCMO
+    Requester->>Subordinate: CompCMO
+    Home->>Requester: [3a1. Separate responses from Home]<br/>DBIDResp, DBIDRespOrd
+    Home->>Requester: Comp
+    Requester->>Home: [3a2. Combined response from Home]<br/>CompDBIDResp
+    Home->>Requester: [3a2. Combined response from Home]<br/>CompDBIDResp
+    Requester->>Home: [3b1. No CompAck required]<br/>NonCopyBackWriteData, WriteDataCancel
+    Requester->>Home
+    Requester->>Home: CompAck
+    Requester->>Home: CompAck
+    Requester->>Home: [3b2b. Combined response from Requester]<br/>NonCopyBackWriteDataCompAck
+    Requester->>Home: [3b2b. Combined response from Requester]<br/>NonCopyBackWriteDataCompAck
+    Home->>Requester: CompCMO

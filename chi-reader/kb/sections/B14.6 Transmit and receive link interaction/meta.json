@@ -1,0 +1,47 @@
+{
+  "pdfId": "B14.6",
+  "sourceFile": "B14.6 Transmit and receive link interaction.md",
+  "title": "Transmit and receive link interaction",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Transmit",
+    "and",
+    "receive",
+    "link",
+    "interaction",
+    "TxStop",
+    "RxStop",
+    "RxRun"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Link layer signaling"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 12,
+    "objects": 15,
+    "rules": 14,
+    "flows": 0,
+    "verification": 14,
+    "relations": 53,
+    "tables": 4,
+    "figures": 7
+  }
+}

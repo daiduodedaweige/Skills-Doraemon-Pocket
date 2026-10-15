@@ -1,0 +1,5 @@
+{"figureId": "B5_2_figure_001", "pdfId": "B5.2", "label": "B5.12", "title": "shows the transaction flow.", "sourceChunks": ["B5_2_C001"]}
+{"figureId": "B5_2_figure_002", "pdfId": "B5.2", "label": "B5.13", "title": "shows the transaction flow.", "sourceChunks": ["B5_2_C002"]}
+{"figureId": "B5_2_figure_003", "pdfId": "B5.2", "label": "B5.13", "title": "CleanSharedPersistSep transaction flow", "sourceChunks": ["B5_2_C002"]}
+{"figureId": "B5_2_figure_004", "pdfId": "B5.2", "label": "B5.14", "title": "shows the Evict transaction flow.", "sourceChunks": ["B5_2_C002"]}
+{"figureId": "B5_2_figure_005", "pdfId": "B5.2", "label": "B5.14", "title": "Evict transaction flow", "sourceChunks": ["B5_2_C002"]}

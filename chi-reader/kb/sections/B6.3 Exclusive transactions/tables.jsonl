@@ -1,0 +1,3 @@
+{"tableId": "B6_3_table_001", "pdfId": "B6.3", "label": "B6.2", "title": "shows the Snoopable attributes of the request, the relevant monitor type and possible reasons for fail", "sourceChunks": ["B6_3_C002"], "rawHeader": "conditions and response requirements."}
+{"tableId": "B6_3_table_002", "pdfId": "B6.3", "label": "B6.2", "title": "Responses to an Exclusive access request", "sourceChunks": ["B6_3_C003"], "rawHeader": "Request type Snoopable"}
+{"tableId": "B6_3_table_003", "pdfId": "B6.3", "label": "B6.2", "title": "–Continued from previous page", "sourceChunks": ["B6_3_C003"], "rawHeader": "Request type Snoopable"}

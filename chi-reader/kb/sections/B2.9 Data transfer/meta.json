@@ -1,0 +1,50 @@
+{
+  "pdfId": "B2.9",
+  "sourceFile": "B2.9 Data transfer.md",
+  "title": "Data transfer",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "transfer",
+    "DataID",
+    "CCID",
+    "NumDat",
+    "Replicate",
+    "Not",
+    "Size",
+    "Addr"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 27,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 45,
+    "tables": 4,
+    "figures": 14
+  }
+}

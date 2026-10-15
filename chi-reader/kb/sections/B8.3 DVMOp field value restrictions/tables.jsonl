@@ -1,0 +1,11 @@
+{"tableId": "B8_3_table_001", "pdfId": "B8.3", "label": "B8.1", "title": "–Continued from previous page", "sourceChunks": ["B8_3_C001"], "rawHeader": "Field name Restriction"}
+{"tableId": "B8_3_table_002", "pdfId": "B8.3", "label": "B8.2", "title": "shows the Response DBIDResp, SnpResp, and Comp and CompDBIDResp message field value", "sourceChunks": ["B8_3_C001"], "rawHeader": "restrictions during a DVMOp transaction."}
+{"tableId": "B8_3_table_003", "pdfId": "B8.3", "label": "B8.2", "title": "Restrictions for response message field values during DVMOp", "sourceChunks": ["B8_3_C001"], "rawHeader": "Field DBIDResp messages Comp and CompDBIDResp SnpResp messages"}
+{"tableId": "B8_3_table_004", "pdfId": "B8.3", "label": "B8.2", "title": "–Continued from previous page", "sourceChunks": ["B8_3_C001"], "rawHeader": "Field DBIDResp messages Comp and CompDBIDResp SnpResp messages"}
+{"tableId": "B8_3_table_005", "pdfId": "B8.3", "label": "B8.3", "title": "shows the Snoop message field (SnpDVMOp) value restrictions during a DVMOp transaction.", "sourceChunks": ["B8_3_C002"], "rawHeader": "Table B8.3: Snoop message field value restrictions for DVMOp"}
+{"tableId": "B8_3_table_006", "pdfId": "B8.3", "label": "B8.3", "title": "Snoop message field value restrictions for DVMOp", "sourceChunks": ["B8_3_C002"], "rawHeader": "Field name Restriction"}
+{"tableId": "B8_3_table_007", "pdfId": "B8.3", "label": "B8.14", "title": ".", "sourceChunks": ["B8_3_C003"], "rawHeader": "Continued on next page"}
+{"tableId": "B8_3_table_008", "pdfId": "B8.3", "label": "B8.3", "title": "–Continued from previous page", "sourceChunks": ["B8_3_C003"], "rawHeader": "Field name Restriction"}
+{"tableId": "B8_3_table_009", "pdfId": "B8.3", "label": "B8.4", "title": "shows the Data message field value restrictions for a DVMOp transaction.", "sourceChunks": ["B8_3_C004"], "rawHeader": "Field name Restriction"}
+{"tableId": "B8_3_table_010", "pdfId": "B8.3", "label": "B8.4", "title": "Data message field value restrictions for DVMOp", "sourceChunks": ["B8_3_C004"], "rawHeader": "Addr ( Req_Addr_Width) - 3."}
+{"tableId": "B8_3_table_011", "pdfId": "B8.3", "label": "B8.4", "title": "–Continued from previous page", "sourceChunks": ["B8_3_C005"], "rawHeader": "be NonCopyBackWriteData."}

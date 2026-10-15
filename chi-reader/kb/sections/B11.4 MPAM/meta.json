@@ -1,0 +1,47 @@
+{
+  "pdfId": "B11.4",
+  "sourceFile": "B11.4 MPAM.md",
+  "title": "MPAM",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "MPAM",
+    "MPAMSP",
+    "PAS",
+    "B11",
+    "DataPull",
+    "PerfMonGroup",
+    "Non-secure",
+    "Stash"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 5,
+    "rules": 7,
+    "flows": 0,
+    "verification": 7,
+    "relations": 21,
+    "tables": 4,
+    "figures": 0
+  }
+}

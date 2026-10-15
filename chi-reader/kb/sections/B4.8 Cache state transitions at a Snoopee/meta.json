@@ -1,0 +1,53 @@
+{
+  "pdfId": "B4.8",
+  "sourceFile": "B4.8 Cache state transitions at a Snoopee.md",
+  "title": "Cache state transitions at a Snoopee",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "state",
+    "transitions",
+    "at",
+    "a",
+    "Snoopee",
+    "SnpResp_I",
+    "Snoop",
+    "Dirty"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Cache state rules",
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 28,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 84,
+    "tables": 34,
+    "figures": 0
+  }
+}

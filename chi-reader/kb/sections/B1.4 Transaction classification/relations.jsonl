@@ -1,0 +1,21 @@
+{"relationId": "B1_4_rel_001", "pdfId": "B1.4", "from": "AtomicCompare", "to": "AtomicLoad", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_002", "pdfId": "B1.4", "from": "AtomicCompare", "to": "AtomicSwap", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_003", "pdfId": "B1.4", "from": "AtomicLoad", "to": "AtomicCompare", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C003"]}
+{"relationId": "B1_4_rel_004", "pdfId": "B1.4", "from": "AtomicLoad", "to": "AtomicSwap", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C003"]}
+{"relationId": "B1_4_rel_005", "pdfId": "B1.4", "from": "AtomicSwap", "to": "AtomicCompare", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C003"]}
+{"relationId": "B1_4_rel_006", "pdfId": "B1.4", "from": "AtomicSwap", "to": "AtomicLoad", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C001", "B1_4_C003"]}
+{"relationId": "B1_4_rel_007", "pdfId": "B1.4", "from": "CMO", "to": "WriteNoSnp", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_008", "pdfId": "B1.4", "from": "CMO", "to": "WriteNoSnpPtl", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_009", "pdfId": "B1.4", "from": "CMO", "to": "WriteNoSnpPtlCleanInv", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_010", "pdfId": "B1.4", "from": "CMO", "to": "WriteNoSnpPtlCleanInvPoPA", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_011", "pdfId": "B1.4", "from": "CMO", "to": "WriteNoSnpPtlCleanSh", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002", "B1_4_C003"]}
+{"relationId": "B1_4_rel_012", "pdfId": "B1.4", "from": "CleanSharedPersist", "to": "CleanSharedPersistSep", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C003"]}
+{"relationId": "B1_4_rel_013", "pdfId": "B1.4", "from": "CleanSharedPersistSep", "to": "CleanSharedPersist", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C003"]}
+{"relationId": "B1_4_rel_014", "pdfId": "B1.4", "from": "ReadOnce", "to": "ReadOnceCleanInvalid", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_015", "pdfId": "B1.4", "from": "ReadOnce", "to": "ReadOnceMakeInvalid", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_016", "pdfId": "B1.4", "from": "ReadOnceCleanInvalid", "to": "ReadOnce", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_017", "pdfId": "B1.4", "from": "ReadOnceCleanInvalid", "to": "ReadOnceMakeInvalid", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_018", "pdfId": "B1.4", "from": "ReadOnceMakeInvalid", "to": "ReadOnce", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_019", "pdfId": "B1.4", "from": "ReadOnceMakeInvalid", "to": "ReadOnceCleanInvalid", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_020", "pdfId": "B1.4", "from": "SnpNotSharedDirty", "to": "SnpNotSharedDirtyFwd", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}
+{"relationId": "B1_4_rel_021", "pdfId": "B1.4", "from": "SnpNotSharedDirtyFwd", "to": "SnpNotSharedDirty", "relationType": "co-mentioned", "sourceChunks": ["B1_4_C002"]}

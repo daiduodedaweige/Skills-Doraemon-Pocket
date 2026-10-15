@@ -1,0 +1,1954 @@
+{
+  "sourceRoot": "artifacts/out_md",
+  "targetRoot": "kb/sections",
+  "sectionCount": 194,
+  "nonEmptySections": 89,
+  "emptySections": 105,
+  "totalChunks": 898,
+  "totalObjects": 1276,
+  "totalRules": 854,
+  "totalFlows": 17,
+  "totalVerification": 871,
+  "sections": [
+    {
+      "sectionId": "B1.1",
+      "title": "Architecture overview",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 0,
+      "rules": 1,
+      "flows": 0,
+      "verification": 1
+    },
+    {
+      "sectionId": "B1.2",
+      "title": "Topology",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B1.3",
+      "title": "Terminology",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 13,
+      "rules": 2,
+      "flows": 0,
+      "verification": 2
+    },
+    {
+      "sectionId": "B1.4",
+      "title": "Transaction classification",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B1.5",
+      "title": "Coherence overview",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 6,
+      "rules": 1,
+      "flows": 0,
+      "verification": 1
+    },
+    {
+      "sectionId": "B1.6",
+      "title": "Component naming",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 11,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B1.7",
+      "title": "Read data source",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.1",
+      "title": "Introduction",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.2",
+      "title": "Physical Address Space, PAS",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.3",
+      "title": "Cache maintenance",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.4",
+      "title": "DVM",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.5",
+      "title": "MPAM",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B10.6",
+      "title": "Memory Encryption Contexts, MEC",
+      "hasSource": true,
+      "chunks": 9,
+      "objects": 20,
+      "rules": 19,
+      "flows": 0,
+      "verification": 19
+    },
+    {
+      "sectionId": "B10.7",
+      "title": "Device Assignment (DA) and Coherent Device Assignment (CDA)",
+      "hasSource": true,
+      "chunks": 14,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B10.8",
+      "title": "Granular Data Isolation",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B11.1",
+      "title": "Quality of Service (QoS) mechanism",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B11.2",
+      "title": "Data Source",
+      "hasSource": true,
+      "chunks": 11,
+      "objects": 20,
+      "rules": 16,
+      "flows": 0,
+      "verification": 16
+    },
+    {
+      "sectionId": "B11.3",
+      "title": "Data Target",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 14,
+      "flows": 0,
+      "verification": 14
+    },
+    {
+      "sectionId": "B11.4",
+      "title": "MPAM",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 5,
+      "rules": 7,
+      "flows": 0,
+      "verification": 7
+    },
+    {
+      "sectionId": "B11.5",
+      "title": "Page-based Hardware Attributes",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 2,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B11.6",
+      "title": "Completer Busy",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B11.7",
+      "title": "Trace Tag",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 11,
+      "rules": 1,
+      "flows": 0,
+      "verification": 1
+    },
+    {
+      "sectionId": "B12.1",
+      "title": "Introduction",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.10",
+      "title": "Home to Subordinate transactions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.11",
+      "title": "Error response",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 4,
+      "rules": 6,
+      "flows": 0,
+      "verification": 6
+    },
+    {
+      "sectionId": "B12.12",
+      "title": "Requests and permitted tag operations",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 18,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.13",
+      "title": "TagOp field use summary",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 4,
+      "rules": 1,
+      "flows": 0,
+      "verification": 1
+    },
+    {
+      "sectionId": "B12.2",
+      "title": "Message extensions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.3",
+      "title": "Tag coherency",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.4",
+      "title": "Read transaction rules",
+      "hasSource": true,
+      "chunks": 7,
+      "objects": 19,
+      "rules": 25,
+      "flows": 1,
+      "verification": 26
+    },
+    {
+      "sectionId": "B12.5",
+      "title": "Write transactions",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 18,
+      "rules": 14,
+      "flows": 1,
+      "verification": 15
+    },
+    {
+      "sectionId": "B12.6",
+      "title": "Dataless transactions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.7",
+      "title": "Atomic transactions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.8",
+      "title": "Stash transactions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B12.9",
+      "title": "Snoop requests",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 14,
+      "rules": 17,
+      "flows": 0,
+      "verification": 17
+    },
+    {
+      "sectionId": "B13.1",
+      "title": "Introduction",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.10",
+      "title": "Protocol flit fields",
+      "hasSource": true,
+      "chunks": 56,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B13.11",
+      "title": "Link layer Credit Return, LCrdReturn",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 2,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.2",
+      "title": "Link",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.3",
+      "title": "Flit",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.4",
+      "title": "Channel",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 6,
+      "rules": 8,
+      "flows": 0,
+      "verification": 8
+    },
+    {
+      "sectionId": "B13.5",
+      "title": "Port",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.6",
+      "title": "Node interface definitions",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 19,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.7",
+      "title": "Increasing inter-port bandwidth",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 13,
+      "rules": 12,
+      "flows": 0,
+      "verification": 12
+    },
+    {
+      "sectionId": "B13.8",
+      "title": "Channel interface signals",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B13.9",
+      "title": "Flit packet definitions",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B14.1",
+      "title": "Clock and initialization",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B14.2",
+      "title": "Link layer Credit",
+      "hasSource": true,
+      "chunks": 6,
+      "objects": 11,
+      "rules": 14,
+      "flows": 0,
+      "verification": 14
+    },
+    {
+      "sectionId": "B14.3",
+      "title": "Low power signaling",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B14.4",
+      "title": "Flit level clock gating",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B14.5",
+      "title": "Interface activation and deactivation",
+      "hasSource": true,
+      "chunks": 10,
+      "objects": 14,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B14.6",
+      "title": "Transmit and receive link interaction",
+      "hasSource": true,
+      "chunks": 12,
+      "objects": 15,
+      "rules": 14,
+      "flows": 0,
+      "verification": 14
+    },
+    {
+      "sectionId": "B14.7",
+      "title": "Protocol layer activity indication",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 14,
+      "flows": 0,
+      "verification": 14
+    },
+    {
+      "sectionId": "B15.1",
+      "title": "Overview",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B15.2",
+      "title": "Handshake",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 9,
+      "rules": 13,
+      "flows": 1,
+      "verification": 14
+    },
+    {
+      "sectionId": "B16.1",
+      "title": "Interface properties and parameters",
+      "hasSource": true,
+      "chunks": 47,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B16.2",
+      "title": "Optional interface broadcast signals",
+      "hasSource": true,
+      "chunks": 15,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B16.3",
+      "title": "Atomic transaction support",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 3,
+      "rules": 8,
+      "flows": 1,
+      "verification": 9
+    },
+    {
+      "sectionId": "B2.1",
+      "title": "Channels overview",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B2.10",
+      "title": "Request Retry",
+      "hasSource": true,
+      "chunks": 12,
+      "objects": 20,
+      "rules": 23,
+      "flows": 0,
+      "verification": 23
+    },
+    {
+      "sectionId": "B2.2",
+      "title": "Channel fields",
+      "hasSource": true,
+      "chunks": 16,
+      "objects": 20,
+      "rules": 4,
+      "flows": 0,
+      "verification": 4
+    },
+    {
+      "sectionId": "B2.3",
+      "title": "Transaction structure",
+      "hasSource": true,
+      "chunks": 94,
+      "objects": 20,
+      "rules": 25,
+      "flows": 1,
+      "verification": 26
+    },
+    {
+      "sectionId": "B2.4",
+      "title": "Transaction identifier fields",
+      "hasSource": true,
+      "chunks": 23,
+      "objects": 20,
+      "rules": 25,
+      "flows": 1,
+      "verification": 26
+    },
+    {
+      "sectionId": "B2.5",
+      "title": "Transaction identifier field flows",
+      "hasSource": true,
+      "chunks": 47,
+      "objects": 20,
+      "rules": 19,
+      "flows": 1,
+      "verification": 20
+    },
+    {
+      "sectionId": "B2.6",
+      "title": "Multi-request",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 14,
+      "rules": 2,
+      "flows": 0,
+      "verification": 2
+    },
+    {
+      "sectionId": "B2.7",
+      "title": "Ordering",
+      "hasSource": true,
+      "chunks": 30,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B2.8",
+      "title": "Address, Control, and Data",
+      "hasSource": true,
+      "chunks": 31,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B2.9",
+      "title": "Data transfer",
+      "hasSource": true,
+      "chunks": 27,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B3.1",
+      "title": "System Address Map, SAM",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B3.2",
+      "title": "Node ID",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B3.3",
+      "title": "TgtID determination",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 20,
+      "rules": 1,
+      "flows": 0,
+      "verification": 1
+    },
+    {
+      "sectionId": "B3.4",
+      "title": "Network layer flow examples",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 5,
+      "rules": 1,
+      "flows": 1,
+      "verification": 2
+    },
+    {
+      "sectionId": "B4.1",
+      "title": "Cache line states",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 5,
+      "rules": 8,
+      "flows": 0,
+      "verification": 8
+    },
+    {
+      "sectionId": "B4.10",
+      "title": "Do not transition to SD",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B4.11",
+      "title": "Hazard conditions",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 18,
+      "rules": 7,
+      "flows": 0,
+      "verification": 7
+    },
+    {
+      "sectionId": "B4.2",
+      "title": "Request types",
+      "hasSource": true,
+      "chunks": 61,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B4.3",
+      "title": "Snoop request types",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 20,
+      "rules": 10,
+      "flows": 0,
+      "verification": 10
+    },
+    {
+      "sectionId": "B4.4",
+      "title": "Request transactions and corresponding Snoop requests",
+      "hasSource": true,
+      "chunks": 9,
+      "objects": 20,
+      "rules": 10,
+      "flows": 1,
+      "verification": 11
+    },
+    {
+      "sectionId": "B4.5",
+      "title": "Response types",
+      "hasSource": true,
+      "chunks": 25,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B4.6",
+      "title": "Silent cache state transitions",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 3,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B4.7",
+      "title": "Cache state transitions at a Requester",
+      "hasSource": true,
+      "chunks": 23,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B4.8",
+      "title": "Cache state transitions at a Snoopee",
+      "hasSource": true,
+      "chunks": 28,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B4.9",
+      "title": "Returning Data with Snoop response",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B5.1",
+      "title": "Read transaction flows",
+      "hasSource": true,
+      "chunks": 9,
+      "objects": 20,
+      "rules": 2,
+      "flows": 1,
+      "verification": 3
+    },
+    {
+      "sectionId": "B5.2",
+      "title": "Dataless transaction flows",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 15,
+      "rules": 1,
+      "flows": 1,
+      "verification": 2
+    },
+    {
+      "sectionId": "B5.3",
+      "title": "Write transaction flows",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 11,
+      "rules": 0,
+      "flows": 1,
+      "verification": 1
+    },
+    {
+      "sectionId": "B5.4",
+      "title": "Atomic transaction flows",
+      "hasSource": true,
+      "chunks": 9,
+      "objects": 18,
+      "rules": 3,
+      "flows": 1,
+      "verification": 4
+    },
+    {
+      "sectionId": "B5.5",
+      "title": "Stash transaction flows",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 12,
+      "rules": 0,
+      "flows": 1,
+      "verification": 1
+    },
+    {
+      "sectionId": "B5.6",
+      "title": "Hazard handling examples",
+      "hasSource": true,
+      "chunks": 7,
+      "objects": 20,
+      "rules": 4,
+      "flows": 1,
+      "verification": 5
+    },
+    {
+      "sectionId": "B6.1",
+      "title": "Overview",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B6.2",
+      "title": "Exclusive monitors",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 7,
+      "rules": 7,
+      "flows": 0,
+      "verification": 7
+    },
+    {
+      "sectionId": "B6.3",
+      "title": "Exclusive transactions",
+      "hasSource": true,
+      "chunks": 19,
+      "objects": 20,
+      "rules": 25,
+      "flows": 1,
+      "verification": 26
+    },
+    {
+      "sectionId": "B7.1",
+      "title": "Overview",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 10,
+      "rules": 2,
+      "flows": 0,
+      "verification": 2
+    },
+    {
+      "sectionId": "B7.2",
+      "title": "Write with Stash hint",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B7.3",
+      "title": "Independent Stash request",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 12,
+      "rules": 14,
+      "flows": 0,
+      "verification": 14
+    },
+    {
+      "sectionId": "B7.4",
+      "title": "Stash target identifiers",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B7.5",
+      "title": "Stash messages",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 4,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B8.1",
+      "title": "Introduction to DVM transactions",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "B8.2",
+      "title": "DVM transaction flow",
+      "hasSource": true,
+      "chunks": 9,
+      "objects": 15,
+      "rules": 24,
+      "flows": 1,
+      "verification": 25
+    },
+    {
+      "sectionId": "B8.3",
+      "title": "DVMOp field value restrictions",
+      "hasSource": true,
+      "chunks": 5,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B8.4",
+      "title": "DVM messages",
+      "hasSource": true,
+      "chunks": 33,
+      "objects": 20,
+      "rules": 23,
+      "flows": 0,
+      "verification": 23
+    },
+    {
+      "sectionId": "B9.1",
+      "title": "Packet level",
+      "hasSource": true,
+      "chunks": 24,
+      "objects": 20,
+      "rules": 25,
+      "flows": 0,
+      "verification": 25
+    },
+    {
+      "sectionId": "B9.2",
+      "title": "Sub-packet level",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 5,
+      "rules": 5,
+      "flows": 0,
+      "verification": 5
+    },
+    {
+      "sectionId": "B9.3",
+      "title": "Use of interface parity",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 20,
+      "rules": 3,
+      "flows": 0,
+      "verification": 3
+    },
+    {
+      "sectionId": "B9.4",
+      "title": "Hardware and software error categories",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 7,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C1.1",
+      "title": "Request message field mappings",
+      "hasSource": true,
+      "chunks": 13,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C1.2",
+      "title": "Response message field mappings",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C1.3",
+      "title": "Snoop Request message field mappings",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C1.4",
+      "title": "Data message field mappings",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 15,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C2.1",
+      "title": "Request communicating nodes",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 20,
+      "rules": 2,
+      "flows": 0,
+      "verification": 2
+    },
+    {
+      "sectionId": "C2.2",
+      "title": "Snoop communicating nodes",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C2.3",
+      "title": "Response communicating nodes",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C2.4",
+      "title": "Data communicating nodes",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 2,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C3.1",
+      "title": "Request Nodes Subset",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C3.2",
+      "title": "Subordinate Nodes Subset",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 20,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.1",
+      "title": "AtomicCompare",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.10",
+      "title": "CleanSharedPersistSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.11",
+      "title": "CleanUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.12",
+      "title": "DVMOp",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.13",
+      "title": "Evict",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.14",
+      "title": "MakeInvalid",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.15",
+      "title": "MakeReadUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.16",
+      "title": "MakeUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.17",
+      "title": "PCrdReturn",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.18",
+      "title": "PrefetchTgt",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.19",
+      "title": "ReadClean",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.2",
+      "title": "AtomicLoad",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.20",
+      "title": "ReadNoSnp",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.21",
+      "title": "ReadNoSnpSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.22",
+      "title": "ReadNotSharedDirty",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.23",
+      "title": "ReadOnce",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.24",
+      "title": "ReadOnceCleanInvalid",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.25",
+      "title": "ReadOnceMakeInvalid",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.26",
+      "title": "ReadPreferUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.27",
+      "title": "ReadShared",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.28",
+      "title": "ReadUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.29",
+      "title": "ReqLCrdReturn",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.3",
+      "title": "AtomicStore",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.30",
+      "title": "StashOnceSepShared",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.31",
+      "title": "StashOnceSepUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.32",
+      "title": "StashOnceShared",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.33",
+      "title": "StashOnceUnique",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.34",
+      "title": "WriteBackFull",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.35",
+      "title": "WriteBackFullCleanInv",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.36",
+      "title": "WriteBackFullCleanInvPoPA",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.37",
+      "title": "WriteBackFullCleanInvStrg",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.38",
+      "title": "WriteBackFullCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.39",
+      "title": "WriteBackFullCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.4",
+      "title": "AtomicSwap",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.40",
+      "title": "WriteBackPtl",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.41",
+      "title": "WriteCleanFull",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.42",
+      "title": "WriteCleanFullCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.43",
+      "title": "WriteCleanFullCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.44",
+      "title": "WriteEvictFull",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.45",
+      "title": "WriteEvictOrEvict",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.46",
+      "title": "WriteNoSnpDef",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.47",
+      "title": "WriteNoSnpFull",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.48",
+      "title": "WriteNoSnpFullCleanInv",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.49",
+      "title": "WriteNoSnpFullCleanInvPoPA",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.5",
+      "title": "CleanInvalid",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.50",
+      "title": "WriteNoSnpFullCleanInvStrg",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.51",
+      "title": "WriteNoSnpFullCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.52",
+      "title": "WriteNoSnpFullCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.53",
+      "title": "WriteNoSnpPtl",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.54",
+      "title": "WriteNoSnpPtlCleanInv",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.55",
+      "title": "WriteNoSnpPtlCleanInvPoPA",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.56",
+      "title": "WriteNoSnpPtlCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.57",
+      "title": "WriteNoSnpPtlCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.58",
+      "title": "WriteNoSnpZero",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.59",
+      "title": "WriteUniqueFull",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.6",
+      "title": "CleanInvalidPoPA",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.60",
+      "title": "WriteUniqueFullCleanInvStrg",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.61",
+      "title": "WriteUniqueFullCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.62",
+      "title": "WriteUniqueFullCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.63",
+      "title": "WriteUniqueFullStash",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.64",
+      "title": "WriteUniquePtl",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.65",
+      "title": "WriteUniquePtlCleanSh",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.66",
+      "title": "WriteUniquePtlCleanShPerSep",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.67",
+      "title": "WriteUniquePtlStash",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.68",
+      "title": "WriteUniqueZero",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 3,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.7",
+      "title": "CleanInvalidStorage",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.8",
+      "title": "CleanShared",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C4.9",
+      "title": "CleanSharedPersist",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.1",
+      "title": "Changes between Issue A and Issue B",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.10",
+      "title": "Changes between Issue G and Issue G.b",
+      "hasSource": true,
+      "chunks": 4,
+      "objects": 20,
+      "rules": 11,
+      "flows": 0,
+      "verification": 11
+    },
+    {
+      "sectionId": "C5.11",
+      "title": "Changes between Issue G.b and Issue H",
+      "hasSource": true,
+      "chunks": 20,
+      "objects": 20,
+      "rules": 8,
+      "flows": 0,
+      "verification": 8
+    },
+    {
+      "sectionId": "C5.2",
+      "title": "Changes between Issue B and Issue C",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.3",
+      "title": "Changes between Issue C and Issue D",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 5,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.4",
+      "title": "Changes between Issue D and Issue E.a",
+      "hasSource": true,
+      "chunks": 3,
+      "objects": 16,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.5",
+      "title": "Changes between Issue E.a and Issue E.b",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 15,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.6",
+      "title": "Changes between Issue E.b and Issue E.c",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.7",
+      "title": "Changes between Issue E.c and Issue F",
+      "hasSource": false,
+      "chunks": 0,
+      "objects": 0,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    },
+    {
+      "sectionId": "C5.8",
+      "title": "Changes between Issue F and Issue F.b",
+      "hasSource": true,
+      "chunks": 2,
+      "objects": 20,
+      "rules": 3,
+      "flows": 0,
+      "verification": 3
+    },
+    {
+      "sectionId": "C5.9",
+      "title": "Changes between Issue F.b and Issue G",
+      "hasSource": true,
+      "chunks": 1,
+      "objects": 2,
+      "rules": 0,
+      "flows": 0,
+      "verification": 0
+    }
+  ]
+}

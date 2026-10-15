@@ -1,0 +1,36 @@
+flowchart LR
+    N001["Note"]
+    N002["B13.6.1"]
+    N003["Request Nodes"]
+    N004["This section describes the Request Node interfaces:"]
+    N005["• B13.6.1.1 RN-F<br/>• B13.6.1.2 RN-D<br/>• B13.6.1.3 RN-I"]
+    N006["B13.6.1.1"]
+    N007["RN-F"]
+    N008["The RN-F interface uses all channels and is used by a fully coherent Requester such as a core or cluster."]
+    N009["Figure B13.5 shows the RN-F interface."]
+    N010["ICN"]
+    N011["RN-F"]
+    N012["TXREQ"]
+    N013["REQ"]
+    N014["RXREQ"]
+    N015["RXRSP"]
+    N016["RSP"]
+    N017["TXRSP"]
+    N018["RXDAT"]
+    N019["DAT"]
+    N020["TXDAT"]
+    N021["RXSNP"]
+    N022["SNP"]
+    N023["TXSNP"]
+    N024["TXRSP"]
+    N025["RSP"]
+    N026["RXRSP"]
+    N027["TXDAT"]
+    N028["DAT"]
+    N029["RXDAT"]
+    N012 --> N014
+    N017 --> N015
+    N020 --> N018
+    N023 --> N021
+    N024 --> N026
+    N027 --> N029

@@ -1,0 +1,41 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>RN_F2: AtomicStore
+    RN_F0->>HN_F: AtomicStore
+    RN_F2->>RN_F1: AtomicStore
+    RN_F2->>HN_F: SnpUnique
+    HN_F->>RN_F0: SnpUnique
+    HN_F->>RN_F1: SnpUnique
+    HN_F->>RN_F2: SnpUnique
+    HN_F->>RN_F2: SnpUnique
+    RN_F1->>RN_F2: SnpUnique
+    RN_F0->>RN_F1: DBIDResp
+    RN_F2->>RN_F1: SnpUnique
+    RN_F1->>RN_F0: DBIDResp
+    RN_F2->>HN_F: SnpRespData_I_PD
+    RN_F1->>RN_F2: SnpResp_I
+    RN_F2->>HN_F: SnpRespData_I_PD
+    HN_F->>RN_F2: SnpRespData_I_PD
+    RN_F2->>HN_F: (InitialData)
+    RN_F2->>RN_F1: SnpResp_I
+    HN_F->>RN_F2: (InitialData)
+    RN_F1->>HN_F: (InitialData)
+    RN_F1->>RN_F2: NCBWrData<br/>(TxnData)
+    RN_F0->>HN_F: NCBWrData<br/>(TxnData)
+    RN_F2->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2: NCBWrData<br/>(TxnData)
+    RN_F2->>RN_F1: NCBWrData<br/>(TxnData)
+    SN_F->>HN_F: WriteNoSnp
+    HN_F->>SN_F: WriteNoSnp
+    SN_F->>HN_F: WriteNoSnp
+    HN_F->>RN_F0: Comp
+    HN_F->>SN_F: CompDBIDResp
+    SN_F->>HN_F: CompDBIDResp
+    SN_F->>HN_F: NCBWrData<br/>(NewData)
+    SN_F->>HN_F: NCBWrData<br/>(NewData)
+    HN_F->>SN_F: NCBWrData<br/>(NewData)
+    SN_F->>HN_F: NCBWrData<br/>(NewData)

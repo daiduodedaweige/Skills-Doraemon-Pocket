@@ -1,0 +1,45 @@
+{
+  "pdfId": "C1.3",
+  "sourceFile": "C1.3 Snoop Request message field mappings.md",
+  "title": "Snoop Request message field mappings",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Snoop",
+    "message",
+    "field",
+    "mappings"
+  ],
+  "contentTypes": {
+    "hasChunks": false,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [
+    "Snoop request types",
+    "Response types",
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": false,
+    "reviewed": false,
+    "quality": "empty-source",
+    "notes": "Source markdown is empty; only metadata and empty record files were generated."
+  },
+  "recordStats": {
+    "chunks": 0,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

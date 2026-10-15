@@ -1,0 +1,38 @@
+sequenceDiagram
+    participant RN as RN
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F1->>RN_F2: WriteUniqueFullStash<br/>(StashNID = RN-F1)
+    RN_F2->>RN_F1: WriteUniqueFullStash<br/>(StashNID = RN-F1)
+    RN_F1->>RN_F2: WriteUniqueFullStash<br/>(StashNID = RN-F1)
+    RN->>HN_F: WriteUniqueFullStash<br/>(StashNID = RN-F1)
+    RN_F2->>RN_F1: WriteUniqueFullStash<br/>(StashNID = RN-F1)
+    RN_F1->>RN_F2: DBIDResp
+    HN_F->>RN: DBIDResp
+    RN_F2->>RN_F1: DBIDResp
+    HN_F->>RN_F1: SnpUnique
+    RN_F2->>HN_F: SnpUnique
+    RN_F1->>RN_F2: SnpMakeInvalidStash
+    HN_F->>RN_F2: SnpUnique
+    HN_F->>RN_F2: SnpUnique
+    RN_F2->>RN_F1: SnpMakeInvalidStash
+    RN_F2->>HN_F: SnpResp_I
+    RN_F2->>HN_F: SnpResp_I
+    HN_F->>RN_F2: SnpResp_I
+    RN_F1->>HN_F: SnpResp_I
+    RN_F2->>HN_F: SnpResp_I_Read
+    HN_F->>RN_F2: SnpResp_I_Read
+    RN_F1->>RN_F2: NCBWrData
+    RN->>HN_F: NCBWrData
+    RN_F2->>RN_F1: NCBWrData
+    RN_F1->>RN_F2: Comp_I
+    HN_F->>RN: Comp_I
+    RN_F2->>RN_F1: Comp_I
+    HN_F->>RN_F1: CompData_UD_PD
+    RN_F1->>RN_F2: CompData_UD_PD
+    RN_F2->>RN_F1: CompData_UD_PD
+    RN_F1->>HN_F: CompAck
+    RN_F2->>HN_F: CompAck
+    HN_F->>RN_F2: CompAck

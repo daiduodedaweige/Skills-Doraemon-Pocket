@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant HN_F as HN-F
+    participant SN_F as SN-F
+    RN_F0->>HN_F: ReadOnce<br/>(ExpCompAck = 0)<br/>(Order[1:0] = 0b00)
+    HN_F->>SN_F: ReadNoSnp<br/>(Order[1:0] = 0b01)
+    SN_F->>HN_F: ReadReceipt
+    SN_F->>RN_F0: CompData_UC

@@ -1,0 +1,52 @@
+{
+  "pdfId": "B8.2",
+  "sourceFile": "B8.2 DVM transaction flow.md",
+  "title": "DVM transaction flow",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "DVM",
+    "transaction",
+    "flow",
+    "SnpDVMOp",
+    "DVMOp",
+    "Sync",
+    "Miscellaneous",
+    "Comp"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 9,
+    "objects": 15,
+    "rules": 24,
+    "flows": 1,
+    "verification": 25,
+    "relations": 72,
+    "tables": 0,
+    "figures": 2
+  }
+}

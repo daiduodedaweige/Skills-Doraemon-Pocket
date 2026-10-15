@@ -1,0 +1,35 @@
+sequenceDiagram
+    participant RN as RN
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN as HN
+    participant SN as SN
+    RN_F1->>RN_F2: AtomicStore
+    RN->>HN: AtomicStore
+    RN_F2->>RN_F1: AtomicStore
+    HN->>SN: ReadNoSnp
+    RN_F1->>RN_F2: DBIDResp
+    HN->>SN: ReadNoSnp
+    HN->>RN: DBIDResp
+    SN->>HN: ReadNoSnp
+    RN_F2->>RN_F1: DBIDResp
+    HN->>SN: RespData_I<br/>(InitialData)
+    HN->>RN: Comp
+    SN->>HN: RespData_I<br/>(InitialData)
+    HN->>SN: RespData_I<br/>(InitialData)
+    RN_F1->>RN_F2: NCBWrData<br/>(TxnData)
+    SN->>HN: RespData_I<br/>(InitialData)
+    RN->>HN: NCBWrData<br/>(TxnData)
+    RN_F2->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2: NCBWrData<br/>(TxnData)
+    RN_F2->>RN_F1: NCBWrData<br/>(TxnData)
+    HN->>SN: WriteNoSnp
+    HN->>SN: WriteNoSnp
+    SN->>HN: WriteNoSnp
+    HN->>SN: CompDBIDResp
+    SN->>HN: CompDBIDResp
+    SN->>HN: NCBWrData<br/>(NewData)
+    SN->>HN: NCBWrData<br/>(NewData)
+    HN->>SN: NCBWrData<br/>(NewData)
+    HN->>SN: NCBWrData<br/>(NewData)
+    SN->>HN: NCBWrData<br/>(NewData)

@@ -1,0 +1,45 @@
+{
+  "pdfId": "C2.4",
+  "sourceFile": "C2.4 Data communicating nodes.md",
+  "title": "Data communicating nodes",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "communicating",
+    "nodes",
+    "ARM",
+    "IHI",
+    "Subsets",
+    "Subset",
+    "This",
+    "Requesters"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 2,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 2,
+    "figures": 0
+  }
+}

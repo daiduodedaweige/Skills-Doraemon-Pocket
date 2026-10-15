@@ -1,0 +1,52 @@
+{
+  "pdfId": "B2.4",
+  "sourceFile": "B2.4 Transaction identifier fields.md",
+  "title": "Transaction identifier fields",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "identifier",
+    "fields",
+    "TxnID",
+    "DBID",
+    "ReturnNID",
+    "Identifier",
+    "Write",
+    "DBIDResp"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics",
+    "Transaction flows",
+    "Outstanding transaction tracking"
+  ],
+  "relatedSections": [
+    "Message field mappings"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 23,
+    "objects": 20,
+    "rules": 25,
+    "flows": 1,
+    "verification": 26,
+    "relations": 98,
+    "tables": 0,
+    "figures": 0
+  }
+}

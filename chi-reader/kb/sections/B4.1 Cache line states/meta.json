@@ -1,0 +1,47 @@
+{
+  "pdfId": "B4.1",
+  "sourceFile": "B4.1 Cache line states.md",
+  "title": "Cache line states",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "line",
+    "states",
+    "RetToSrc",
+    "UDP",
+    "UCE",
+    "SC",
+    "SD",
+    "Dirty"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Cache state rules"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 5,
+    "rules": 8,
+    "flows": 0,
+    "verification": 8,
+    "relations": 12,
+    "tables": 0,
+    "figures": 0
+  }
+}

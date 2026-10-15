@@ -1,0 +1,3 @@
+{"relationId": "B3_4_rel_001", "pdfId": "B3.4", "from": "B3_4_flow_001", "to": "B3_4_rule_001", "relationType": "governed-by", "sourceChunks": ["B3_4_C001", "B3_4_C002", "B3_4_C003"]}
+{"relationId": "B3_4_rel_002", "pdfId": "B3.4", "from": "B3_4_vp_001", "to": "B3_4_rule_001", "relationType": "verifies", "sourceChunks": ["B3_4_C002"]}
+{"relationId": "B3_4_rel_003", "pdfId": "B3.4", "from": "B3_4_vp_002", "to": "B3_4_rule_001", "relationType": "verifies", "sourceChunks": ["B3_4_C001", "B3_4_C002", "B3_4_C003"]}

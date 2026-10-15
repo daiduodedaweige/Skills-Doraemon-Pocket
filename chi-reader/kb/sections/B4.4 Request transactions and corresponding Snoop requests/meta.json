@@ -1,0 +1,52 @@
+{
+  "pdfId": "B4.4",
+  "sourceFile": "B4.4 Request transactions and corresponding Snoop requests.md",
+  "title": "Request transactions and corresponding Snoop requests",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "transactions",
+    "and",
+    "corresponding",
+    "Snoop",
+    "requests",
+    "SnpUnique",
+    "SnpCleanInvalid",
+    "SnpMakeInvalid"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 9,
+    "objects": 20,
+    "rules": 10,
+    "flows": 1,
+    "verification": 11,
+    "relations": 56,
+    "tables": 2,
+    "figures": 0
+  }
+}

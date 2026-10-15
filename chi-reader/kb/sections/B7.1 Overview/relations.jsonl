@@ -1,0 +1,14 @@
+{"relationId": "B7_1_rel_001", "pdfId": "B7.1", "from": "DataPullfor", "to": "DataPull", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C002"]}
+{"relationId": "B7_1_rel_002", "pdfId": "B7.1", "from": "ReadNotSharedDirty", "to": "SnpStashShared", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_003", "pdfId": "B7.1", "from": "ReadUnique", "to": "SnpUniqueStash", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_004", "pdfId": "B7.1", "from": "SnpMakeInvalidStash", "to": "ReadUnique", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_005", "pdfId": "B7.1", "from": "SnpResp", "to": "DataPull", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001", "B7_1_C002"]}
+{"relationId": "B7_1_rel_006", "pdfId": "B7.1", "from": "SnpResp", "to": "SnpRespData", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001", "B7_1_C002"]}
+{"relationId": "B7_1_rel_007", "pdfId": "B7.1", "from": "SnpRespData", "to": "DataPull", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001", "B7_1_C002"]}
+{"relationId": "B7_1_rel_008", "pdfId": "B7.1", "from": "SnpRespData", "to": "SnpResp", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001", "B7_1_C002"]}
+{"relationId": "B7_1_rel_009", "pdfId": "B7.1", "from": "SnpStashShared", "to": "ReadNotSharedDirty", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_010", "pdfId": "B7.1", "from": "SnpStashUnique", "to": "ReadUnique", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_011", "pdfId": "B7.1", "from": "SnpUniqueStash", "to": "ReadUnique", "relationType": "co-mentioned", "sourceChunks": ["B7_1_C001"]}
+{"relationId": "B7_1_rel_012", "pdfId": "B7.1", "from": "B7_1_rule_002", "to": "DataPull", "relationType": "applies-to", "sourceChunks": ["B7_1_C002"]}
+{"relationId": "B7_1_rel_013", "pdfId": "B7.1", "from": "B7_1_vp_001", "to": "B7_1_rule_001", "relationType": "verifies", "sourceChunks": ["B7_1_C001", "B7_1_C002"]}
+{"relationId": "B7_1_rel_014", "pdfId": "B7.1", "from": "B7_1_vp_002", "to": "B7_1_rule_002", "relationType": "verifies", "sourceChunks": ["B7_1_C002"]}

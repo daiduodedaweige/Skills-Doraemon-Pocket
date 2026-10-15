@@ -1,0 +1,9 @@
+{"tableId": "B14_5_table_001", "pdfId": "B14.5", "label": "B14.1", "title": "shows the mapping of the states toLINKACTIVEREQ the", "sourceChunks": ["B14_5_C001"], "rawHeader": "and LINKACTIVEACKsignals."}
+{"tableId": "B14_5_table_002", "pdfId": "B14.5", "label": "B14.1", "title": "Mapping", "sourceChunks": ["B14_5_C001"], "rawHeader": "signals"}
+{"tableId": "B14_5_table_003", "pdfId": "B14.5", "label": "B14.2", "title": "describes the behavior of both the Transmitter and the Receiver of a single link for each of the four", "sourceChunks": ["B14_5_C001"], "rawHeader": "states."}
+{"tableId": "B14_5_table_004", "pdfId": "B14.5", "label": "B14.2", "title": "Behavior for each Request and Acknowledge state", "sourceChunks": ["B14_5_C001"], "rawHeader": "State Transmitter"}
+{"tableId": "B14_5_table_005", "pdfId": "B14.5", "label": "B14.2", "title": "–Continued from previous page", "sourceChunks": ["B14_5_C002"], "rawHeader": "State Transmitter"}
+{"tableId": "B14_5_table_006", "pdfId": "B14.5", "label": "B14.2", "title": "–Continued from previous page", "sourceChunks": ["B14_5_C002"], "rawHeader": "State Transmitter"}
+{"tableId": "B14_5_table_007", "pdfId": "B14.5", "label": "B14.3", "title": "summarizes the required behavior described in detail in Table B14.2 .", "sourceChunks": ["B14_5_C005"], "rawHeader": "state"}
+{"tableId": "B14_5_table_008", "pdfId": "B14.5", "label": "B14.3", "title": "Summary of behavior for each Request and Acknowledge", "sourceChunks": ["B14_5_C006"], "rawHeader": "Chapter B14. Link"}
+{"tableId": "B14_5_table_009", "pdfId": "B14.5", "label": "B14.3", "title": "–Continued from previous page", "sourceChunks": ["B14_5_C006"], "rawHeader": "State Transmitter"}

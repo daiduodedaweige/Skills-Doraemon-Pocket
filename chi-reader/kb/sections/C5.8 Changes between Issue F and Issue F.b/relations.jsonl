@@ -1,0 +1,19 @@
+{"relationId": "C5_8_rel_001", "pdfId": "C5.8", "from": "CompData", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_002", "pdfId": "C5.8", "from": "CompData", "to": "NonCopyBackWriteData", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_003", "pdfId": "C5.8", "from": "DataSepResp", "to": "RespSepData", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_004", "pdfId": "C5.8", "from": "DoNotGoToSD", "to": "SD", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_005", "pdfId": "C5.8", "from": "IPA", "to": "TLBI", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_006", "pdfId": "C5.8", "from": "IPA", "to": "VA", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_007", "pdfId": "C5.8", "from": "NonCopyBackWriteData", "to": "CompData", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_008", "pdfId": "C5.8", "from": "NonCopyBackWriteData", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_009", "pdfId": "C5.8", "from": "ReadPreferUnique", "to": "SD", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_010", "pdfId": "C5.8", "from": "RespSepData", "to": "DataSepResp", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_011", "pdfId": "C5.8", "from": "SD", "to": "ReadPreferUnique", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C001", "C5_8_C002"]}
+{"relationId": "C5_8_rel_012", "pdfId": "C5.8", "from": "SnoopMe", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_013", "pdfId": "C5.8", "from": "SnpQuery", "to": "SnpStash", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_014", "pdfId": "C5.8", "from": "SnpStash", "to": "SnpQuery", "relationType": "co-mentioned", "sourceChunks": ["C5_8_C002"]}
+{"relationId": "C5_8_rel_015", "pdfId": "C5.8", "from": "C5_8_rule_001", "to": "ReadPreferUnique", "relationType": "applies-to", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_016", "pdfId": "C5.8", "from": "C5_8_rule_001", "to": "SD", "relationType": "applies-to", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_017", "pdfId": "C5.8", "from": "C5_8_vp_001", "to": "C5_8_rule_001", "relationType": "verifies", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_018", "pdfId": "C5.8", "from": "C5_8_vp_002", "to": "C5_8_rule_002", "relationType": "verifies", "sourceChunks": ["C5_8_C001"]}
+{"relationId": "C5_8_rel_019", "pdfId": "C5.8", "from": "C5_8_vp_003", "to": "C5_8_rule_003", "relationType": "verifies", "sourceChunks": ["C5_8_C001"]}

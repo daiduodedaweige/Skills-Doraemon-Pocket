@@ -1,0 +1,39 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant UDP as UDP
+    participant RN_F1 as RN-F1
+    participant RN_F2 as RN-F2
+    participant HN_F as HN-F
+    UDP->>RN_F1: ReadClean
+    RN_F0->>RN_F2: ReadClean
+    RN_F1->>UDP: ReadClean
+    RN_F2->>HN_F: ReadNoSnp
+    RN_F2->>HN_F: ReadNoSnp
+    HN_F->>RN_F2: ReadNoSnp
+    RN_F1->>RN_F2: SnpClean
+    RN_F2->>UDP: SnpClean
+    RN_F2->>RN_F1: SnpClean
+    UDP->>RN_F1: SnpClean
+    RN_F1->>UDP: SnpClean
+    RN_F1->>RN_F2: SnpResp_I
+    RN_F1->>RN_F2: SnpResp_I
+    RN_F2->>RN_F1: SnpResp_I
+    UDP->>RN_F2
+    RN_F2->>HN_F: CompData_I
+    RN_F1->>RN_F2: SnpRespDataPtl_I_PD
+    HN_F->>RN_F2: CompData_I
+    RN_F2->>RN_F1: SnpRespDataPtl_I_PD
+    RN_F2->>HN_F: WriteNoSnp
+    RN_F2->>HN_F: WriteNoSnp
+    HN_F->>RN_F2: WriteNoSnp
+    UDP->>RN_F1: CompData_UC
+    RN_F2->>RN_F0: CompData_UC
+    RN_F1->>UDP: CompData_UC
+    UDP->>RN_F1: CompAck
+    RN_F0->>RN_F2: CompAck
+    RN_F1->>UDP: CompAck
+    RN_F2->>HN_F: CompDBIDResp
+    HN_F->>RN_F2: CompDBIDResp
+    RN_F2->>HN_F: NCBWrData
+    RN_F2->>HN_F: NCBWrData
+    HN_F->>RN_F2: NCBWrData

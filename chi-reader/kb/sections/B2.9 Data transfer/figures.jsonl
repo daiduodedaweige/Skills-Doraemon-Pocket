@@ -1,0 +1,14 @@
+{"figureId": "B2_9_figure_001", "pdfId": "B2.9", "label": "B2.40", "title": "details a number of example DAT channel messages at the packet level before and after the inclusion", "sourceChunks": ["B2_9_C009"]}
+{"figureId": "B2_9_figure_002", "pdfId": "B2.9", "label": "B2.40", "title": "128-bit Data bus width examples", "sourceChunks": ["B2_9_C010"]}
+{"figureId": "B2_9_figure_003", "pdfId": "B2.9", "label": "B2.41", "title": "details a number of example DAT channel messages at the packet level before and after the inclusion", "sourceChunks": ["B2_9_C010"]}
+{"figureId": "B2_9_figure_004", "pdfId": "B2.9", "label": "B2.41", "title": "256-bit Data bus width examples", "sourceChunks": ["B2_9_C010"]}
+{"figureId": "B2_9_figure_005", "pdfId": "B2.9", "label": "B2.42", "title": "details some CopyBackWriteData_I, WriteDataCancel and RespErr = NDERR messages, before and", "sourceChunks": ["B2_9_C011"]}
+{"figureId": "B2_9_figure_006", "pdfId": "B2.9", "label": "B2.42", "title": "CopyBackWriteData_I, WriteDataCancel, or NDERR Data bus width example", "sourceChunks": ["B2_9_C012"]}
+{"figureId": "B2_9_figure_007", "pdfId": "B2.9", "label": "B2.43", "title": "shows the examples of data placement with different addresses and different Data sizes.", "sourceChunks": ["B2_9_C015"]}
+{"figureId": "B2_9_figure_008", "pdfId": "B2.9", "label": "B2.43", "title": "Data value packing for AtomicCompare transaction", "sourceChunks": ["B2_9_C016"]}
+{"figureId": "B2_9_figure_009", "pdfId": "B2.9", "label": "B2.44", "title": "Normal memory 64-byte Read transaction from an aligned address", "sourceChunks": ["B2_9_C023"]}
+{"figureId": "B2_9_figure_010", "pdfId": "B2.9", "label": "B2.45", "title": "Normal memory 64-byte Read transaction from an unaligned address", "sourceChunks": ["B2_9_C024"]}
+{"figureId": "B2_9_figure_011", "pdfId": "B2.9", "label": "B2.46", "title": "Normal memory 32-byte Read transaction from an unaligned address", "sourceChunks": ["B2_9_C024"]}
+{"figureId": "B2_9_figure_012", "pdfId": "B2.9", "label": "B2.47", "title": "Normal memory 14-byte Read transaction from an unaligned address", "sourceChunks": ["B2_9_C025"]}
+{"figureId": "B2_9_figure_013", "pdfId": "B2.9", "label": "B2.48", "title": "Device Read transaction from an unaligned address", "sourceChunks": ["B2_9_C026"]}
+{"figureId": "B2_9_figure_014", "pdfId": "B2.9", "label": "B2.49", "title": "Device Write transaction to an unaligned address", "sourceChunks": ["B2_9_C027"]}

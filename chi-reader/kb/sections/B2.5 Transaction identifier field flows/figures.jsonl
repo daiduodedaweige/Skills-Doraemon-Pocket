@@ -1,0 +1,25 @@
+{"figureId": "B2_5_figure_001", "pdfId": "B2.5", "label": "B2.23", "title": "shows how the Target and Transaction ID values in the DMT transaction messages are derived. For", "sourceChunks": ["B2_5_C001"]}
+{"figureId": "B2_5_figure_002", "pdfId": "B2.5", "label": "B2.23", "title": "ID value transfer in a DMT transaction", "sourceChunks": ["B2_5_C002"]}
+{"figureId": "B2_5_figure_003", "pdfId": "B2.5", "label": "B2.24", "title": "shows how the identifier field values are derived in DMT transaction messages that use separate", "sourceChunks": ["B2_5_C005"]}
+{"figureId": "B2_5_figure_004", "pdfId": "B2.5", "label": "B2.24", "title": "ID value transfer in a DMT transaction with separate Comp and", "sourceChunks": ["B2_5_C008"]}
+{"figureId": "B2_5_figure_005", "pdfId": "B2.5", "label": "B2.25", "title": "shows how the identifier field values are derived in DCT transaction messages. In this example, the", "sourceChunks": ["B2_5_C012"]}
+{"figureId": "B2_5_figure_006", "pdfId": "B2.5", "label": "B2.25", "title": "ID value transfer in a DCT transaction", "sourceChunks": ["B2_5_C014"]}
+{"figureId": "B2_5_figure_007", "pdfId": "B2.5", "label": "B2.26", "title": "shows the ID value transfer.", "sourceChunks": ["B2_5_C017"]}
+{"figureId": "B2_5_figure_008", "pdfId": "B2.5", "label": "B2.26", "title": "ID value transfer in a Read request with ReadReceipt and CompAck", "sourceChunks": ["B2_5_C017"]}
+{"figureId": "B2_5_figure_009", "pdfId": "B2.5", "label": "B2.27", "title": "shows how the identifier field values are derived in CleanSharedPersistSep transaction messages that", "sourceChunks": ["B2_5_C020"]}
+{"figureId": "B2_5_figure_010", "pdfId": "B2.5", "label": "B2.27", "title": "ID value transfer in a CleanSharedPersistSep transaction", "sourceChunks": ["B2_5_C021"]}
+{"figureId": "B2_5_figure_011", "pdfId": "B2.5", "label": "B2.27", "title": ", are generated as follows:", "sourceChunks": ["B2_5_C023"]}
+{"figureId": "B2_5_figure_012", "pdfId": "B2.5", "label": "B2.28", "title": "shows the identifier value transfer.", "sourceChunks": ["B2_5_C028"]}
+{"figureId": "B2_5_figure_013", "pdfId": "B2.5", "label": "B2.28", "title": "ID value transfer in a CopyBack", "sourceChunks": ["B2_5_C028"]}
+{"figureId": "B2_5_figure_014", "pdfId": "B2.5", "label": "B2.29", "title": "does not show the Memory Tagging supported TagGroupID flow. For TagGroupID transfer details,", "sourceChunks": ["B2_5_C030"]}
+{"figureId": "B2_5_figure_015", "pdfId": "B2.5", "label": "B2.29", "title": "shows the identifier value transfer for separate Comp and DBIDResp. The Completer can", "sourceChunks": ["B2_5_C030"]}
+{"figureId": "B2_5_figure_016", "pdfId": "B2.5", "label": "B2.29", "title": "ID value transfer in a WriteNoSnp", "sourceChunks": ["B2_5_C031"]}
+{"figureId": "B2_5_figure_017", "pdfId": "B2.5", "label": "B2.30", "title": "does not show the Memory Tagging supported TagGroupID flow. For TagGroupID transfer details,", "sourceChunks": ["B2_5_C036"]}
+{"figureId": "B2_5_figure_018", "pdfId": "B2.5", "label": "B2.30", "title": "shows the identifier value transfer with a combined CompDBIDResp response.", "sourceChunks": ["B2_5_C037"]}
+{"figureId": "B2_5_figure_019", "pdfId": "B2.5", "label": "B2.30", "title": "ID value transfer", "sourceChunks": ["B2_5_C038"]}
+{"figureId": "B2_5_figure_020", "pdfId": "B2.5", "label": "B2.31", "title": "shows the identifier value transfer with a combined WriteData and CompAck response.", "sourceChunks": ["B2_5_C038"]}
+{"figureId": "B2_5_figure_021", "pdfId": "B2.5", "label": "B2.31", "title": "ID value transfer with", "sourceChunks": ["B2_5_C038"]}
+{"figureId": "B2_5_figure_022", "pdfId": "B2.5", "label": "B2.32", "title": "shows the identifier value transfer.", "sourceChunks": ["B2_5_C039"]}
+{"figureId": "B2_5_figure_023", "pdfId": "B2.5", "label": "B2.32", "title": "ID value transfer in a Stash transaction", "sourceChunks": ["B2_5_C039"]}
+{"figureId": "B2_5_figure_024", "pdfId": "B2.5", "label": "B2.33", "title": "shows the identifier value transfer.", "sourceChunks": ["B2_5_C043"]}
+{"figureId": "B2_5_figure_025", "pdfId": "B2.5", "label": "B2.33", "title": "ID value transfer in a transaction request with retry", "sourceChunks": ["B2_5_C043"]}

@@ -1,0 +1,48 @@
+{
+  "pdfId": "B16.1",
+  "sourceFile": "B16.1 Interface properties and parameters.md",
+  "title": "Interface properties and parameters",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Interface",
+    "properties",
+    "and",
+    "parameters",
+    "B16",
+    "False",
+    "REQ",
+    "True"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel semantics",
+    "Transaction flows"
+  ],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 47,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 72,
+    "tables": 87,
+    "figures": 0
+  }
+}

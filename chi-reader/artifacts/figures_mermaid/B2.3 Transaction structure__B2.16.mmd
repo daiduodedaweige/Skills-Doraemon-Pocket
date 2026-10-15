@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate: WriteNoSnpPtl, WriteNoSnpFull, WriteNoSnpDef
+    Subordinate->>Home: [1. Separate response]<br/>DBIDResp
+    Subordinate->>Home: Comp
+    Home->>Subordinate: [2. Combined response]<br/>CompDBIDResp
+    Subordinate->>Home: [2. Combined response]<br/>CompDBIDResp
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: [TagMatch response]<br/>TagMatch

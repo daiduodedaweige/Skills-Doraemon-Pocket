@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate: WriteNoSnpZero
+    Subordinate->>Home: [1. Seperate response from Home]<br/>DBIDResp
+    Subordinate->>Home: Comp
+    Home->>Subordinate: [2. Combined response from Home]<br/>CompDBIDResp
+    Subordinate->>Home: [2. Combined response from Home]<br/>CompDBIDResp

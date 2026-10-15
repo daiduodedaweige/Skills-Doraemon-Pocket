@@ -1,0 +1,42 @@
+{
+  "pdfId": "C5.2",
+  "sourceFile": "C5.2 Changes between Issue B and Issue C.md",
+  "title": "Changes between Issue B and Issue C",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Changes",
+    "between",
+    "B",
+    "and",
+    "C"
+  ],
+  "contentTypes": {
+    "hasChunks": false,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": false,
+    "reviewed": false,
+    "quality": "empty-source",
+    "notes": "Source markdown is empty; only metadata and empty record files were generated."
+  },
+  "recordStats": {
+    "chunks": 0,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pdfId": "C3.1",
+  "sourceFile": "C3.1 Request Nodes Subset.md",
+  "title": "Request Nodes Subset",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Subset",
+    "Write",
+    "Combined",
+    "CopyBack",
+    "Allocating",
+    "RN-D",
+    "RN-F",
+    "RN-I"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Transaction flows"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Read transaction flows",
+    "Write transaction flows"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 2,
+    "objects": 20,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 5,
+    "tables": 2,
+    "figures": 0
+  }
+}

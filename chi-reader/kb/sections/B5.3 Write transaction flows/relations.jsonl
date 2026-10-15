@@ -1,0 +1,15 @@
+{"relationId": "B5_3_rel_001", "pdfId": "B5.3", "from": "CopyBack", "to": "CopyBackWriteData", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_002", "pdfId": "B5.3", "from": "CopyBack", "to": "NonCopyBackWriteData", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_003", "pdfId": "B5.3", "from": "CopyBackWriteData", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_004", "pdfId": "B5.3", "from": "CopyBackWriteData", "to": "NonCopyBackWriteData", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_005", "pdfId": "B5.3", "from": "HN-F", "to": "RN", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_006", "pdfId": "B5.3", "from": "HN-F", "to": "WriteUniquePtl", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_007", "pdfId": "B5.3", "from": "NonCopyBackWriteData", "to": "CopyBack", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_008", "pdfId": "B5.3", "from": "NonCopyBackWriteData", "to": "CopyBackWriteData", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_009", "pdfId": "B5.3", "from": "RN", "to": "HN-F", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_010", "pdfId": "B5.3", "from": "RN", "to": "WriteUniquePtl", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_011", "pdfId": "B5.3", "from": "SN-F", "to": "HN-F", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_012", "pdfId": "B5.3", "from": "SnpCleanInvalid", "to": "HN-F", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001"]}
+{"relationId": "B5_3_rel_013", "pdfId": "B5.3", "from": "SnpCleanInvalid", "to": "RN", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001"]}
+{"relationId": "B5_3_rel_014", "pdfId": "B5.3", "from": "UD", "to": "RN", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}
+{"relationId": "B5_3_rel_015", "pdfId": "B5.3", "from": "WriteNoSnp", "to": "HN-F", "relationType": "co-mentioned", "sourceChunks": ["B5_3_C001", "B5_3_C002"]}

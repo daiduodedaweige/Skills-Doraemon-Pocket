@@ -1,0 +1,45 @@
+{
+  "pdfId": "B11.5",
+  "sourceFile": "B11.5 Page-based Hardware Attributes.md",
+  "title": "Page-based Hardware Attributes",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Page",
+    "based",
+    "Hardware",
+    "Attributes",
+    "PBHA",
+    "PA",
+    "Address",
+    "Multiple"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 2,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 1,
+    "tables": 0,
+    "figures": 0
+  }
+}

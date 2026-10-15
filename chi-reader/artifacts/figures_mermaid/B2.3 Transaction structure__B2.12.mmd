@@ -1,0 +1,9 @@
+flowchart LR
+    N001["Requester"]
+    N002["Subordinate"]
+    N003["PrefetchTgt"]
+    N004["Requester"]
+    N005["Subordinate"]
+    N001 --- N004
+    N002 --- N005
+    N003 --> N005

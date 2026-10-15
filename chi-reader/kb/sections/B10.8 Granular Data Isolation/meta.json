@@ -1,0 +1,52 @@
+{
+  "pdfId": "B10.8",
+  "sourceFile": "B10.8 Granular Data Isolation.md",
+  "title": "Granular Data Isolation",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Granular",
+    "Isolation",
+    "MECID",
+    "SnpRespDataPtl",
+    "SnpRespData",
+    "SLC",
+    "Any",
+    "B11"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields"
+  ],
+  "relatedSections": [
+    "Request types",
+    "Write transaction flows",
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 20,
+    "rules": 25,
+    "flows": 0,
+    "verification": 25,
+    "relations": 70,
+    "tables": 0,
+    "figures": 0
+  }
+}

@@ -1,0 +1,4 @@
+{"tableId": "B14_6_table_001", "pdfId": "B14.6", "label": "B14.4", "title": "shows, in terms of the state transitions, the two expected paths.", "sourceChunks": ["B14_6_C006"], "rawHeader": "Table B14.4: Stop/Stop to Run/Run state paths"}
+{"tableId": "B14_6_table_002", "pdfId": "B14.6", "label": "B14.4", "title": "Stop/Stop to Run/Run state paths", "sourceChunks": ["B14_6_C006"], "rawHeader": "1 State"}
+{"tableId": "B14_6_table_003", "pdfId": "B14.6", "label": "B14.5", "title": "shows, in terms of the state transitions, the four expected paths.", "sourceChunks": ["B14_6_C007"], "rawHeader": "Table B14.5: State"}
+{"tableId": "B14_6_table_004", "pdfId": "B14.6", "label": "B14.5", "title": "State", "sourceChunks": ["B14_6_C007"], "rawHeader": "A transition from a Run/Run state to a Stop/Stop state requires that L-Credits are returned. A link must remain in"}

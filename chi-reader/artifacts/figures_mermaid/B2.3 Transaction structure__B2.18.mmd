@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant Home as Home
+    participant Subordinate as Subordinate
+    Home->>Subordinate
+    Subordinate->>Home: [1a. Separate responses from Subordinate]<br/>DBIDResp
+    Subordinate->>Home: Comp
+    Home->>Subordinate: [1b. Combined response from Subordinate]<br/>CompDBIDResp
+    Subordinate->>Home: [1b. Combined response from Subordinate]<br/>CompDBIDResp
+    Home->>Subordinate: NonCopyBackWriteData, WriteDataCancel
+    Subordinate->>Home: [2a. Non-persist CMO]<br/>CompCMO
+    Home->>Subordinate: [2b. Persist CMO]<br/>alt
+    Subordinate->>Home: [2b1. Separate response from Subordinate]<br/>CompCMO
+    Subordinate->>Home: Persist
+    Home->>Subordinate: [2b2. Combined response from Subordinate]<br/>CompPersist
+    Subordinate->>Home: [2b2. Combined response from Subordinate]<br/>CompPersist

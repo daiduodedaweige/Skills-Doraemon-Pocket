@@ -1,0 +1,45 @@
+{
+  "pdfId": "B1.6",
+  "sourceFile": "B1.6 Component naming.md",
+  "title": "Component naming",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Component",
+    "naming",
+    "Subordinate",
+    "CMO",
+    "HN-F",
+    "SN-F",
+    "SN-I",
+    "HN-I"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "dependsOn": [],
+  "relatedSections": [],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 11,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 2,
+    "tables": 0,
+    "figures": 2
+  }
+}

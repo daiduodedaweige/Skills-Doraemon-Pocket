@@ -1,0 +1,43 @@
+sequenceDiagram
+    participant RN_F0 as RN-F0
+    participant RN_F1 as RN-F1
+    participant RN_F2_I as RN-F2<br/>I
+    participant HN as HN
+    participant SN as SN
+    RN_F1->>RN_F2_I: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_I->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F1->>RN_F2_I: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F0->>HN: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_I->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F1->>RN_F2_I: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    RN_F2_I->>RN_F1: AtomicLoad<br/>AtomicSwap<br/>AtomicCompare
+    HN->>SN: ReadNoSnp
+    HN->>SN: ReadNoSnp
+    HN->>SN: ReadNoSnp
+    HN->>RN_F0
+    HN->>SN: RespData_
+    RN_F0->>RN_F1: DBIDResp
+    SN->>HN: RespData_
+    HN->>SN: RespData_
+    RN_F1->>RN_F0: DBIDResp
+    SN->>HN: (InitialData)
+    RN_F1->>RN_F2_I: NCBWrData<br/>(TxnData)
+    RN_F2_I->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2_I: NCBWrData<br/>(TxnData)
+    RN_F0->>HN: NCBWrData<br/>(TxnData)
+    RN_F2_I->>RN_F1: NCBWrData<br/>(TxnData)
+    RN_F1->>RN_F2_I: CompData_I<br/>(InitialData)
+    RN_F2_I->>RN_F1: CompData_I<br/>(InitialData)
+    RN_F1->>RN_F2_I: CompData_I<br/>(InitialData)
+    HN->>RN_F0: CompData_I<br/>(InitialData)
+    HN->>SN: WriteNoSnp
+    RN_F2_I->>RN_F1: CompData_I<br/>(InitialData)
+    HN->>SN: WriteNoSnp
+    HN->>SN: WriteNoSnp
+    HN->>SN: CompDBIDResp
+    SN->>HN: CompDBIDResp
+    SN->>HN: NCBWrData<br/>(NewData)
+    SN->>HN: NCBWrData<br/>(NewData)
+    HN->>SN: NCBWrData<br/>(NewData)
+    HN->>SN: NCBWrData<br/>(NewData)
+    SN->>HN: NCBWrData<br/>(NewData)

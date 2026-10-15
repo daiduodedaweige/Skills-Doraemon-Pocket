@@ -1,0 +1,51 @@
+{
+  "pdfId": "B12.9",
+  "sourceFile": "B12.9 Snoop requests.md",
+  "title": "Snoop requests",
+  "chiVersion": "IHI0050H",
+  "pageStart": null,
+  "pageEnd": null,
+  "mainTopics": [
+    "Snoop",
+    "requests",
+    "TagOp",
+    "DataPull",
+    "B12",
+    "Invalid",
+    "SnpMakeInvalidStash",
+    "SnpStash"
+  ],
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": true,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "dependsOn": [
+    "Channel fields",
+    "Channel semantics"
+  ],
+  "relatedSections": [
+    "Snoop request types",
+    "Response types"
+  ],
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "generated-from-markdown",
+    "notes": "Generated from extracted markdown with heuristic structure."
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 14,
+    "rules": 17,
+    "flows": 0,
+    "verification": 17,
+    "relations": 39,
+    "tables": 0,
+    "figures": 0
+  }
+}
