@@ -1,0 +1,31 @@
+{
+  "pdfId": "C3.1",
+  "title": "Read and write address channel signaling",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 158,
+  "pageEnd": 166,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 35,
+    "objects": 41,
+    "rules": 43,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 22,
+    "figures": 0
+  }
+}

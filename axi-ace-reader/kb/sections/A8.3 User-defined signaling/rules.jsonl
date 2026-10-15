@@ -1,0 +1,1 @@
+{"ruleId": "A8.3_rule_001", "title": "Where User signals are implemented it is not required that User signals are supported on all channel", "requirement": "Where User signals are implemented it is not required that User signals are supported on all channels.", "sourceChunks": ["A8.3_C0002"], "confidence": "heuristic"}

@@ -1,0 +1,7 @@
+{"objectId": "A1.2_obj_001", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0001", "A1.2_C0002"]}
+{"objectId": "A1.2_obj_002", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0001"]}
+{"objectId": "A1.2_obj_003", "name": "AXI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0001"]}
+{"objectId": "A1.2_obj_004", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0001"]}
+{"objectId": "A1.2_obj_005", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0002"]}
+{"objectId": "A1.2_obj_006", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0002"]}
+{"objectId": "A1.2_obj_007", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A1.2_C0002"]}

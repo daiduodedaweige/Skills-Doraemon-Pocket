@@ -1,0 +1,1 @@
+{"ruleId": "A2.6_rule_001", "title": "This signal indicates that the channel is signaling the required read data.", "requirement": "This signal indicates that the channel is signaling the required read data.", "sourceChunks": ["A2.6_C0002"], "confidence": "heuristic"}

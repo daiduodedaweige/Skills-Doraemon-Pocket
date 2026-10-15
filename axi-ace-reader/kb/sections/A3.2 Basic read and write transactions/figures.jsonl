@@ -1,0 +1,4 @@
+{"label": "A3-2", "title": "to Figure A3-4 on page A3-38 show examples of the handshake process.", "sourceChunks": ["A3.2_C0002"]}
+{"label": "A3-2", "title": "VALID before READY handshake", "sourceChunks": ["A3.2_C0003"]}
+{"label": "A3-3", "title": "READY before VALID handshake", "sourceChunks": ["A3.2_C0004"]}
+{"label": "A3-4", "title": "VALID with READY handshake", "sourceChunks": ["A3.2_C0005"]}

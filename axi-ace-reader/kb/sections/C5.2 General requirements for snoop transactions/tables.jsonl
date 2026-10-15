@@ -1,0 +1,7 @@
+{"label": "C5-3", "title": "shows the required behavior for each snoop transaction:", "sourceChunks": ["C5.2_C0001"]}
+{"label": "C5-3", "title": "Required snoop transaction behavior", "sourceChunks": ["C5.2_C0001"]}
+{"label": "C5-4", "title": "shows the permitted end states for valid combinations of the initial state and the issued snoop", "sourceChunks": ["C5.2_C0006"]}
+{"label": "C5-4", "title": "Permitted end states for combinations of initial state and snoop transaction", "sourceChunks": ["C5.2_C0007"]}
+{"label": "C5-5", "title": "Associated snoop responses for combinations of initial state and snoop transaction", "sourceChunks": ["C5.2_C0011"]}
+{"label": "C5-6", "title": "shows protocol-recommended data transfer behavior for snoop transactions, based on the assumption", "sourceChunks": ["C5.2_C0016"]}
+{"label": "C5-6", "title": "Recommended data transfer behavior for snoop transactions", "sourceChunks": ["C5.2_C0017"]}

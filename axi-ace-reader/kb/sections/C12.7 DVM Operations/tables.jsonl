@@ -1,0 +1,24 @@
+{"label": "C12-5", "title": "shows the fixed values for the TLB Invalidate message fields.", "sourceChunks": ["C12.7_C0001"]}
+{"label": "C12-5", "title": "TLB Invalidate message fixed values", "sourceChunks": ["C12.7_C0001"]}
+{"label": "C12-6", "title": "shows the TLB Invalidate message, ARADDR[14:12] = 0b000 and the encoding for the supported", "sourceChunks": ["C12.7_C0003"]}
+{"label": "C12-6", "title": "Supported TLB Invalidate operations", "sourceChunks": ["C12.7_C0003"]}
+{"label": "C12-7", "title": "shows the fixed values for the Branch Predictor Invalidate message fields.", "sourceChunks": ["C12.7_C0007"]}
+{"label": "C12-7", "title": "Branch Predictor Invalidate message fixed values", "sourceChunks": ["C12.7_C0007"]}
+{"label": "C12-8", "title": "shows the Branch Predictor Invalidate message, ARADDR[14:12] = 0b001 and the encodings for the", "sourceChunks": ["C12.7_C0008"]}
+{"label": "C12-8", "title": "Supported Branch Predictor Invalidate operations", "sourceChunks": ["C12.7_C0008", "C12.7_C0009"]}
+{"label": "C12-9", "title": "shows the fixed values for the Physical Instruction Cache Invalidate message fields.", "sourceChunks": ["C12.7_C0010"]}
+{"label": "C12-9", "title": "Physical Instruction Cache Invalidate message fixed values", "sourceChunks": ["C12.7_C0010"]}
+{"label": "C12-10", "title": "shows the Physical Instruction Cache Invalidate message, ARADDR[14:12] = 0b010 and the", "sourceChunks": ["C12.7_C0011"]}
+{"label": "C12-10", "title": "Supported Physical Instruction Cache Invalidate operations", "sourceChunks": ["C12.7_C0011"]}
+{"label": "C12-11", "title": "shows the fixed values for the Virtual Instruction Cache Invalidate message fields.", "sourceChunks": ["C12.7_C0014"]}
+{"label": "C12-11", "title": "Virtual Instruction Cache Invalidate message fixed values", "sourceChunks": ["C12.7_C0014"]}
+{"label": "C12-12", "title": "shows the Virtual Instruction Cache Invalidate message, ARADDR[14:12] == 0b011 and the", "sourceChunks": ["C12.7_C0015"]}
+{"label": "C12-12", "title": "Supported Virtual Instruction Cache Invalidate operations", "sourceChunks": ["C12.7_C0015"]}
+{"label": "C12-13", "title": "shows the fixed values for the Sync message fields.", "sourceChunks": ["C12.7_C0018"]}
+{"label": "C12-13", "title": "Sync message fixed values", "sourceChunks": ["C12.7_C0018"]}
+{"label": "C12-14", "title": "shows the message type encoding for the Sync Operation and usage cases.", "sourceChunks": ["C12.7_C0019", "C12.7_C0020"]}
+{"label": "C12-14", "title": "Supported Sync Operations", "sourceChunks": ["C12.7_C0020"]}
+{"label": "C12-15", "title": "shows the fixed values for the Hint message fields.", "sourceChunks": ["C12.7_C0020"]}
+{"label": "C12-15", "title": "Hint message fixed values", "sourceChunks": ["C12.7_C0020", "C12.7_C0021"]}
+{"label": "C12-16", "title": "shows the message type encoding for future Hint operations.", "sourceChunks": ["C12.7_C0022"]}
+{"label": "C12-16", "title": "Support for future Hint operations", "sourceChunks": ["C12.7_C0022"]}

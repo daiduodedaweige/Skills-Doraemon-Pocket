@@ -1,0 +1,22 @@
+{"label": "C3-1", "title": "Shareability domain signals", "sourceChunks": ["C3.1_C0001"]}
+{"label": "C3-2", "title": "shows the AxDOMAIN[1:0] signal encoding.", "sourceChunks": ["C3.1_C0003"]}
+{"label": "C3-2", "title": "Shareability domain encoding", "sourceChunks": ["C3.1_C0003"]}
+{"label": "C3-3", "title": "shows all AxCACHE and AxDOMAIN combinations. See AXI4 changes to memory attribute", "sourceChunks": ["C3.1_C0005"]}
+{"label": "C3-3", "title": "AxCACHE and AxDOMAIN signal combinations", "sourceChunks": ["C3.1_C0005"]}
+{"label": "C3-4", "title": "Barrier transaction signals", "sourceChunks": ["C3.1_C0009"]}
+{"label": "C3-5", "title": "Barrier transaction signal encoding", "sourceChunks": ["C3.1_C0009", "C3.1_C0010"]}
+{"label": "C3-6", "title": "Shareable transaction type signals", "sourceChunks": ["C3.1_C0010", "C3.1_C0011"]}
+{"label": "C3-7", "title": "shows the permitted combinations of ARBAR[0], ARDOMAIN[1:0], and ARSNOOP[3:0] for each", "sourceChunks": ["C3.1_C0014"]}
+{"label": "C3-7", "title": "Permitted read address control signal combinations", "sourceChunks": ["C3.1_C0014"]}
+{"label": "C3-8", "title": "shows the permitted combinations of AWBAR[0], AWDOMAIN[1:0], and AWSNOOP[2:0] for each", "sourceChunks": ["C3.1_C0018"]}
+{"label": "C3-8", "title": "Permitted write address control signal combinations", "sourceChunks": ["C3.1_C0018"]}
+{"label": "C3-9", "title": "shows the minimum and maximum cache line sizes for each supported AXI4 data bus width.", "sourceChunks": ["C3.1_C0022"]}
+{"label": "C3-9", "title": "Minimum and maximum supported cache line sizes", "sourceChunks": ["C3.1_C0022"]}
+{"label": "C3-10", "title": "shows the constraints that apply to cache line size transactions.", "sourceChunks": ["C3.1_C0024"]}
+{"label": "C3-10", "title": "Cache line size transaction constraints", "sourceChunks": ["C3.1_C0024", "C3.1_C0026"]}
+{"label": "C3-10", "title": "Cache line size transaction constraints (continued)", "sourceChunks": ["C3.1_C0024", "C3.1_C0026"]}
+{"label": "C3-11", "title": "shows the constraints that apply to ReadOnce and WriteUnique transactions.", "sourceChunks": ["C3.1_C0028"]}
+{"label": "C3-11", "title": "ReadOnce and WriteUnique transaction constraints", "sourceChunks": ["C3.1_C0028"]}
+{"label": "C3-12", "title": "shows the constraints that apply to WriteBack and WriteClean transactions.", "sourceChunks": ["C3.1_C0030"]}
+{"label": "C3-12", "title": "WriteBack and WriteClean transaction constraints", "sourceChunks": ["C3.1_C0030", "C3.1_C0031"]}
+{"label": "C3-13", "title": "Barrier transaction constraints", "sourceChunks": ["C3.1_C0034"]}

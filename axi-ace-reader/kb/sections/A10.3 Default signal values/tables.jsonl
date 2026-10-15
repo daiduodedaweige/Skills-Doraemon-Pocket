@@ -1,0 +1,4 @@
+{"label": "A10-1", "title": "Master interface write channel signals and default signal values", "sourceChunks": ["A10.3_C0003"]}
+{"label": "A10-2", "title": "Memory slave interface write channel signals and default signal values", "sourceChunks": ["A10.3_C0006"]}
+{"label": "A10-3", "title": "Master interface read channel signals and default signals values", "sourceChunks": ["A10.3_C0009"]}
+{"label": "A10-4", "title": "Memory slave interface read channel signals and default signals values", "sourceChunks": ["A10.3_C0012"]}

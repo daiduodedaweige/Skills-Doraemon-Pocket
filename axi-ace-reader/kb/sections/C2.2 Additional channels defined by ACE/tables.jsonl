@@ -1,0 +1,6 @@
+{"label": "C2-4", "title": "shows the signals on the snoop address channel. See Snoop address channel signaling on page C3-173.", "sourceChunks": ["C2.2_C0001"]}
+{"label": "C2-4", "title": "Snoop address channel signals", "sourceChunks": ["C2.2_C0001"]}
+{"label": "C2-5", "title": "shows the signals on the snoop response channel. See Snoop response channel signaling on", "sourceChunks": ["C2.2_C0003"]}
+{"label": "C2-5", "title": "Snoop response channel signals", "sourceChunks": ["C2.2_C0003"]}
+{"label": "C2-6", "title": "shows the signals on the snoop data channel. See Snoop data channel signaling on page C3-180.", "sourceChunks": ["C2.2_C0004"]}
+{"label": "C2-6", "title": "Snoop data channel signals", "sourceChunks": ["C2.2_C0004"]}

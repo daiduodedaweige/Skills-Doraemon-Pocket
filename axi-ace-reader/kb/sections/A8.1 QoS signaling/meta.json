@@ -1,0 +1,31 @@
+{
+  "pdfId": "A8.1",
+  "title": "QoS signaling",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 98,
+  "pageEnd": 98,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 7,
+    "rules": 1,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

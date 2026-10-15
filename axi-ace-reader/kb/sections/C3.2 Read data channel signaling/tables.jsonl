@@ -1,0 +1,6 @@
+{"label": "C3-14", "title": "shows the additional read response signals:", "sourceChunks": ["C3.2_C0001"]}
+{"label": "C3-14", "title": "Additional RRESP read response bits", "sourceChunks": ["C3.2_C0001"]}
+{"label": "C3-15", "title": "shows the permitted IsShared and PassDirty responses for each transaction:", "sourceChunks": ["C3.2_C0006"]}
+{"label": "C3-15", "title": "IsShared and PassDirty permitted responses", "sourceChunks": ["C3.2_C0006", "C3.2_C0009"]}
+{"label": "C3-15", "title": "IsShared and PassDirty permitted responses (continued)", "sourceChunks": ["C3.2_C0006", "C3.2_C0009"]}
+{"label": "C3-15", "title": "on page C3-168 only shows the permitted responses on RRESP[3:2]. For the permitted responses on", "sourceChunks": ["C3.2_C0009"]}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "C9.1",
+  "title": "About Exclusive accesses",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 260,
+  "pageEnd": 260,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 11,
+    "rules": 9,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

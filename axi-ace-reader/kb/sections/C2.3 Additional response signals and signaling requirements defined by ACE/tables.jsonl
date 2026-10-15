@@ -1,0 +1,4 @@
+{"label": "C2-7", "title": "shows the additional read acknowledge signal. See Read acknowledge signaling on page C3-170.", "sourceChunks": ["C2.3_C0001"]}
+{"label": "C2-7", "title": "Read acknowledge signal", "sourceChunks": ["C2.3_C0001"]}
+{"label": "C2-8", "title": "shows the additional write acknowledge signal. See Write Acknowledge signaling on page C3-172.", "sourceChunks": ["C2.3_C0002"]}
+{"label": "C2-8", "title": "Write acknowledge signal", "sourceChunks": ["C2.3_C0002"]}

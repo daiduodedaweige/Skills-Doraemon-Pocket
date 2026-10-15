@@ -1,0 +1,3 @@
+{"label": "C5-1", "title": "Recommended transaction mappings", "sourceChunks": ["C5.1_C0001", "C5.1_C0002"]}
+{"label": "C5-2", "title": "shows each permitted snoop transaction on the snoop address channel, the required cache line state", "sourceChunks": ["C5.1_C0006"]}
+{"label": "C5-2", "title": "Snoop transaction options on the address snoop channel", "sourceChunks": ["C5.1_C0006"]}

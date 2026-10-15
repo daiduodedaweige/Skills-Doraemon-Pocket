@@ -1,0 +1,2 @@
+{"ruleId": "C6.1_rule_001", "title": "• issue snoop transactions, as required, for each transaction from an initiating master 发送嗅探请求", "requirement": "• issue snoop transactions, as required, for each transaction from an initiating master 发送嗅探请求", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C6.1_rule_002", "title": "• carry out any required access to main memory.", "requirement": "• carry out any required access to main memory.", "sourceChunks": [], "confidence": "heuristic"}

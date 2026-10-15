@@ -1,0 +1,31 @@
+{
+  "pdfId": "S115",
+  "title": "Part D: Appendices",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 297,
+  "pageEnd": 298,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": false,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 0,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

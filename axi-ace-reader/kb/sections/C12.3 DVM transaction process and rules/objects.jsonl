@@ -1,0 +1,8 @@
+{"objectId": "C12.3_obj_001", "name": "C12", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0001", "C12.3_C0003"]}
+{"objectId": "C12.3_obj_002", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0001", "C12.3_C0002"]}
+{"objectId": "C12.3_obj_003", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0004", "C12.3_C0006"]}
+{"objectId": "C12.3_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0004", "C12.3_C0009"]}
+{"objectId": "C12.3_obj_005", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0004", "C12.3_C0009"]}
+{"objectId": "C12.3_obj_006", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0004", "C12.3_C0009"]}
+{"objectId": "C12.3_obj_007", "name": "CRRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0005", "C12.3_C0006"]}
+{"objectId": "C12.3_obj_008", "name": "RRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.3_C0005", "C12.3_C0006"]}

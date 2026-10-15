@@ -1,0 +1,25 @@
+{"objectId": "C3.7_obj_001", "name": "CRVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_002", "name": "CRREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_003", "name": "CRRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_004", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001"]}
+{"objectId": "C3.7_obj_005", "name": "VALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_006", "name": "READY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_007", "name": "HIGH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0001", "C3.7_C0002"]}
+{"objectId": "C3.7_obj_008", "name": "DataTransfer", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0003", "C3.7_C0004"]}
+{"objectId": "C3.7_obj_009", "name": "PassDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0003", "C3.7_C0008"]}
+{"objectId": "C3.7_obj_010", "name": "IsShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0003", "C3.7_C0010"]}
+{"objectId": "C3.7_obj_011", "name": "WasUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0003", "C3.7_C0011"]}
+{"objectId": "C3.7_obj_012", "name": "LOW", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0004", "C3.7_C0008"]}
+{"objectId": "C3.7_obj_013", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0004", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_014", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0004", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_015", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0004", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_016", "name": "ReadOnce", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0010"]}
+{"objectId": "C3.7_obj_017", "name": "ReadClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_018", "name": "ReadNotSharedDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_019", "name": "ReadShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0009"]}
+{"objectId": "C3.7_obj_020", "name": "ReadUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0007"]}
+{"objectId": "C3.7_obj_021", "name": "CleanInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0005", "C3.7_C0006"]}
+{"objectId": "C3.7_obj_022", "name": "CleanShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0006", "C3.7_C0011"]}
+{"objectId": "C3.7_obj_023", "name": "MakeInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0006", "C3.7_C0007"]}
+{"objectId": "C3.7_obj_024", "name": "ECC", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0007"]}
+{"objectId": "C3.7_obj_025", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.7_C0008"]}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "A9.2",
+  "title": "Low-power clock control",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 103,
+  "pageEnd": 109,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 24,
+    "objects": 11,
+    "rules": 9,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 14
+  }
+}

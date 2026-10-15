@@ -1,0 +1,8 @@
+{"objectId": "C4.4_obj_001", "name": "UniqueClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0002", "C4.4_C0004"]}
+{"objectId": "C4.4_obj_002", "name": "SharedClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0002", "C4.4_C0004"]}
+{"objectId": "C4.4_obj_003", "name": "UniqueDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0002", "C4.4_C0004"]}
+{"objectId": "C4.4_obj_004", "name": "SharedDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0002", "C4.4_C0004"]}
+{"objectId": "C4.4_obj_005", "name": "ReadShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0003"]}
+{"objectId": "C4.4_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0004"]}
+{"objectId": "C4.4_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0004"]}
+{"objectId": "C4.4_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.4_C0004"]}

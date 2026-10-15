@@ -1,0 +1,5 @@
+{"label": "A4-2", "title": "Parameters fixed as Non-modifiable", "sourceChunks": ["A4.3_C0002"]}
+{"label": "A4-3", "title": "shows the AXI4 bit allocations for the AWCACHE signals.", "sourceChunks": ["A4.3_C0013"]}
+{"label": "A4-3", "title": "AWCACHE bit allocations", "sourceChunks": ["A4.3_C0013"]}
+{"label": "A4-4", "title": "shows the AXI4 bit allocations for the ARCACHE signals.", "sourceChunks": ["A4.3_C0017"]}
+{"label": "A4-4", "title": "ARCACHE bit allocations", "sourceChunks": ["A4.3_C0017"]}

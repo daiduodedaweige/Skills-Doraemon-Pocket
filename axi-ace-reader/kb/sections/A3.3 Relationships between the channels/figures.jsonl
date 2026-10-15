@@ -1,0 +1,7 @@
+{"label": "A3-5", "title": "shows the read transaction handshake signal dependencies, and shows that, in a read transaction:", "sourceChunks": ["A3.3_C0005"]}
+{"label": "A3-5", "title": "Read transaction handshake dependencies", "sourceChunks": ["A3.3_C0006"]}
+{"label": "A3-6", "title": "shows the write transaction handshake signal dependencies, and shows that in a write transaction:", "sourceChunks": ["A3.3_C0006"]}
+{"label": "A3-6", "title": "Write transaction handshake dependencies", "sourceChunks": ["A3.3_C0008"]}
+{"label": "A3-7", "title": "shows all the AXI4 required slave write response handshake dependencies. The single-headed arrows", "sourceChunks": ["A3.3_C0010"]}
+{"label": "A3-7", "title": "summarizes the AXI4 slave write response handshake dependencies. These dependencies are:", "sourceChunks": ["A3.3_C0010"]}
+{"label": "A3-7", "title": "Slave write response handshake dependencies", "sourceChunks": ["A3.3_C0012"]}

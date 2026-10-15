@@ -1,0 +1,31 @@
+{
+  "pdfId": "C8.4",
+  "title": "Barrier requirements",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 254,
+  "pageEnd": 259,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 19,
+    "objects": 9,
+    "rules": 42,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 2
+  }
+}

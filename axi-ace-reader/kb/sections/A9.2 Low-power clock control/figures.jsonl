@@ -1,0 +1,14 @@
+{"label": "A9-1", "title": "shows the relationship between CSYSREQ and CSYSACK.", "sourceChunks": ["A9.2_C0004"]}
+{"label": "A9-1", "title": "CSYSREQ and CSYSACK handshake", "sourceChunks": ["A9.2_C0004"]}
+{"label": "A9-2", "title": "shows the sequence of events when a peripheral accepts a system low-power request.", "sourceChunks": ["A9.2_C0006"]}
+{"label": "A9-2", "title": "Acceptance of a low-power request", "sourceChunks": ["A9.2_C0006"]}
+{"label": "A9-3", "title": "shows the sequence of events when a peripheral denies a system low-power request.", "sourceChunks": ["A9.2_C0007"]}
+{"label": "A9-3", "title": "Denial of a low-power request", "sourceChunks": ["A9.2_C0008"]}
+{"label": "A9-4", "title": "shows the system clock controller initiating exit from the low-power state.", "sourceChunks": ["A9.2_C0010"]}
+{"label": "A9-4", "title": "System clock controller initiated exit from low-power state", "sourceChunks": ["A9.2_C0011"]}
+{"label": "A9-5", "title": "shows the signaling for an exit from low-power state that is initiated by the peripheral.", "sourceChunks": ["A9.2_C0012"]}
+{"label": "A9-5", "title": "Peripheral initiated exit from low-power state", "sourceChunks": ["A9.2_C0012"]}
+{"label": "A9-6", "title": "shows the typical flow for requesting entry to low-power state.", "sourceChunks": ["A9.2_C0014"]}
+{"label": "A9-6", "title": "Requesting entry to low-power state", "sourceChunks": ["A9.2_C0017"]}
+{"label": "A9-7", "title": "shows the typical flow for exit from low-power state.", "sourceChunks": ["A9.2_C0018"]}
+{"label": "A9-7", "title": "Exit from low-power state", "sourceChunks": ["A9.2_C0020"]}

@@ -1,0 +1,4 @@
+{"label": "C11-1", "title": "shows the permitted combinations of ARSNOOP[3:0], ARBAR[0], and ARDOMAIN[1:0] for each", "sourceChunks": ["C11.2_C0001"]}
+{"label": "C11-1", "title": "ACE-Lite permitted read address control signal combinations", "sourceChunks": ["C11.2_C0001"]}
+{"label": "C11-2", "title": "shows the permitted combinations of AWSNOOP[2:0], AWBAR[0], and AWDOMAIN[1:0] for each", "sourceChunks": ["C11.2_C0003"]}
+{"label": "C11-2", "title": "ACE-Lite permitted write address control signal combinations", "sourceChunks": ["C11.2_C0003"]}

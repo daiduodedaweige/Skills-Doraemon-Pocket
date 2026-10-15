@@ -1,0 +1,1 @@
+{"ruleId": "C9.4_rule_001", "title": "In this scenario the interconnect must be able to use the AXI ID", "requirement": "In this scenario the interconnect must be able to use the AXI ID", "sourceChunks": ["C9.4_C0001"], "confidence": "heuristic"}

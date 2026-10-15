@@ -1,0 +1,2 @@
+{"label": "C10-1", "title": "shows the expected allocation state for both cache maintenance transactions and normal transactions.", "sourceChunks": ["C10.1_C0003"]}
+{"label": "C10-1", "title": "External snoop filter expected cache line allocation states", "sourceChunks": ["C10.1_C0003"]}

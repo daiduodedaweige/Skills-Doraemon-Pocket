@@ -1,0 +1,14 @@
+{"label": "A3-8", "title": "and Figure A3-9 on page A3-50 give two examples of byte lanes use. The shaded cells indicate bytes", "sourceChunks": ["A3.4_C0023"]}
+{"label": "A3-8", "title": "Narrow transfer example with 8-bit transfers", "sourceChunks": ["A3.4_C0025"]}
+{"label": "A3-9", "title": "Narrow transfer example with 32-bit transfers", "sourceChunks": ["A3.4_C0026", "A3.4_C0027"]}
+{"label": "A3-10", "title": "shows an example of the big-endian, byte invariant, data structure. In this structure:", "sourceChunks": ["A3.4_C0028", "A3.4_C0029"]}
+{"label": "A3-10", "title": "Example big-endian byte invariant data structure", "sourceChunks": ["A3.4_C0030"]}
+{"label": "A3-11", "title": "shows an example of the little-endian, byte invariant, data structure. In this structure:", "sourceChunks": ["A3.4_C0031"]}
+{"label": "A3-11", "title": "Example little-endian byte invariant data structure", "sourceChunks": ["A3.4_C0032"]}
+{"label": "A3-12", "title": "Example mixed-endian data structure", "sourceChunks": ["A3.4_C0034"]}
+{"label": "A3-13", "title": "shows examples of incrementing bursts, with aligned and unaligned 32-bit transfers, on a 32-bit bus.", "sourceChunks": ["A3.4_C0037"]}
+{"label": "A3-13", "title": "Aligned and unaligned transfers on a 32-bit bus", "sourceChunks": ["A3.4_C0041"]}
+{"label": "A3-14", "title": "shows examples of incrementing bursts, with aligned and unaligned 32-bit transfers, on a 64-bit bus.", "sourceChunks": ["A3.4_C0042"]}
+{"label": "A3-14", "title": "Aligned and unaligned transfers on a 64-bit bus", "sourceChunks": ["A3.4_C0045"]}
+{"label": "A3-15", "title": "shows an example of a wrapping burst, with aligned 32-bit transfers, on a 64-bit bus. Each row in the", "sourceChunks": ["A3.4_C0045"]}
+{"label": "A3-15", "title": "Aligned wrapping transfers on a 64-bit bus", "sourceChunks": ["A3.4_C0046"]}

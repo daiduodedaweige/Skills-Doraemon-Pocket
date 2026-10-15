@@ -1,0 +1,31 @@
+{
+  "pdfId": "C3.2",
+  "title": "Read data channel signaling",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 167,
+  "pageEnd": 169,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 10,
+    "objects": 24,
+    "rules": 10,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 6,
+    "figures": 0
+  }
+}

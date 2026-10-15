@@ -1,0 +1,61 @@
+{"ruleId": "A10.3_rule_001", "title": "The following tables show the AXI required and optional signals, and the default signals values that", "requirement": "The following tables show the AXI required and optional signals, and the default signals values that apply when an", "sourceChunks": ["A10.3_C0001"], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_002", "title": "Signal Description Direction Required?", "requirement": "Signal Description Direction Required?", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_003", "title": "ACLK Global clock Input Required -", "requirement": "ACLK Global clock Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_004", "title": "ARESETn Global reset Input Required -", "requirement": "ARESETn Global reset Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_005", "title": "AWADDR Write address Output Required -", "requirement": "AWADDR Write address Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_006", "title": "AWPROT Protection type Output Required -", "requirement": "AWPROT Protection type Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_007", "title": "AWVALID Write address valid Output Required -", "requirement": "AWVALID Write address valid Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_008", "title": "AWREADY Write address ready Input Required -", "requirement": "AWREADY Write address ready Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_009", "title": "WDATA Write data Output Required -", "requirement": "WDATA Write data Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_010", "title": "WLAST Write last Output Required -", "requirement": "WLAST Write last Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_011", "title": "WVALID Write valid Output Required -", "requirement": "WVALID Write valid Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_012", "title": "WREADY Write ready Input Required -", "requirement": "WREADY Write ready Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_013", "title": "BVALID Write response valid Input Required -", "requirement": "BVALID Write response valid Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_014", "title": "BREADY Response ready Output Required -", "requirement": "BREADY Response ready Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_015", "title": "Signal name Description Direction Required?", "requirement": "Signal name Description Direction Required?", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_016", "title": "ACLK Global clock Input Required -", "requirement": "ACLK Global clock Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_017", "title": "ARESETn Global reset Input Required -", "requirement": "ARESETn Global reset Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_018", "title": "AWID Write address ID Input Required -", "requirement": "AWID Write address ID Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_019", "title": "AWADDR Write address Input Required -", "requirement": "AWADDR Write address Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_020", "title": "AWLEN Burst length Input Required -", "requirement": "AWLEN Burst length Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_021", "title": "AWSIZE Burst size Input Required -", "requirement": "AWSIZE Burst size Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_022", "title": "AWBURST Burst type Input Required -", "requirement": "AWBURST Burst type Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_023", "title": "AWVALID Write address valid Input Required -", "requirement": "AWVALID Write address valid Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_024", "title": "AWREADY Write address ready Output Required -", "requirement": "AWREADY Write address ready Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_025", "title": "WDATA Write data Input Required -", "requirement": "WDATA Write data Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_026", "title": "WSTRB Write strobes Input Required -", "requirement": "WSTRB Write strobes Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_027", "title": "WVALID Write valid Input Required -", "requirement": "WVALID Write valid Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_028", "title": "WREADY Write ready Output Required -", "requirement": "WREADY Write ready Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_029", "title": "BID Response ID Output Required -", "requirement": "BID Response ID Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_030", "title": "BVALID Write response valid Output Required -", "requirement": "BVALID Write response valid Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_031", "title": "BREADY Response ready Input Required -", "requirement": "BREADY Response ready Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_032", "title": "Signal name Description Direction Required?", "requirement": "Signal name Description Direction Required?", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_033", "title": "ARADDR Read address Output Required -", "requirement": "ARADDR Read address Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_034", "title": "ARPROT Protection type Output Required -", "requirement": "ARPROT Protection type Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_035", "title": "ARVALID Read address valid Output Required -", "requirement": "ARVALID Read address valid Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_036", "title": "ARREADY Read address ready Input Required -", "requirement": "ARREADY Read address ready Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_037", "title": "RDATA Read data Input Required -", "requirement": "RDATA Read data Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_038", "title": "RVALID Read valid Input Required -", "requirement": "RVALID Read valid Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_039", "title": "RREADY Read ready Output Required -", "requirement": "RREADY Read ready Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_040", "title": "Signal name Description Direction Required?", "requirement": "Signal name Description Direction Required?", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_041", "title": "ARID Read address ID Input Required -", "requirement": "ARID Read address ID Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_042", "title": "ARADDR Read address Input Required -", "requirement": "ARADDR Read address Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_043", "title": "ARLEN Burst length Input Required -", "requirement": "ARLEN Burst length Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_044", "title": "ARSIZE Burst size Input Required -", "requirement": "ARSIZE Burst size Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_045", "title": "ARBURST Burst type Input Required -", "requirement": "ARBURST Burst type Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_046", "title": "ARVALID Read address valid Input Required -", "requirement": "ARVALID Read address valid Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_047", "title": "ARREADY Read address ready Output Required -", "requirement": "ARREADY Read address ready Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_048", "title": "RID Read data ID Output Required -", "requirement": "RID Read data ID Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_049", "title": "RDATA Read data Output Required -", "requirement": "RDATA Read data Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_050", "title": "RLAST Read last Output Required -", "requirement": "RLAST Read last Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_051", "title": "RVALID Read valid Output Required -", "requirement": "RVALID Read valid Output Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_052", "title": "RREADY Read ready Input Required -", "requirement": "RREADY Read ready Input Required -", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_053", "title": "must be used for the additional high-order address bits", "requirement": "must be used for the additional high-order address bits", "sourceChunks": ["A10.3_C0014"], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_054", "title": "bits from the master must be left unconnected.", "requirement": "bits from the master must be left unconnected.", "sourceChunks": ["A10.3_C0014", "A10.3_C0015"], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_055", "title": "A slave is not required to have low-order address bits to support decoding within the width of the", "requirement": "A slave is not required to have low-order address bits to support decoding within the width of the", "sourceChunks": ["A10.3_C0016"], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_056", "title": "AxLOCK A memory slave is not required to use the AxLOCK inputs.", "requirement": "AxLOCK A memory slave is not required to use the AxLOCK inputs.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_057", "title": "AxCACHE A memory slave is not required to make use of the AxCACHE inputs.", "requirement": "AxCACHE A memory slave is not required to make use of the AxCACHE inputs.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_058", "title": "WSTRB[3:0] A master is not required to use the write strobe signals WSTRB[3:0] if it always performs", "requirement": "WSTRB[3:0] A master is not required to use the write strobe signals WSTRB[3:0] if it always performs full data", "sourceChunks": ["A10.3_C0017"], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_059", "title": "WLAST A slave is not required to use the WLAST signal.", "requirement": "WLAST A slave is not required to use the WLAST signal.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_060", "title": "RLAST A master is not required to use the RLAST signal.", "requirement": "RLAST A master is not required to use the RLAST signal.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A10.3_rule_061", "title": "AxPROT A slave that is not required to differentiate between Non-secure and Secure accesses, and tha", "requirement": "AxPROT A slave that is not required to differentiate between Non-secure and Secure accesses, and that does", "sourceChunks": [], "confidence": "heuristic"}

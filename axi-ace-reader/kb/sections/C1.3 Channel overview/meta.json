@@ -1,0 +1,31 @@
+{
+  "pdfId": "C1.3",
+  "title": "Channel overview",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 137,
+  "pageEnd": 141,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 22,
+    "objects": 29,
+    "rules": 8,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 6,
+    "figures": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "C11.2",
+  "title": "ACE-Lite signal requirements",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 277,
+  "pageEnd": 279,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 21,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 4,
+    "figures": 0
+  }
+}

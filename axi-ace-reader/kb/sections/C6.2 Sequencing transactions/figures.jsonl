@@ -1,0 +1,2 @@
+{"label": "C6-1", "title": "Transaction response before a snoop transaction", "sourceChunks": ["C6.2_C0005"]}
+{"label": "C6-2", "title": "Snoop transaction before a transaction response", "sourceChunks": ["C6.2_C0007"]}

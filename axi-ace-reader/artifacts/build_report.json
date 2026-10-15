@@ -1,0 +1,16 @@
+{
+  "title": "AMBA AXI and ACE Protocol Specification (ARM IHI 0022D; AXI3, AXI4, AXI4-Lite, ACE and ACE-Lite)",
+  "name": "axi-ace-reader",
+  "source": "source/AXI4_specification.pdf",
+  "sha256": "e04528be200c3207a50ba7f63166b5301a4cd3d7da3327dbe047eb80a35b332f",
+  "sections": 117,
+  "chunks": 1008,
+  "figure_captions": 69,
+  "mermaid_files": 0,
+  "pages_without_text": [
+    18,
+    120,
+    130,
+    298
+  ]
+}

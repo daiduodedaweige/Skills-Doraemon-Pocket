@@ -1,0 +1,6 @@
+{"label": "C4-17", "title": "shows the expected cache line state changes for the MakeUnique transaction with a full cache line store", "sourceChunks": ["C4.7_C0002"]}
+{"label": "C4-17", "title": "Expected MakeUnique cache line state changes", "sourceChunks": ["C4.7_C0002", "C4.7_C0003"]}
+{"label": "C4-18", "title": "shows the other permitted cache line state changes for the MakeUnique transaction with a full cache", "sourceChunks": ["C4.7_C0003"]}
+{"label": "C4-18", "title": "Other permitted MakeUnique cache line state changes", "sourceChunks": ["C4.7_C0003"]}
+{"label": "C4-19", "title": "shows the expected cache line state changes for the MakeInvalid transaction:", "sourceChunks": ["C4.7_C0006"]}
+{"label": "C4-19", "title": "Expected MakeInvalid cache line state changes", "sourceChunks": ["C4.7_C0006"]}

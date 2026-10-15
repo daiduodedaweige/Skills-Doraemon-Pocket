@@ -1,0 +1,31 @@
+{
+  "pdfId": "C2.1",
+  "title": "Changes to existing AXI4 channels",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 152,
+  "pageEnd": 152,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 12,
+    "rules": 1,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 6,
+    "figures": 0
+  }
+}

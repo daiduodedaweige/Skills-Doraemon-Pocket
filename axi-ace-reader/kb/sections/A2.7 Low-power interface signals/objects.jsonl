@@ -1,0 +1,9 @@
+{"objectId": "A2.7_obj_001", "name": "AXI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0001"]}
+{"objectId": "A2.7_obj_002", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0001"]}
+{"objectId": "A2.7_obj_003", "name": "CSYSREQ", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0001"]}
+{"objectId": "A2.7_obj_004", "name": "CSYSACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0001"]}
+{"objectId": "A2.7_obj_005", "name": "CACTIVE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0002"]}
+{"objectId": "A2.7_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0002", "A2.7_C0003"]}
+{"objectId": "A2.7_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0002", "A2.7_C0003"]}
+{"objectId": "A2.7_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0002", "A2.7_C0003"]}
+{"objectId": "A2.7_obj_009", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A2.7_C0001", "A2.7_C0003"]}

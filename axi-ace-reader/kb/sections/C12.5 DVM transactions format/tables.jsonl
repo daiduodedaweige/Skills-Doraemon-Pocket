@@ -1,0 +1,4 @@
+{"label": "C12-2", "title": "shows the outline message format and the read address channel address bit encoding for DVM.", "sourceChunks": ["C12.5_C0001"]}
+{"label": "C12-2", "title": "DVM transactions format", "sourceChunks": ["C12.5_C0001"]}
+{"label": "C12-3", "title": "shows the format if an additional transaction is used to convey address information.", "sourceChunks": ["C12.5_C0004"]}
+{"label": "C12-3", "title": "DVM additional transactions format", "sourceChunks": ["C12.5_C0004", "C12.5_C0005"]}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "C12.4",
+  "title": "Physical and virtual address space size",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 284,
+  "pageEnd": 285,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 8,
+    "rules": 6,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 1,
+    "figures": 0
+  }
+}

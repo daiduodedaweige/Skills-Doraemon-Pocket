@@ -1,0 +1,1 @@
+{"ruleId": "C4.9_rule_001", "title": "An Evict transaction must only be used in a shareable memory region.", "requirement": "An Evict transaction must only be used in a shareable memory region.", "sourceChunks": ["C4.9_C0001"], "confidence": "heuristic"}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "C4.5",
+  "title": "Read transactions",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 191,
+  "pageEnd": 196,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 24,
+    "objects": 14,
+    "rules": 10,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 24,
+    "figures": 0
+  }
+}

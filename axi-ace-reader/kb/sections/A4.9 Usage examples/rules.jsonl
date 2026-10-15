@@ -1,0 +1,1 @@
+{"ruleId": "A4.9_rule_001", "title": "A write transaction that is marked as Device Buffered is required to reach its final destination in ", "requirement": "A write transaction that is marked as Device Buffered is required to reach its final destination in a timely manner.", "sourceChunks": ["A4.9_C0001"], "confidence": "heuristic"}

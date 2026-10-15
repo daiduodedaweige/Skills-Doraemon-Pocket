@@ -1,0 +1,2 @@
+{"ruleId": "C4.2_rule_001", "title": "cached master must be able to broadcast which cache lines are allocated and which are evicted.", "requirement": "cached master must be able to broadcast which cache lines are allocated and which are evicted.", "sourceChunks": ["C4.2_C0001"], "confidence": "heuristic"}
+{"ruleId": "C4.2_rule_002", "title": "A master component must state in its data", "requirement": "A master component must state in its data", "sourceChunks": ["C4.2_C0001"], "confidence": "heuristic"}

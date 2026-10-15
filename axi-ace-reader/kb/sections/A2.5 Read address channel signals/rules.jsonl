@@ -1,0 +1,1 @@
+{"ruleId": "A2.5_rule_001", "title": "This signal indicates how transactions are required to progress through", "requirement": "This signal indicates how transactions are required to progress through", "sourceChunks": ["A2.5_C0002", "A2.5_C0003"], "confidence": "heuristic"}

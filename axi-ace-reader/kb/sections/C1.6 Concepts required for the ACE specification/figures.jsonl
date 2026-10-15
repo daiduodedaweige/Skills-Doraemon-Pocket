@@ -1,0 +1,5 @@
+{"label": "C1-3", "title": "shows an example set of shareability domains for a system that includes master components 0-9.", "sourceChunks": ["C1.6_C0003"]}
+{"label": "C1-3", "title": "Shareability domains", "sourceChunks": ["C1.6_C0004"]}
+{"label": "C1", "title": "3, because master 0 has master 1 in its Inner Shareable domain, then master 1 must have master 0 in its", "sourceChunks": ["C1.6_C0005"]}
+{"label": "C1-4", "title": "Example system using shareability domains", "sourceChunks": ["C1.6_C0008"]}
+{"label": "C1-5", "title": "Virtual memory system", "sourceChunks": ["C1.6_C0012"]}

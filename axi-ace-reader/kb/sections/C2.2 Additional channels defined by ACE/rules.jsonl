@@ -1,0 +1,1 @@
+{"ruleId": "C2.2_rule_001", "title": "width must match the width of the read and write address buses.", "requirement": "width must match the width of the read and write address buses.", "sourceChunks": ["C2.2_C0002"], "confidence": "heuristic"}

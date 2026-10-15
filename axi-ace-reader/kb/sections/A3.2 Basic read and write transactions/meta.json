@@ -1,0 +1,31 @@
+{
+  "pdfId": "A3.2",
+  "title": "Basic read and write transactions",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 37,
+  "pageEnd": 39,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 12,
+    "objects": 22,
+    "rules": 13,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 1,
+    "figures": 4
+  }
+}

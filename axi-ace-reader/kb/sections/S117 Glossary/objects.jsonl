@@ -1,0 +1,16 @@
+{"objectId": "S117_obj_001", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0001", "S117_C0003"]}
+{"objectId": "S117_obj_002", "name": "MSB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0001", "S117_C0002"]}
+{"objectId": "S117_obj_003", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0002", "S117_C0007"]}
+{"objectId": "S117_obj_004", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0002", "S117_C0007"]}
+{"objectId": "S117_obj_005", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0002", "S117_C0007"]}
+{"objectId": "S117_obj_006", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0004", "S117_C0005"]}
+{"objectId": "S117_obj_007", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0005", "S117_C0006"]}
+{"objectId": "S117_obj_008", "name": "IMPLEMENTATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0008", "S117_C0015"]}
+{"objectId": "S117_obj_009", "name": "DEFINED", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0008", "S117_C0015"]}
+{"objectId": "S117_obj_010", "name": "LSB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0010", "S117_C0011"]}
+{"objectId": "S117_obj_011", "name": "DMA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0012", "S117_C0018"]}
+{"objectId": "S117_obj_012", "name": "MMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0012", "S117_C0013"]}
+{"objectId": "S117_obj_013", "name": "SMMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0013", "S117_C0022"]}
+{"objectId": "S117_obj_014", "name": "IPA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0022"]}
+{"objectId": "S117_obj_015", "name": "TLB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0022", "S117_C0023"]}
+{"objectId": "S117_obj_016", "name": "UNPREDICTABLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S117_C0023", "S117_C0024"]}

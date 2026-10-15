@@ -1,0 +1,12 @@
+{"objectId": "A7.2_obj_001", "name": "RRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0001", "A7.2_C0013"]}
+{"objectId": "A7.2_obj_002", "name": "BRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0001", "A7.2_C0013"]}
+{"objectId": "A7.2_obj_003", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0001", "A7.2_C0002"]}
+{"objectId": "A7.2_obj_004", "name": "AWID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0002", "A7.2_C0008"]}
+{"objectId": "A7.2_obj_005", "name": "ARID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0002", "A7.2_C0007"]}
+{"objectId": "A7.2_obj_006", "name": "EXOKAY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0003", "A7.2_C0004"]}
+{"objectId": "A7.2_obj_007", "name": "OKAY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0003", "A7.2_C0004"]}
+{"objectId": "A7.2_obj_008", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0005", "A7.2_C0006"]}
+{"objectId": "A7.2_obj_009", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0005", "A7.2_C0006"]}
+{"objectId": "A7.2_obj_010", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0006", "A7.2_C0012"]}
+{"objectId": "A7.2_obj_011", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0010"]}
+{"objectId": "A7.2_obj_012", "name": "UNPREDICTABLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.2_C0011"]}

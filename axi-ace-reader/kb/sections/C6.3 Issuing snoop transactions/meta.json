@@ -1,0 +1,31 @@
+{
+  "pdfId": "C6.3",
+  "title": "Issuing snoop transactions",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 229,
+  "pageEnd": 231,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 11,
+    "objects": 23,
+    "rules": 11,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 2,
+    "figures": 0
+  }
+}

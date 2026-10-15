@@ -1,0 +1,2 @@
+{"ruleId": "A4.2_rule_001", "title": "The RA bit must not be asserted if the C bit is deasserted.", "requirement": "The RA bit must not be asserted if the C bit is deasserted.", "sourceChunks": ["A4.2_C0004"], "confidence": "heuristic"}
+{"ruleId": "A4.2_rule_002", "title": "The WA bit must not be asserted if the C bit is deasserted.", "requirement": "The WA bit must not be asserted if the C bit is deasserted.", "sourceChunks": ["A4.2_C0004"], "confidence": "heuristic"}

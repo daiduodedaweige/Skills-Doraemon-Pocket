@@ -1,0 +1,4 @@
+{"label": "C1-1", "title": "shows an example coherent system that includes three master components, each with a local cache. The", "sourceChunks": ["C1.2_C0002"]}
+{"label": "C1-1", "title": "Example coherent system", "sourceChunks": ["C1.2_C0003"]}
+{"label": "C1-2", "title": "shows the ACE five state cache model and Table C1-1 on page C1-136 provides more information", "sourceChunks": ["C1.2_C0006", "C1.2_C0007"]}
+{"label": "C1-2", "title": "ACE cache state model", "sourceChunks": ["C1.2_C0008"]}

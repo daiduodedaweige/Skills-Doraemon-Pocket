@@ -1,0 +1,1 @@
+{"ruleId": "A9.1_rule_001", "title": "when to initiate the power-down sequence, and must then signal when it has entered its low-power sta", "requirement": "when to initiate the power-down sequence, and must then signal when it has entered its low-power state.", "sourceChunks": ["A9.1_C0001"], "confidence": "heuristic"}

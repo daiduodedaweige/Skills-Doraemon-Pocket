@@ -1,0 +1,31 @@
+{
+  "pdfId": "C5.3",
+  "title": "Snoop transactions",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 219,
+  "pageEnd": 225,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 24,
+    "objects": 22,
+    "rules": 8,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 12,
+    "figures": 0
+  }
+}

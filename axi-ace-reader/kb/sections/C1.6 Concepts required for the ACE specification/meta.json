@@ -1,0 +1,31 @@
+{
+  "pdfId": "C1.6",
+  "title": "Concepts required for the ACE specification",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 147,
+  "pageEnd": 149,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 15,
+    "objects": 9,
+    "rules": 25,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 5
+  }
+}

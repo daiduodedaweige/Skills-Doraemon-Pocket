@@ -1,0 +1,4 @@
+{"ruleId": "C12.5_rule_001", "title": "Reserved, must be zero", "requirement": "Reserved, must be zero", "sourceChunks": ["C12.5_C0001"], "confidence": "heuristic"}
+{"ruleId": "C12.5_rule_002", "title": "[15] Completion Indicates if a DVM Complete transaction is required:", "requirement": "[15] Completion Indicates if a DVM Complete transaction is required:", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.5_rule_003", "title": "0 a DVM Complete transaction is not required", "requirement": "0 a DVM Complete transaction is not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.5_rule_004", "title": "1 a DVM Complete transaction is required", "requirement": "1 a DVM Complete transaction is required", "sourceChunks": [], "confidence": "heuristic"}

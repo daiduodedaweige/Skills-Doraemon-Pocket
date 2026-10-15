@@ -1,0 +1,13 @@
+{"objectId": "C4.6_obj_001", "name": "CleanUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0001", "C4.6_C0002"]}
+{"objectId": "C4.6_obj_002", "name": "CleanShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0001", "C4.6_C0007"]}
+{"objectId": "C4.6_obj_003", "name": "CleanInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0001", "C4.6_C0010"]}
+{"objectId": "C4.6_obj_004", "name": "IsShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0002", "C4.6_C0003"]}
+{"objectId": "C4.6_obj_005", "name": "PassDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0002", "C4.6_C0003"]}
+{"objectId": "C4.6_obj_006", "name": "RRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0003", "C4.6_C0004"]}
+{"objectId": "C4.6_obj_007", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0003", "C4.6_C0008"]}
+{"objectId": "C4.6_obj_008", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0003", "C4.6_C0008"]}
+{"objectId": "C4.6_obj_009", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0003", "C4.6_C0008"]}
+{"objectId": "C4.6_obj_010", "name": "UniqueDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0005"]}
+{"objectId": "C4.6_obj_011", "name": "WriteBack", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0006", "C4.6_C0008"]}
+{"objectId": "C4.6_obj_012", "name": "ReadUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0007"]}
+{"objectId": "C4.6_obj_013", "name": "WriteClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.6_C0008", "C4.6_C0010"]}

@@ -1,0 +1,2 @@
+{"label": "C4-28", "title": "shows the expected cache line state changes for the Evict transaction.", "sourceChunks": ["C4.9_C0001"]}
+{"label": "C4-28", "title": "Expected Evict cache line state changes in a shareable memory region", "sourceChunks": ["C4.9_C0001"]}

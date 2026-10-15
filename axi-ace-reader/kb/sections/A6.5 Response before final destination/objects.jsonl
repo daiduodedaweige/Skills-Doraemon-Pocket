@@ -1,0 +1,5 @@
+{"objectId": "A6.5_obj_001", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A6.5_C0001", "A6.5_C0005"]}
+{"objectId": "A6.5_obj_002", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A6.5_C0001", "A6.5_C0002"]}
+{"objectId": "A6.5_obj_003", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A6.5_C0004", "A6.5_C0005"]}
+{"objectId": "A6.5_obj_004", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A6.5_C0004", "A6.5_C0005"]}
+{"objectId": "A6.5_obj_005", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A6.5_C0004", "A6.5_C0005"]}

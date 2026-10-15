@@ -1,0 +1,6 @@
+{"label": "A3-2", "title": "shows the AxSIZE encoding.", "sourceChunks": ["A3.4_C0006"]}
+{"label": "A3-2", "title": "Burst size encoding", "sourceChunks": ["A3.4_C0006"]}
+{"label": "A3-3", "title": "shows the AxBURST signal encoding.", "sourceChunks": ["A3.4_C0012"]}
+{"label": "A3-3", "title": "Burst type encoding", "sourceChunks": ["A3.4_C0012"]}
+{"label": "A3-4", "title": "shows the encoding of the RRESP and BRESP signals.", "sourceChunks": ["A3.4_C0048"]}
+{"label": "A3-4", "title": "RRESP and BRESP encoding", "sourceChunks": ["A3.4_C0048", "A3.4_C0049"]}

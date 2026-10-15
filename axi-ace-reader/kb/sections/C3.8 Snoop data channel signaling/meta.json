@@ -1,0 +1,31 @@
+{
+  "pdfId": "C3.8",
+  "title": "Snoop data channel signaling",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 180,
+  "pageEnd": 181,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 6,
+    "objects": 17,
+    "rules": 13,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 2,
+    "figures": 0
+  }
+}

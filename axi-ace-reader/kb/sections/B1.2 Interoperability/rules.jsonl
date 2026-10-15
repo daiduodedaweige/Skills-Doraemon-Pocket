@@ -1,0 +1,5 @@
+{"ruleId": "B1.2_rule_001", "title": "AXI AXI4-Lite AXI ID reflection is required.", "requirement": "AXI AXI4-Lite AXI ID reflection is required.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "B1.2_rule_002", "title": "Conversion might be required.", "requirement": "Conversion might be required.", "sourceChunks": ["B1.2_C0001"], "confidence": "heuristic"}
+{"ruleId": "B1.2_rule_003", "title": "The AXI4-Lite slave must return the AXI ID associated with the", "requirement": "The AXI4-Lite slave must return the AXI ID associated with the", "sourceChunks": ["B1.2_C0002"], "confidence": "heuristic"}
+{"ruleId": "B1.2_rule_004", "title": "This is required because the master", "requirement": "This is required because the master", "sourceChunks": ["B1.2_C0002"], "confidence": "heuristic"}
+{"ruleId": "B1.2_rule_005", "title": "subset, then some form of adaptation is required.", "requirement": "subset, then some form of adaptation is required.", "sourceChunks": ["B1.2_C0002"], "confidence": "heuristic"}

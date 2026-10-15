@@ -1,0 +1,3 @@
+{"ruleId": "A1.4_rule_001", "title": "• the complete set of required operations on the AXI bus form the AXI Transaction", "requirement": "• the complete set of required operations on the AXI bus form the AXI Transaction", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A1.4_rule_002", "title": "• any required payload data is transferred as an AXI Burst", "requirement": "• any required payload data is transferred as an AXI Burst", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "A1.4_rule_003", "title": "Most of the signals are required for both AXI3 and AXI4", "requirement": "Most of the signals are required for both AXI3 and AXI4", "sourceChunks": ["A1.4_C0004"], "confidence": "heuristic"}

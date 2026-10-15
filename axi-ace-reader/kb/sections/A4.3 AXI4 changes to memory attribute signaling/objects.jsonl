@@ -1,0 +1,13 @@
+{"objectId": "A4.3_obj_001", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0001", "A4.3_C0005"]}
+{"objectId": "A4.3_obj_002", "name": "AXI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0001", "A4.3_C0011"]}
+{"objectId": "A4.3_obj_003", "name": "HIGH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0001"]}
+{"objectId": "A4.3_obj_004", "name": "LOW", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0001", "A4.3_C0002"]}
+{"objectId": "A4.3_obj_005", "name": "IMPLEMENTATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0004", "A4.3_C0008"]}
+{"objectId": "A4.3_obj_006", "name": "DEFINED", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0004", "A4.3_C0008"]}
+{"objectId": "A4.3_obj_007", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0004", "A4.3_C0009"]}
+{"objectId": "A4.3_obj_008", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0004", "A4.3_C0009"]}
+{"objectId": "A4.3_obj_009", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0004", "A4.3_C0009"]}
+{"objectId": "A4.3_obj_010", "name": "WSTRB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0005"]}
+{"objectId": "A4.3_obj_011", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0001", "A4.3_C0005"]}
+{"objectId": "A4.3_obj_012", "name": "AWCACHE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0013", "A4.3_C0014"]}
+{"objectId": "A4.3_obj_013", "name": "ARCACHE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A4.3_C0017", "A4.3_C0018"]}

@@ -1,0 +1,1 @@
+{"ruleId": "C4.4_rule_001", "title": "receiving the associated response, then the cache line state changes required by the snoop transacti", "requirement": "receiving the associated response, then the cache line state changes required by the snoop transaction must be", "sourceChunks": ["C4.4_C0003", "C4.4_C0004"], "confidence": "heuristic"}

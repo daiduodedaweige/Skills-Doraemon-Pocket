@@ -1,0 +1,6 @@
+{"label": "C1-2", "title": "shows the ACE signals provided on existing AXI4 channels.", "sourceChunks": ["C1.3_C0001"]}
+{"label": "C1-2", "title": "ACE signals provided on existing AXI4 channels", "sourceChunks": ["C1.3_C0001", "C1.3_C0002"]}
+{"label": "C1-3", "title": "shows the signals provided on the ACE-specific channels.", "sourceChunks": ["C1.3_C0005"]}
+{"label": "C1-3", "title": "ACE signals provided on ACE-specific channels", "sourceChunks": ["C1.3_C0005"]}
+{"label": "C1-4", "title": "shows the acknowledge signals.", "sourceChunks": ["C1.3_C0006"]}
+{"label": "C1-4", "title": "ACE read and write acknowledge signals", "sourceChunks": ["C1.3_C0006"]}

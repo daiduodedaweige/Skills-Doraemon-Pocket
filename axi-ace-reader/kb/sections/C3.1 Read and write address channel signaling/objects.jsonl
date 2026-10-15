@@ -1,0 +1,41 @@
+{"objectId": "C3.1_obj_001", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0001", "C3.1_C0002"]}
+{"objectId": "C3.1_obj_002", "name": "ARDOMAIN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0001", "C3.1_C0002"]}
+{"objectId": "C3.1_obj_003", "name": "AWDOMAIN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0002", "C3.1_C0003"]}
+{"objectId": "C3.1_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0004", "C3.1_C0008"]}
+{"objectId": "C3.1_obj_005", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0004", "C3.1_C0008"]}
+{"objectId": "C3.1_obj_006", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0004", "C3.1_C0008"]}
+{"objectId": "C3.1_obj_007", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0005", "C3.1_C0022"]}
+{"objectId": "C3.1_obj_008", "name": "WriteThrough", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0006"]}
+{"objectId": "C3.1_obj_009", "name": "WriteBack", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0006", "C3.1_C0019"]}
+{"objectId": "C3.1_obj_010", "name": "ARBAR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0009", "C3.1_C0014"]}
+{"objectId": "C3.1_obj_011", "name": "AWBAR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0009", "C3.1_C0018"]}
+{"objectId": "C3.1_obj_012", "name": "ARSNOOP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0011", "C3.1_C0014"]}
+{"objectId": "C3.1_obj_013", "name": "AWSNOOP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0011", "C3.1_C0018"]}
+{"objectId": "C3.1_obj_014", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0012", "C3.1_C0016"]}
+{"objectId": "C3.1_obj_015", "name": "C12", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0012"]}
+{"objectId": "C3.1_obj_016", "name": "ReadNoSnoop", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0014", "C3.1_C0017"]}
+{"objectId": "C3.1_obj_017", "name": "ReadOnce", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0014", "C3.1_C0017"]}
+{"objectId": "C3.1_obj_018", "name": "ReadShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0014", "C3.1_C0015"]}
+{"objectId": "C3.1_obj_019", "name": "ReadClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_020", "name": "ReadNotSharedDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_021", "name": "ReadUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_022", "name": "CleanUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_023", "name": "MakeUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_024", "name": "CleanShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_025", "name": "CleanInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0015", "C3.1_C0016"]}
+{"objectId": "C3.1_obj_026", "name": "MakeInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0016", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_027", "name": "WriteNoSnoop", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0018", "C3.1_C0020"]}
+{"objectId": "C3.1_obj_028", "name": "WriteUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0018", "C3.1_C0020"]}
+{"objectId": "C3.1_obj_029", "name": "WriteLineUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0018", "C3.1_C0019"]}
+{"objectId": "C3.1_obj_030", "name": "WriteClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0019", "C3.1_C0023"]}
+{"objectId": "C3.1_obj_031", "name": "INCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0024", "C3.1_C0028"]}
+{"objectId": "C3.1_obj_032", "name": "WRAP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0024", "C3.1_C0025"]}
+{"objectId": "C3.1_obj_033", "name": "FIXED", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0025", "C3.1_C0030"]}
+{"objectId": "C3.1_obj_034", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0005", "C3.1_C0022"]}
+{"objectId": "C3.1_obj_035", "name": "AWLEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0031"]}
+{"objectId": "C3.1_obj_036", "name": "AWSIZE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0031"]}
+{"objectId": "C3.1_obj_037", "name": "AWBURST", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0031"]}
+{"objectId": "C3.1_obj_038", "name": "AWCACHE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0032"]}
+{"objectId": "C3.1_obj_039", "name": "AWLOCK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0032"]}
+{"objectId": "C3.1_obj_040", "name": "AWPROT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0032"]}
+{"objectId": "C3.1_obj_041", "name": "AWQOS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.1_C0032"]}

@@ -1,0 +1,2 @@
+{"ruleId": "C2.3_rule_001", "title": "• a master interface must drive RACK, WACK, CRVALID, and CDVALID LOW", "requirement": "• a master interface must drive RACK, WACK, CRVALID, and CDVALID LOW", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C2.3_rule_002", "title": "• an interconnect must drive ACVALID LOW.", "requirement": "• an interconnect must drive ACVALID LOW.", "sourceChunks": [], "confidence": "heuristic"}

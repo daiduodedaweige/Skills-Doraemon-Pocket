@@ -1,0 +1,8 @@
+{"objectId": "C6.2_obj_001", "name": "RACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0003", "C6.2_C0004"]}
+{"objectId": "C6.2_obj_002", "name": "WACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0003", "C6.2_C0004"]}
+{"objectId": "C6.2_obj_003", "name": "CRRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0004", "C6.2_C0005"]}
+{"objectId": "C6.2_obj_004", "name": "ACLK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0004", "C6.2_C0005"]}
+{"objectId": "C6.2_obj_005", "name": "RLAST", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0004", "C6.2_C0005"]}
+{"objectId": "C6.2_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0005", "C6.2_C0006"]}
+{"objectId": "C6.2_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0005", "C6.2_C0006"]}
+{"objectId": "C6.2_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C6.2_C0006", "C6.2_C0009"]}

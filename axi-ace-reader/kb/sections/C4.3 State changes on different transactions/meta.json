@@ -1,0 +1,31 @@
+{
+  "pdfId": "C4.3",
+  "title": "State changes on different transactions",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 188,
+  "pageEnd": 189,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 24,
+    "rules": 12,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

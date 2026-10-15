@@ -1,0 +1,9 @@
+{"objectId": "C9.2_obj_001", "name": "ReadClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0002", "C9.2_C0003"]}
+{"objectId": "C9.2_obj_002", "name": "ReadShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0002", "C9.2_C0003"]}
+{"objectId": "C9.2_obj_003", "name": "ARLOCK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0002", "C9.2_C0003"]}
+{"objectId": "C9.2_obj_004", "name": "EXOKAY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0004", "C9.2_C0009"]}
+{"objectId": "C9.2_obj_005", "name": "OKAY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0004", "C9.2_C0009"]}
+{"objectId": "C9.2_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0005", "C9.2_C0006"]}
+{"objectId": "C9.2_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0005", "C9.2_C0006"]}
+{"objectId": "C9.2_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0006", "C9.2_C0011"]}
+{"objectId": "C9.2_obj_009", "name": "CleanUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C9.2_C0007", "C9.2_C0009"]}

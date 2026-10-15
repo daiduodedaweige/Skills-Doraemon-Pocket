@@ -1,0 +1,31 @@
+{
+  "pdfId": "C1.7",
+  "title": "Protocol errors",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 150,
+  "pageEnd": 151,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 4,
+    "objects": 7,
+    "rules": 2,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

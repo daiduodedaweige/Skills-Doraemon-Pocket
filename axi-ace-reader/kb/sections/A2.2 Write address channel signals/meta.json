@@ -1,0 +1,31 @@
+{
+  "pdfId": "A2.2",
+  "title": "Write address channel signals",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 29,
+  "pageEnd": 29,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 5,
+    "objects": 19,
+    "rules": 1,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 2,
+    "figures": 0
+  }
+}

@@ -1,0 +1,16 @@
+{"label": "C4-20", "title": "shows the expected cache line state changes for the WriteNoSnoop transaction:", "sourceChunks": ["C4.8_C0002"]}
+{"label": "C4-20", "title": "Expected WriteNoSnoop cache line state changes", "sourceChunks": ["C4.8_C0002"]}
+{"label": "C4-21", "title": "shows the other permitted cache line state changes for the WriteNoSnoop transaction:", "sourceChunks": ["C4.8_C0003"]}
+{"label": "C4-21", "title": "Other permitted WriteNoSnoop cache line state changes", "sourceChunks": ["C4.8_C0003"]}
+{"label": "C4-22", "title": "shows the expected cache line state changes for the WriteUnique transaction:", "sourceChunks": ["C4.8_C0005"]}
+{"label": "C4-22", "title": "Expected WriteUnique cache line state changes", "sourceChunks": ["C4.8_C0005"]}
+{"label": "C4-23", "title": "shows the expected cache line state changes for the WriteLineUnique transaction.", "sourceChunks": ["C4.8_C0007"]}
+{"label": "C4-23", "title": "Expected WriteLineUnique cache line state changes", "sourceChunks": ["C4.8_C0007"]}
+{"label": "C4-24", "title": "shows the expected cache line state changes for the WriteBack transaction in a shareable memory", "sourceChunks": ["C4.8_C0010"]}
+{"label": "C4-24", "title": "Expected WriteBack cache line state changes in a shareable memory region", "sourceChunks": ["C4.8_C0010"]}
+{"label": "C4-25", "title": "shows the expected cache line state changes for the WriteBack transaction in a non-shareable memory", "sourceChunks": ["C4.8_C0011"]}
+{"label": "C4-25", "title": "Expected WriteBack cache line state changes in a non-shareable memory region", "sourceChunks": ["C4.8_C0011"]}
+{"label": "C4-26", "title": "shows the expected cache line state changes for the WriteClean transaction in a shareable memory", "sourceChunks": ["C4.8_C0014"]}
+{"label": "C4-26", "title": "Expected WriteClean cache line state changes in a shareable memory region", "sourceChunks": ["C4.8_C0014"]}
+{"label": "C4-27", "title": "shows the expected cache line state changes for the WriteClean transaction in a non-shareable memory", "sourceChunks": ["C4.8_C0014", "C4.8_C0015"]}
+{"label": "C4-27", "title": "Expected WriteClean cache line state changes in a non-shareable memory region", "sourceChunks": ["C4.8_C0015"]}

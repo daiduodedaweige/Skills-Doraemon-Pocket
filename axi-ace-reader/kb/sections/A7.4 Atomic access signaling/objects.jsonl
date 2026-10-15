@@ -1,0 +1,9 @@
+{"objectId": "A7.4_obj_001", "name": "AXI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0001", "A7.4_C0002"]}
+{"objectId": "A7.4_obj_002", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0001", "A7.4_C0002"]}
+{"objectId": "A7.4_obj_003", "name": "AWLOCK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0002", "A7.4_C0003"]}
+{"objectId": "A7.4_obj_004", "name": "ARLOCK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0002", "A7.4_C0003"]}
+{"objectId": "A7.4_obj_005", "name": "SWP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0003"]}
+{"objectId": "A7.4_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0003", "A7.4_C0004"]}
+{"objectId": "A7.4_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0003", "A7.4_C0004"]}
+{"objectId": "A7.4_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0003", "A7.4_C0004"]}
+{"objectId": "A7.4_obj_009", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A7.4_C0001", "A7.4_C0002"]}

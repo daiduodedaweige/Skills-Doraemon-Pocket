@@ -1,0 +1,12 @@
+{"label": "C5-7", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0001"]}
+{"label": "C5-7", "title": "ReadOnce permitted cache line state changes", "sourceChunks": ["C5.3_C0001", "C5.3_C0002"]}
+{"label": "C5-8", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0005"]}
+{"label": "C5-8", "title": "ReadClean, ReadShared, and ReadNotSharedDirty permitted cache line state changes", "sourceChunks": ["C5.3_C0005"]}
+{"label": "C5-9", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0013"]}
+{"label": "C5-9", "title": "ReadUnique permitted cache line state changes", "sourceChunks": ["C5.3_C0013"]}
+{"label": "C5-10", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0015"]}
+{"label": "C5-10", "title": "CleanInvalid permitted cache line state changes", "sourceChunks": ["C5.3_C0015"]}
+{"label": "C5-11", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0016"]}
+{"label": "C5-11", "title": "MakeInvalid permitted cache line state changes", "sourceChunks": ["C5.3_C0016"]}
+{"label": "C5-12", "title": "shows all the permitted cache line state changes and the associated PassDirty and IsShared snoop", "sourceChunks": ["C5.3_C0019"]}
+{"label": "C5-12", "title": "CleanShared permitted cache line state changes", "sourceChunks": ["C5.3_C0019"]}

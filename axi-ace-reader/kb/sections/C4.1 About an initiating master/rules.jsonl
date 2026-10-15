@@ -1,0 +1,2 @@
+{"ruleId": "C4.1_rule_001", "title": "• for a load, the master must get the data from either:", "requirement": "• for a load, the master must get the data from either:", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C4.1_rule_002", "title": "The number of data beats required is", "requirement": "The number of data beats required is", "sourceChunks": ["C4.1_C0002", "C4.1_C0003"], "confidence": "heuristic"}

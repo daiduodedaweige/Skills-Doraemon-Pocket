@@ -1,0 +1,9 @@
+{"objectId": "C1.6_obj_001", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0001", "C1.6_C0002"]}
+{"objectId": "C1.6_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0005", "C1.6_C0010"]}
+{"objectId": "C1.6_obj_003", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0005", "C1.6_C0010"]}
+{"objectId": "C1.6_obj_004", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0005", "C1.6_C0010"]}
+{"objectId": "C1.6_obj_005", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0011", "C1.6_C0015"]}
+{"objectId": "C1.6_obj_006", "name": "TLB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0011", "C1.6_C0012"]}
+{"objectId": "C1.6_obj_007", "name": "MMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0011", "C1.6_C0012"]}
+{"objectId": "C1.6_obj_008", "name": "SMMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0011", "C1.6_C0012"]}
+{"objectId": "C1.6_obj_009", "name": "C12", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C1.6_C0015"]}

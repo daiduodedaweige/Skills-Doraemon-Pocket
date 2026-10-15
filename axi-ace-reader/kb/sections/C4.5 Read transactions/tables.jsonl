@@ -1,0 +1,24 @@
+{"label": "C4-1", "title": "shows the expected cache line state changes for the ReadNoSnoop transaction:", "sourceChunks": ["C4.5_C0002"]}
+{"label": "C4-1", "title": "Expected ReadNoSnoop cache line state changes", "sourceChunks": ["C4.5_C0002"]}
+{"label": "C4-2", "title": "shows the other permitted cache line state changes for the ReadNoSnoop transaction:", "sourceChunks": ["C4.5_C0002", "C4.5_C0003"]}
+{"label": "C4-2", "title": "Other permitted ReadNoSnoop cache line state changes", "sourceChunks": ["C4.5_C0003"]}
+{"label": "C4-3", "title": "shows the expected cache line state changes for the ReadOnce transaction:", "sourceChunks": ["C4.5_C0005"]}
+{"label": "C4-3", "title": "Expected ReadOnce cache line state changes", "sourceChunks": ["C4.5_C0005"]}
+{"label": "C4-4", "title": "shows the other permitted cache line state changes for the ReadOnce transaction:", "sourceChunks": ["C4.5_C0006"]}
+{"label": "C4-4", "title": "Other permitted ReadOnce cache line state changes", "sourceChunks": ["C4.5_C0006"]}
+{"label": "C4-5", "title": "shows the expected cache line state changes for the ReadClean transaction:", "sourceChunks": ["C4.5_C0009"]}
+{"label": "C4-5", "title": "Expected ReadClean cache line state changes", "sourceChunks": ["C4.5_C0009"]}
+{"label": "C4-6", "title": "shows other permitted cache line state changes for the ReadClean transaction:", "sourceChunks": ["C4.5_C0009"]}
+{"label": "C4-6", "title": "Other permitted ReadClean cache line state changes", "sourceChunks": ["C4.5_C0009", "C4.5_C0010"]}
+{"label": "C4-7", "title": "shows the expected cache line state changes for the ReadNotSharedDirty transaction:", "sourceChunks": ["C4.5_C0012"]}
+{"label": "C4-7", "title": "Expected ReadNotSharedDirty cache line state changes", "sourceChunks": ["C4.5_C0012"]}
+{"label": "C4-8", "title": "shows other permitted cache line state changes for the ReadNotSharedDirty transaction:", "sourceChunks": ["C4.5_C0014"]}
+{"label": "C4-8", "title": "Other permitted ReadNotSharedDirty cache line state changes", "sourceChunks": ["C4.5_C0014"]}
+{"label": "C4-9", "title": "shows the expected cache line state changes for the ReadShared transaction:", "sourceChunks": ["C4.5_C0016"]}
+{"label": "C4-9", "title": "Expected ReadShared cache line state changes", "sourceChunks": ["C4.5_C0016"]}
+{"label": "C4-10", "title": "shows other permitted state changes for the ReadShared transaction:", "sourceChunks": ["C4.5_C0018"]}
+{"label": "C4-10", "title": "Other permitted ReadShared cache line state changes", "sourceChunks": ["C4.5_C0018"]}
+{"label": "C4-11", "title": "shows the expected cache line state changes for the ReadUnique transaction:", "sourceChunks": ["C4.5_C0021"]}
+{"label": "C4-11", "title": "Expected ReadUnique cache line state changes", "sourceChunks": ["C4.5_C0021"]}
+{"label": "C4-12", "title": "on page C4-196 shows other permitted cache line state changes for the ReadUnique transaction:", "sourceChunks": ["C4.5_C0021"]}
+{"label": "C4-12", "title": "Other permitted ReadUnique cache line state changes", "sourceChunks": ["C4.5_C0023"]}

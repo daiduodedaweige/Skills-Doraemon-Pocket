@@ -1,0 +1,9 @@
+{"objectId": "C4.8_obj_001", "name": "WriteNoSnoop", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0001", "C4.8_C0002"]}
+{"objectId": "C4.8_obj_002", "name": "WriteUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0001", "C4.8_C0005"]}
+{"objectId": "C4.8_obj_003", "name": "WriteLineUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0001", "C4.8_C0005"]}
+{"objectId": "C4.8_obj_004", "name": "WriteBack", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0001", "C4.8_C0009"]}
+{"objectId": "C4.8_obj_005", "name": "WriteClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0001", "C4.8_C0009"]}
+{"objectId": "C4.8_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0004", "C4.8_C0008"]}
+{"objectId": "C4.8_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0004", "C4.8_C0008"]}
+{"objectId": "C4.8_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0004", "C4.8_C0008"]}
+{"objectId": "C4.8_obj_009", "name": "CDDATA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C4.8_C0017", "C4.8_C0018"]}

@@ -1,0 +1,1 @@
+{"ruleId": "A8.1_rule_001", "title": "A master that can not produce its own AxQOS values must use the default value.", "requirement": "A master that can not produce its own AxQOS values must use the default value.", "sourceChunks": ["A8.1_C0003"], "confidence": "heuristic"}

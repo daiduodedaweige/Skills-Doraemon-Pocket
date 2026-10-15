@@ -1,0 +1,7 @@
+{"label": "C3-20", "title": "shows the signals on the snoop response channel.", "sourceChunks": ["C3.7_C0001"]}
+{"label": "C3-20", "title": "Snoop response channel signals", "sourceChunks": ["C3.7_C0001"]}
+{"label": "C3-21", "title": "shows the allocation of each bit of CRRESP[4:0].", "sourceChunks": ["C3.7_C0002"]}
+{"label": "C3-21", "title": "Snoop response bit allocations", "sourceChunks": ["C3.7_C0002", "C3.7_C0003"]}
+{"label": "C3-22", "title": "on page C3-179 shows the CRRESP response meanings and transactions for which they are valid.", "sourceChunks": ["C3.7_C0013"]}
+{"label": "C3-22", "title": "does not show the Error bit CRRESP[1], of the response field, because the value of this bit does not", "sourceChunks": ["C3.7_C0014"]}
+{"label": "C3-22", "title": "Response meanings and transactions for which they are valid", "sourceChunks": ["C3.7_C0015"]}

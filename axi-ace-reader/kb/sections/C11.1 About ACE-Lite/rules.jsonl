@@ -1,0 +1,1 @@
+{"ruleId": "C11.1_rule_001", "title": "do not have hardware coherent caches, but are required to:", "requirement": "do not have hardware coherent caches, but are required to:", "sourceChunks": ["C11.1_C0001"], "confidence": "heuristic"}

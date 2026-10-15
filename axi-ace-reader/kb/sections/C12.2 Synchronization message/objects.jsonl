@@ -1,0 +1,6 @@
+{"objectId": "C12.2_obj_001", "name": "C12", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0001", "C12.2_C0004"]}
+{"objectId": "C12.2_obj_002", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0001", "C12.2_C0002"]}
+{"objectId": "C12.2_obj_003", "name": "TLB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0001", "C12.2_C0002"]}
+{"objectId": "C12.2_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0004"]}
+{"objectId": "C12.2_obj_005", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0004"]}
+{"objectId": "C12.2_obj_006", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C12.2_C0004"]}

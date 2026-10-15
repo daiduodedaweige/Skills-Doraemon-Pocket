@@ -1,0 +1,5 @@
+{"objectId": "C10.2_obj_001", "name": "C10", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C10.2_C0001", "C10.2_C0003"]}
+{"objectId": "C10.2_obj_002", "name": "IsShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C10.2_C0001"]}
+{"objectId": "C10.2_obj_003", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C10.2_C0003"]}
+{"objectId": "C10.2_obj_004", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C10.2_C0003"]}
+{"objectId": "C10.2_obj_005", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C10.2_C0003"]}

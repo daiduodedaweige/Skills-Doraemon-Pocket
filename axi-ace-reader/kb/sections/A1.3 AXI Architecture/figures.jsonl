@@ -1,0 +1,5 @@
+{"label": "A1-1", "title": "shows how a read transaction uses the read address and read data channels.", "sourceChunks": ["A1.3_C0002"]}
+{"label": "A1-1", "title": "Channel architecture of reads", "sourceChunks": ["A1.3_C0003"]}
+{"label": "A1-2", "title": "shows how a write transaction uses the write address, write data, and write response channels.", "sourceChunks": ["A1.3_C0003"]}
+{"label": "A1-2", "title": "Channel architecture of writes", "sourceChunks": ["A1.3_C0004"]}
+{"label": "A1-3", "title": "Interface and interconnect", "sourceChunks": ["A1.3_C0008"]}

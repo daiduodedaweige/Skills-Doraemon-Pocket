@@ -1,0 +1,31 @@
+{
+  "pdfId": "C1.1",
+  "title": "Coherency overview",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 132,
+  "pageEnd": 133,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 7,
+    "objects": 10,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

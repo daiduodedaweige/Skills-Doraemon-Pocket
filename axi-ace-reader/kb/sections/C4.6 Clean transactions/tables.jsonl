@@ -1,0 +1,8 @@
+{"label": "C4-13", "title": "shows the expected cache line state changes for the CleanUnique transaction:", "sourceChunks": ["C4.6_C0003"]}
+{"label": "C4-13", "title": "Expected CleanUnique cache line state changes", "sourceChunks": ["C4.6_C0003"]}
+{"label": "C4-14", "title": "shows other permitted cache line state changes for the CleanUnique transaction:", "sourceChunks": ["C4.6_C0004"]}
+{"label": "C4-14", "title": "Other permitted CleanUnique cache line state changes", "sourceChunks": ["C4.6_C0004"]}
+{"label": "C4-15", "title": "shows the expected cache line state changes for the CleanShared transaction:", "sourceChunks": ["C4.6_C0009"]}
+{"label": "C4-15", "title": "Expected CleanShared cache line state changes", "sourceChunks": ["C4.6_C0009"]}
+{"label": "C4-16", "title": "shows the expected cache line state changes for the CleanShared transaction:", "sourceChunks": ["C4.6_C0011"]}
+{"label": "C4-16", "title": "Expected CleanInvalid cache line state changes", "sourceChunks": ["C4.6_C0011"]}

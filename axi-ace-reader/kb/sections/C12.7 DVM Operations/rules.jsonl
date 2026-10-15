@@ -1,0 +1,8 @@
+{"ruleId": "C12.7_rule_001", "title": "[15] 0b0 Completion not required", "requirement": "[15] 0b0 Completion not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_002", "title": "[15] 0b0 Completion not required", "requirement": "[15] 0b0 Completion not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_003", "title": "[15] 0b0 Completion not required", "requirement": "[15] 0b0 Completion not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_004", "title": "[15] 0b0 Completion not required", "requirement": "[15] 0b0 Completion not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_005", "title": "[15] 0b1 Completion Required", "requirement": "[15] 0b1 Completion Required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_006", "title": "The Sync message is the only supported message type that has the Completion Required field, ARADDR[1", "requirement": "The Sync message is the only supported message type that has the Completion Required field, ARADDR[15] set", "sourceChunks": ["C12.7_C0019"], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_007", "title": "[15] 0b0 Completion not required", "requirement": "[15] 0b0 Completion not required", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "C12.7_rule_008", "title": "All Hint messages must respond with the snoop response value CRRESP set to 0 on the CR channel.", "requirement": "All Hint messages must respond with the snoop response value CRRESP set to 0 on the CR channel.", "sourceChunks": ["C12.7_C0021"], "confidence": "heuristic"}

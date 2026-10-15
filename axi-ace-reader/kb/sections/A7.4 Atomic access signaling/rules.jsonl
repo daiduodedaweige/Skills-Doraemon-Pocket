@@ -1,0 +1,1 @@
+{"ruleId": "A7.4_rule_001", "title": "might be required to prevent the use of any instruction that forces a locked transaction.", "requirement": "might be required to prevent the use of any instruction that forces a locked transaction.", "sourceChunks": ["A7.4_C0003"], "confidence": "heuristic"}

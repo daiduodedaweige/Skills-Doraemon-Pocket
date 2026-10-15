@@ -1,0 +1,31 @@
+{
+  "pdfId": "A2.1",
+  "title": "Global signals",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 28,
+  "pageEnd": 28,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 1,
+    "objects": 8,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 2,
+    "figures": 0
+  }
+}

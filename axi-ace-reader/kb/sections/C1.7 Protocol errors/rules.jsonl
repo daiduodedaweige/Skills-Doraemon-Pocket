@@ -1,0 +1,2 @@
+{"ruleId": "C1.7_rule_001", "title": "A software protocol error for an access in one 4KB memory region must not cause data corruption in a", "requirement": "A software protocol error for an access in one 4KB memory region must not cause data corruption in a different", "sourceChunks": ["C1.7_C0001"], "confidence": "heuristic"}
+{"ruleId": "C1.7_rule_002", "title": "No support is required", "requirement": "No support is required", "sourceChunks": ["C1.7_C0002"], "confidence": "heuristic"}

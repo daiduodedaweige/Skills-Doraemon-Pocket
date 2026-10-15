@@ -1,0 +1,11 @@
+{"objectId": "A9.2_obj_001", "name": "CACTIVE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0001", "A9.2_C0002"]}
+{"objectId": "A9.2_obj_002", "name": "HIGH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0001", "A9.2_C0002"]}
+{"objectId": "A9.2_obj_003", "name": "LOW", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0002", "A9.2_C0003"]}
+{"objectId": "A9.2_obj_004", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0002", "A9.2_C0005"]}
+{"objectId": "A9.2_obj_005", "name": "CSYSREQ", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0002", "A9.2_C0003"]}
+{"objectId": "A9.2_obj_006", "name": "CSYSACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0003", "A9.2_C0004"]}
+{"objectId": "A9.2_obj_007", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0005", "A9.2_C0009"]}
+{"objectId": "A9.2_obj_008", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0005", "A9.2_C0009"]}
+{"objectId": "A9.2_obj_009", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0005", "A9.2_C0009"]}
+{"objectId": "A9.2_obj_010", "name": "CLK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0006", "A9.2_C0007"]}
+{"objectId": "A9.2_obj_011", "name": "A10", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["A9.2_C0024"]}

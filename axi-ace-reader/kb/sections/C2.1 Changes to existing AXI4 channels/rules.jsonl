@@ -1,0 +1,1 @@
+{"ruleId": "C2.1_rule_001", "title": "The additional read response bits provide the information required to complete a", "requirement": "The additional read response bits provide the information required to complete a", "sourceChunks": ["C2.1_C0003"], "confidence": "heuristic"}

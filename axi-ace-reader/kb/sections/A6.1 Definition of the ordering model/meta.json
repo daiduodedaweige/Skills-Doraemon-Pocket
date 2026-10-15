@@ -1,0 +1,31 @@
+{
+  "pdfId": "A6.1",
+  "title": "Definition of the ordering model",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 84,
+  "pageEnd": 84,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 5,
+    "rules": 6,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

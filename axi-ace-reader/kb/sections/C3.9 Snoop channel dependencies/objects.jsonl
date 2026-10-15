@@ -1,0 +1,9 @@
+{"objectId": "C3.9_obj_001", "name": "ACVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_002", "name": "CRVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_003", "name": "CDVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_004", "name": "ACREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_005", "name": "CRREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_006", "name": "CDREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0001", "C3.9_C0002"]}
+{"objectId": "C3.9_obj_007", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0003", "C3.9_C0005"]}
+{"objectId": "C3.9_obj_008", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0003", "C3.9_C0005"]}
+{"objectId": "C3.9_obj_009", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C3.9_C0003", "C3.9_C0005"]}

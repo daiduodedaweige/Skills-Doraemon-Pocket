@@ -1,0 +1,8 @@
+{"objectId": "C7.1_obj_001", "name": "ARCACHE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0001", "C7.1_C0002"]}
+{"objectId": "C7.1_obj_002", "name": "ARDOMAIN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0001", "C7.1_C0002"]}
+{"objectId": "C7.1_obj_003", "name": "CleanShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0001"]}
+{"objectId": "C7.1_obj_004", "name": "CleanInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0001"]}
+{"objectId": "C7.1_obj_005", "name": "MakeInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0001", "C7.1_C0002"]}
+{"objectId": "C7.1_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0003"]}
+{"objectId": "C7.1_obj_007", "name": "IHI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0003"]}
+{"objectId": "C7.1_obj_008", "name": "ID102711", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["C7.1_C0003"]}

@@ -1,0 +1,31 @@
+{
+  "pdfId": "A4.4",
+  "title": "Memory types",
+  "sourceFile": "source/AXI4_specification.pdf",
+  "pageStart": 65,
+  "pageEnd": 68,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 15,
+    "objects": 7,
+    "rules": 40,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 1,
+    "figures": 0
+  }
+}
