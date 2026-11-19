@@ -1,0 +1,6 @@
+{"objectId": "1.3_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001"]}
+{"objectId": "1.3_obj_002", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001"]}
+{"objectId": "1.3_obj_003", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001"]}
+{"objectId": "1.3_obj_004", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001", "1.3_C0002"]}
+{"objectId": "1.3_obj_005", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001", "1.3_C0002"]}
+{"objectId": "1.3_obj_006", "name": "TrustZone", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.3_C0001", "1.3_C0002"]}

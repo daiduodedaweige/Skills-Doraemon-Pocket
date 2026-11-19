@@ -1,0 +1,31 @@
+{
+  "pdfId": "S019",
+  "title": "A : Signal Descriptions",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 75,
+  "pageEnd": 93,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 58,
+    "objects": 71,
+    "rules": 4,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

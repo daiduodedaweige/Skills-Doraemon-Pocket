@@ -1,0 +1,31 @@
+{
+  "pdfId": "3.4",
+  "title": ": Address map",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 72,
+  "pageEnd": 74,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 10,
+    "objects": 4,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 2,
+    "figures": 1
+  }
+}

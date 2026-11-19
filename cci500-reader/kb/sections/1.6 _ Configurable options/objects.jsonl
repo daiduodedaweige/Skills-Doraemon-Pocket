@@ -1,0 +1,4 @@
+{"objectId": "1.6_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.6_C0001", "1.6_C0003"]}
+{"objectId": "1.6_obj_002", "name": "RAM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.6_C0002"]}
+{"objectId": "1.6_obj_003", "name": "ECC", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.6_C0002"]}
+{"objectId": "1.6_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.6_C0003"]}

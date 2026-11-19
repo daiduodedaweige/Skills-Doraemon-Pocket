@@ -1,0 +1,8 @@
+{"objectId": "1.9_obj_001", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0001", "1.9_C0003"]}
+{"objectId": "1.9_obj_002", "name": "PMCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0001"]}
+{"objectId": "1.9_obj_003", "name": "ID2", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0001", "1.9_C0002"]}
+{"objectId": "1.9_obj_004", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0002", "1.9_C0004"]}
+{"objectId": "1.9_obj_005", "name": "ORDERED_WRITE_OBSERVATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0002"]}
+{"objectId": "1.9_obj_006", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0002"]}
+{"objectId": "1.9_obj_007", "name": "DSM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0003"]}
+{"objectId": "1.9_obj_008", "name": "CoreLink", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.9_C0004"]}

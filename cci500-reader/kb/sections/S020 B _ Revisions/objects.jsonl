@@ -1,0 +1,16 @@
+{"objectId": "S020_obj_001", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0001", "S020_C0004"]}
+{"objectId": "S020_obj_002", "name": "PMCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0003", "S020_C0005"]}
+{"objectId": "S020_obj_003", "name": "SPNIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0003"]}
+{"objectId": "S020_obj_004", "name": "SPIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0003"]}
+{"objectId": "S020_obj_005", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0004", "S020_C0010"]}
+{"objectId": "S020_obj_006", "name": "RTL", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0004"]}
+{"objectId": "S020_obj_007", "name": "ADDRMAP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0007"]}
+{"objectId": "S020_obj_008", "name": "ORDERED_WRITE_OBSERVATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0007"]}
+{"objectId": "S020_obj_009", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0008", "S020_C0009"]}
+{"objectId": "S020_obj_010", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0009"]}
+{"objectId": "S020_obj_011", "name": "APB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0009"]}
+{"objectId": "S020_obj_012", "name": "APB4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0009"]}
+{"objectId": "S020_obj_013", "name": "EVNTBUS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0009", "S020_C0010"]}
+{"objectId": "S020_obj_014", "name": "DFT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0012"]}
+{"objectId": "S020_obj_015", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0012", "S020_C0013"]}
+{"objectId": "S020_obj_016", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S020_C0009", "S020_C0012"]}

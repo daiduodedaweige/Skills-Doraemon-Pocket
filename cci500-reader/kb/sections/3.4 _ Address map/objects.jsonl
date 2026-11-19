@@ -1,0 +1,4 @@
+{"objectId": "3.4_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.4_C0001", "3.4_C0002"]}
+{"objectId": "3.4_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.4_C0002", "3.4_C0003"]}
+{"objectId": "3.4_obj_003", "name": "DECERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.4_C0002", "3.4_C0007"]}
+{"objectId": "3.4_obj_004", "name": "ADDRMAP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.4_C0002", "3.4_C0003"]}

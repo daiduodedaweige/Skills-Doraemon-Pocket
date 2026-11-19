@@ -1,0 +1,4 @@
+{"ruleId": "S019_rule_001", "title": "AWAKEUPSx Input This signal must be driven HIGH when any of ARVALID,", "requirement": "AWAKEUPSx Input This signal must be driven HIGH when any of ARVALID,", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "S019_rule_002", "title": "PSTATE[2:0] Input Required power state.", "requirement": "PSTATE[2:0] Input Required power state.", "sourceChunks": [], "confidence": "heuristic"}
+{"ruleId": "S019_rule_003", "title": "Snoops and DVM messages must still be enabled in the", "requirement": "Snoops and DVM messages must still be enabled in the", "sourceChunks": ["S019_C0013"], "confidence": "heuristic"}
+{"ruleId": "S019_rule_004", "title": "The inputs can change at runtime and you must synchronize them to the CCI-500 clock to prevent timin", "requirement": "The inputs can change at runtime and you must synchronize them to the CCI-500 clock to prevent timing", "sourceChunks": ["S019_C0018"], "confidence": "heuristic"}

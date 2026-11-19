@@ -1,0 +1,11 @@
+{
+  "title": "CoreLink CCI-500 Technical Reference Manual",
+  "name": "cci500-reader",
+  "source": "source/CCI-500-r0p2.pdf",
+  "sha256": "a39d551679a6c91352508c8023d44301f53a502032ad0b834eaf7c2911f97220",
+  "sections": 20,
+  "chunks": 341,
+  "figure_captions": 22,
+  "mermaid_files": 0,
+  "pages_without_text": []
+}

@@ -1,0 +1,6 @@
+{"objectId": "1.2_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}
+{"objectId": "1.2_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}
+{"objectId": "1.2_obj_003", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}
+{"objectId": "1.2_obj_004", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}
+{"objectId": "1.2_obj_005", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}
+{"objectId": "1.2_obj_006", "name": "TRM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.2_C0001"]}

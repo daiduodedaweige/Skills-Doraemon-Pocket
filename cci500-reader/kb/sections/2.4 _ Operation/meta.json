@@ -1,0 +1,31 @@
+{
+  "pdfId": "2.4",
+  "title": ": Operation",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 28,
+  "pageEnd": 42,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": true,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 61,
+    "objects": 81,
+    "rules": 12,
+    "flows": 5,
+    "verification": 0,
+    "relations": 0,
+    "tables": 8,
+    "figures": 0
+  }
+}

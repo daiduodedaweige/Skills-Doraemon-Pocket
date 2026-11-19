@@ -1,0 +1,8 @@
+{"objectId": "1.8_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0001", "1.8_C0002"]}
+{"objectId": "1.8_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0001", "1.8_C0002"]}
+{"objectId": "1.8_obj_003", "name": "RAM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0001", "1.8_C0007"]}
+{"objectId": "1.8_obj_004", "name": "RTL", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0001", "1.8_C0003"]}
+{"objectId": "1.8_obj_005", "name": "CoreLink", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0005"]}
+{"objectId": "1.8_obj_006", "name": "TRM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0006"]}
+{"objectId": "1.8_obj_007", "name": "CSG", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0006", "1.8_C0007"]}
+{"objectId": "1.8_obj_008", "name": "EDA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.8_C0007", "1.8_C0008"]}

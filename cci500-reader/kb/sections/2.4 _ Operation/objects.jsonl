@@ -1,0 +1,81 @@
+{"objectId": "2.4_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0001", "2.4_C0002"]}
+{"objectId": "2.4_obj_002", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0001", "2.4_C0002"]}
+{"objectId": "2.4_obj_003", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0002", "2.4_C0003"]}
+{"objectId": "2.4_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0003", "2.4_C0004"]}
+{"objectId": "2.4_obj_005", "name": "CleanInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0004", "2.4_C0021"]}
+{"objectId": "2.4_obj_006", "name": "LOW", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0007", "2.4_C0008"]}
+{"objectId": "2.4_obj_007", "name": "HIGH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0007", "2.4_C0008"]}
+{"objectId": "2.4_obj_008", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0012", "2.4_C0013"]}
+{"objectId": "2.4_obj_009", "name": "EVNTBUS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0013", "2.4_C0015"]}
+{"objectId": "2.4_obj_010", "name": "DBGEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0013", "2.4_C0014"]}
+{"objectId": "2.4_obj_011", "name": "NIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0013", "2.4_C0014"]}
+{"objectId": "2.4_obj_012", "name": "SPNIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0014", "2.4_C0033"]}
+{"objectId": "2.4_obj_013", "name": "SPIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0014", "2.4_C0033"]}
+{"objectId": "2.4_obj_014", "name": "SI0", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0016"]}
+{"objectId": "2.4_obj_015", "name": "SI1", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0016", "2.4_C0017"]}
+{"objectId": "2.4_obj_016", "name": "SI2", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0016", "2.4_C0017"]}
+{"objectId": "2.4_obj_017", "name": "SI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017"]}
+{"objectId": "2.4_obj_018", "name": "SI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017"]}
+{"objectId": "2.4_obj_019", "name": "SI5", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017"]}
+{"objectId": "2.4_obj_020", "name": "SI6", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017"]}
+{"objectId": "2.4_obj_021", "name": "MI0", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017"]}
+{"objectId": "2.4_obj_022", "name": "MI1", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017", "2.4_C0018"]}
+{"objectId": "2.4_obj_023", "name": "MI2", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0017", "2.4_C0018"]}
+{"objectId": "2.4_obj_024", "name": "MI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0018"]}
+{"objectId": "2.4_obj_025", "name": "MI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0018"]}
+{"objectId": "2.4_obj_026", "name": "MI5", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0018"]}
+{"objectId": "2.4_obj_027", "name": "ARVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0020", "2.4_C0025"]}
+{"objectId": "2.4_obj_028", "name": "ARREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0020", "2.4_C0025"]}
+{"objectId": "2.4_obj_029", "name": "ReadOnce", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0020", "2.4_C0021"]}
+{"objectId": "2.4_obj_030", "name": "ReadClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_031", "name": "ReadShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_032", "name": "ReadNotSharedDirty", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_033", "name": "ReadUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_034", "name": "MakeUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021"]}
+{"objectId": "2.4_obj_035", "name": "CleanUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021"]}
+{"objectId": "2.4_obj_036", "name": "MakeInvalid", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_037", "name": "CleanShared", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0021", "2.4_C0025"]}
+{"objectId": "2.4_obj_038", "name": "RVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0020", "2.4_C0021"]}
+{"objectId": "2.4_obj_039", "name": "RREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0020", "2.4_C0021"]}
+{"objectId": "2.4_obj_040", "name": "RLAST", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022"]}
+{"objectId": "2.4_obj_041", "name": "AWVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022", "2.4_C0025"]}
+{"objectId": "2.4_obj_042", "name": "AWREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022", "2.4_C0025"]}
+{"objectId": "2.4_obj_043", "name": "WriteBack", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022"]}
+{"objectId": "2.4_obj_044", "name": "WriteClean", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022"]}
+{"objectId": "2.4_obj_045", "name": "WriteLineUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022", "2.4_C0023"]}
+{"objectId": "2.4_obj_046", "name": "WriteUnique", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0023", "2.4_C0050"]}
+{"objectId": "2.4_obj_047", "name": "WriteEvict", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0024"]}
+{"objectId": "2.4_obj_048", "name": "WVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022", "2.4_C0024"]}
+{"objectId": "2.4_obj_049", "name": "WREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0022", "2.4_C0024"]}
+{"objectId": "2.4_obj_050", "name": "ACVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0024", "2.4_C0025"]}
+{"objectId": "2.4_obj_051", "name": "ACREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0024", "2.4_C0025"]}
+{"objectId": "2.4_obj_052", "name": "CRRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0025"]}
+{"objectId": "2.4_obj_053", "name": "BVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0026", "2.4_C0028"]}
+{"objectId": "2.4_obj_054", "name": "BREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0026", "2.4_C0028"]}
+{"objectId": "2.4_obj_055", "name": "CDVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0026"]}
+{"objectId": "2.4_obj_056", "name": "CDREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0026"]}
+{"objectId": "2.4_obj_057", "name": "RAM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0030"]}
+{"objectId": "2.4_obj_058", "name": "TT_DEPTH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0031"]}
+{"objectId": "2.4_obj_059", "name": "TZMP1", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0032", "2.4_C0047"]}
+{"objectId": "2.4_obj_060", "name": "PMCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0038", "2.4_C0040"]}
+{"objectId": "2.4_obj_061", "name": "ARTRACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0041", "2.4_C0042"]}
+{"objectId": "2.4_obj_062", "name": "RTRACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0041", "2.4_C0042"]}
+{"objectId": "2.4_obj_063", "name": "AWTRACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0042"]}
+{"objectId": "2.4_obj_064", "name": "BTRACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0042"]}
+{"objectId": "2.4_obj_065", "name": "TrustZone", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0042", "2.4_C0044"]}
+{"objectId": "2.4_obj_066", "name": "ARPROT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0044"]}
+{"objectId": "2.4_obj_067", "name": "AWPROT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0044"]}
+{"objectId": "2.4_obj_068", "name": "NSAID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0047"]}
+{"objectId": "2.4_obj_069", "name": "DECERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0048"]}
+{"objectId": "2.4_obj_070", "name": "SLVERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0049"]}
+{"objectId": "2.4_obj_071", "name": "SYSBARDISABLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0052"]}
+{"objectId": "2.4_obj_072", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0053"]}
+{"objectId": "2.4_obj_073", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0053"]}
+{"objectId": "2.4_obj_074", "name": "LRG", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0055", "2.4_C0056"]}
+{"objectId": "2.4_obj_075", "name": "NIC", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0055", "2.4_C0056"]}
+{"objectId": "2.4_obj_076", "name": "ARQOS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0056", "2.4_C0057"]}
+{"objectId": "2.4_obj_077", "name": "AWQOS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0056", "2.4_C0057"]}
+{"objectId": "2.4_obj_078", "name": "QOSOVERRIDE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0057"]}
+{"objectId": "2.4_obj_079", "name": "RACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0059"]}
+{"objectId": "2.4_obj_080", "name": "WACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0059"]}
+{"objectId": "2.4_obj_081", "name": "CoreLink", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.4_C0061"]}

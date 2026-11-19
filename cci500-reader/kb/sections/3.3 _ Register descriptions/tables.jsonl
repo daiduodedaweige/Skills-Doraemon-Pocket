@@ -1,0 +1,24 @@
+{"label": "3-2", "title": "ctrl_ovr register bit assignments", "sourceChunks": ["3.3_C0006"]}
+{"label": "3-3", "title": "secr_acc register bit assignments", "sourceChunks": ["3.3_C0010"]}
+{"label": "3-4", "title": "status register bit assignments", "sourceChunks": ["3.3_C0015", "3.3_C0018"]}
+{"label": "3-4", "title": "status register bit assignments (continued)", "sourceChunks": ["3.3_C0018"]}
+{"label": "3-5", "title": "impr_err register bit assignments", "sourceChunks": ["3.3_C0023", "3.3_C0027"]}
+{"label": "3-5", "title": "impr_err register bit assignments (continued)", "sourceChunks": ["3.3_C0027"]}
+{"label": "3-6", "title": "awqos_ovr register bit assignments", "sourceChunks": ["3.3_C0031"]}
+{"label": "3-7", "title": "pmu_ctrl register bit assignments", "sourceChunks": ["3.3_C0034"]}
+{"label": "3-8", "title": "Relationship between NIDEN and DBGEN, and PMCR register settings", "sourceChunks": ["3.3_C0037"]}
+{"label": "3-9", "title": "debug_ctrl register bit assignments", "sourceChunks": ["3.3_C0039"]}
+{"label": "3-10", "title": "Component and Peripheral ID registers bit assignments", "sourceChunks": ["3.3_C0041"]}
+{"label": "3-11", "title": "snoop_ctrl register bit assignments", "sourceChunks": ["3.3_C0046", "3.3_C0050"]}
+{"label": "3-11", "title": "snoop_ctrl register bit assignments (continued)", "sourceChunks": ["3.3_C0046", "3.3_C0050"]}
+{"label": "3-12", "title": "share_ovr register bit assignments", "sourceChunks": ["3.3_C0055", "3.3_C0056"]}
+{"label": "3-13", "title": "arqos_ovr register bit assignments", "sourceChunks": ["3.3_C0060"]}
+{"label": "3-14", "title": "awqos_ovr register bit assignments", "sourceChunks": ["3.3_C0063"]}
+{"label": "3-15", "title": "qos_max_ot register bit assignments", "sourceChunks": ["3.3_C0066"]}
+{"label": "3-16", "title": "evnt_sel register bit assignments", "sourceChunks": ["3.3_C0070"]}
+{"label": "3-17", "title": "ecnt_ctrl register bit assignments", "sourceChunks": ["3.3_C0072"]}
+{"label": "3-18", "title": "ecnt_clr_ovfl register bit assignments", "sourceChunks": ["3.3_C0074", "3.3_C0075"]}
+{"label": "3-19", "title": "slave_debug register bit assignments", "sourceChunks": ["3.3_C0078", "3.3_C0083"]}
+{"label": "3-19", "title": "slave_debug register bit assignments (continued)", "sourceChunks": ["3.3_C0078", "3.3_C0083"]}
+{"label": "3-20", "title": "master_debug register bit assignments", "sourceChunks": ["3.3_C0086", "3.3_C0088"]}
+{"label": "3-20", "title": "master_debug register bit assignments (continued)", "sourceChunks": ["3.3_C0086", "3.3_C0088"]}

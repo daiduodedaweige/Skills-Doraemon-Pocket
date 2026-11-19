@@ -1,0 +1,21 @@
+{"objectId": "1.4_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0003"]}
+{"objectId": "1.4_obj_002", "name": "V500", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001"]}
+{"objectId": "1.4_obj_003", "name": "DP500", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001"]}
+{"objectId": "1.4_obj_004", "name": "A72A57", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001"]}
+{"objectId": "1.4_obj_005", "name": "A53A57", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001"]}
+{"objectId": "1.4_obj_006", "name": "T760", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0004"]}
+{"objectId": "1.4_obj_007", "name": "NIC", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0003"]}
+{"objectId": "1.4_obj_008", "name": "ADB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0003"]}
+{"objectId": "1.4_obj_009", "name": "MMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0002"]}
+{"objectId": "1.4_obj_010", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0002"]}
+{"objectId": "1.4_obj_011", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0002", "1.4_C0003"]}
+{"objectId": "1.4_obj_012", "name": "CoreLink", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0002"]}
+{"objectId": "1.4_obj_013", "name": "APB4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0002", "1.4_C0004"]}
+{"objectId": "1.4_obj_014", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0002", "1.4_C0003"]}
+{"objectId": "1.4_obj_015", "name": "APB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0002", "1.4_C0003"]}
+{"objectId": "1.4_obj_016", "name": "TZC", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0003"]}
+{"objectId": "1.4_obj_017", "name": "A53", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0003"]}
+{"objectId": "1.4_obj_018", "name": "A72", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0001", "1.4_C0003"]}
+{"objectId": "1.4_obj_019", "name": "LPDDR4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0004"]}
+{"objectId": "1.4_obj_020", "name": "LPDDR3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0004"]}
+{"objectId": "1.4_obj_021", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.4_C0004"]}

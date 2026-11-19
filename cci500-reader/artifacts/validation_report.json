@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-11-18T08:14:19.319741+00:00",
+  "skill_validation": "Skill is valid!",
+  "source_sha256_verified": true,
+  "pdf_pages": 97,
+  "pages_without_text": [],
+  "sections": 20,
+  "split_pages_verified": 97,
+  "page_coverage_exactly_once": true,
+  "rendered_page_comparisons": [
+    {
+      "pdf_page": 16,
+      "maximum_rgb_channel_difference": 3,
+      "allowed_maximum": 4
+    },
+    {
+      "pdf_page": 25,
+      "maximum_rgb_channel_difference": 2,
+      "allowed_maximum": 4
+    },
+    {
+      "pdf_page": 29,
+      "maximum_rgb_channel_difference": 2,
+      "allowed_maximum": 4
+    },
+    {
+      "pdf_page": 61,
+      "maximum_rgb_channel_difference": 3,
+      "allowed_maximum": 4
+    }
+  ],
+  "visual_review": {
+    "pdf_page": 16,
+    "result": "Original and split retain matching diagram, arrows, text and layout; low-order color differences only."
+  },
+  "chunks_verified": 341,
+  "search_working_directory": "/tmp",
+  "search_checks": [
+    {
+      "query": "Transaction Tracker snoop filter crossbar",
+      "expected_section": "1.5",
+      "expected_pdf_page": 16,
+      "matched": true
+    },
+    {
+      "query": "Snoop Control Registers enable_snoops enable_dvms",
+      "expected_section": "3.3",
+      "expected_pdf_page": 61,
+      "matched": true
+    },
+    {
+      "query": "ACE interfaces four",
+      "expected_section": "2.2",
+      "expected_pdf_page": 25,
+      "matched": true
+    },
+    {
+      "query": "snoop filter inclusive address cache",
+      "expected_section": "2.4",
+      "expected_pdf_page": 28,
+      "matched": true
+    }
+  ],
+  "mermaid_generated": false
+}

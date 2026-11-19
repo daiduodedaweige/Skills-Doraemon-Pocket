@@ -1,0 +1,31 @@
+{
+  "pdfId": "S020",
+  "title": "B : Revisions",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 94,
+  "pageEnd": 97,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 14,
+    "objects": 16,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

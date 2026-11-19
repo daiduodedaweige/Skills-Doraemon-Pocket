@@ -1,0 +1,9 @@
+{"objectId": "1.1_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}
+{"objectId": "1.1_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}
+{"objectId": "1.1_obj_003", "name": "LITTLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001"]}
+{"objectId": "1.1_obj_004", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}
+{"objectId": "1.1_obj_005", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}
+{"objectId": "1.1_obj_006", "name": "A57", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001"]}
+{"objectId": "1.1_obj_007", "name": "A53", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001"]}
+{"objectId": "1.1_obj_008", "name": "T760", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}
+{"objectId": "1.1_obj_009", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["1.1_C0001", "1.1_C0002"]}

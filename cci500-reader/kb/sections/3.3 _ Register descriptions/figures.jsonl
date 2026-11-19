@@ -1,0 +1,17 @@
+{"label": "3-1", "title": "ctrl_ovr register bit assignments", "sourceChunks": ["3.3_C0004", "3.3_C0005"]}
+{"label": "3-2", "title": "secr_acc register bit assignments", "sourceChunks": ["3.3_C0008", "3.3_C0009"]}
+{"label": "3-3", "title": "status register bit assignments", "sourceChunks": ["3.3_C0015"]}
+{"label": "3-4", "title": "impr_err register bit assignments", "sourceChunks": ["3.3_C0023"]}
+{"label": "3-5", "title": "qos_threshold register bit assignments", "sourceChunks": ["3.3_C0030"]}
+{"label": "3-6", "title": "pmu_ctrl register bit assignments", "sourceChunks": ["3.3_C0034"]}
+{"label": "3-7", "title": "debug_ctrl register bit assignments", "sourceChunks": ["3.3_C0038", "3.3_C0039"]}
+{"label": "3-8", "title": "snoop_ctrl register bit assignments", "sourceChunks": ["3.3_C0046"]}
+{"label": "3-9", "title": "share_ovr register bit assignments", "sourceChunks": ["3.3_C0055"]}
+{"label": "3-10", "title": "arqos_ovr register bit assignments", "sourceChunks": ["3.3_C0060"]}
+{"label": "3-11", "title": "awqos_ovr register bit assignments", "sourceChunks": ["3.3_C0062"]}
+{"label": "3-12", "title": "qos_max_ot register bit assignments", "sourceChunks": ["3.3_C0065"]}
+{"label": "3-13", "title": "evnt_sel register bit assignments", "sourceChunks": ["3.3_C0068"]}
+{"label": "3-14", "title": "ecnt_ctrl register bit assignments", "sourceChunks": ["3.3_C0071", "3.3_C0072"]}
+{"label": "3-15", "title": "ecnt_clr_ovfl register bit assignments", "sourceChunks": ["3.3_C0074"]}
+{"label": "3-16", "title": "slave_debug register bit assignments", "sourceChunks": ["3.3_C0078"]}
+{"label": "3-17", "title": "master_debug register bit assignments", "sourceChunks": ["3.3_C0086"]}

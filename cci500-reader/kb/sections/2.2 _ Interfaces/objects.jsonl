@@ -1,0 +1,13 @@
+{"objectId": "2.2_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0001", "2.2_C0002"]}
+{"objectId": "2.2_obj_002", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0001", "2.2_C0003"]}
+{"objectId": "2.2_obj_003", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0001", "2.2_C0003"]}
+{"objectId": "2.2_obj_004", "name": "APB4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0001", "2.2_C0004"]}
+{"objectId": "2.2_obj_005", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0002", "2.2_C0003"]}
+{"objectId": "2.2_obj_006", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0003", "2.2_C0005"]}
+{"objectId": "2.2_obj_007", "name": "DFT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0004", "2.2_C0009"]}
+{"objectId": "2.2_obj_008", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0002", "2.2_C0003"]}
+{"objectId": "2.2_obj_009", "name": "AMBA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0005", "2.2_C0006"]}
+{"objectId": "2.2_obj_010", "name": "MMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0005"]}
+{"objectId": "2.2_obj_011", "name": "APB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0001", "2.2_C0004"]}
+{"objectId": "2.2_obj_012", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0007", "2.2_C0009"]}
+{"objectId": "2.2_obj_013", "name": "MBIST", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.2_C0009", "2.2_C0010"]}

@@ -1,0 +1,10 @@
+{"objectId": "2.1_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001", "2.1_C0002"]}
+{"objectId": "2.1_obj_002", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001", "2.1_C0003"]}
+{"objectId": "2.1_obj_003", "name": "LITTLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001"]}
+{"objectId": "2.1_obj_004", "name": "GTS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001"]}
+{"objectId": "2.1_obj_005", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001"]}
+{"objectId": "2.1_obj_006", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001", "2.1_C0002"]}
+{"objectId": "2.1_obj_007", "name": "APB4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0001"]}
+{"objectId": "2.1_obj_008", "name": "RAM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0002"]}
+{"objectId": "2.1_obj_009", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0002", "2.1_C0003"]}
+{"objectId": "2.1_obj_010", "name": "TrustZone", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["2.1_C0003"]}

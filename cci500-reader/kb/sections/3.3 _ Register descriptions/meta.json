@@ -1,0 +1,31 @@
+{
+  "pdfId": "3.3",
+  "title": ": Register descriptions",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 50,
+  "pageEnd": 71,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": true,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": true
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 91,
+    "objects": 65,
+    "rules": 5,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 24,
+    "figures": 17
+  }
+}

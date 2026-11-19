@@ -1,0 +1,31 @@
+{
+  "pdfId": "3.2",
+  "title": ": Register summary",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 44,
+  "pageEnd": 49,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": true,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 27,
+    "objects": 18,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 6,
+    "figures": 0
+  }
+}

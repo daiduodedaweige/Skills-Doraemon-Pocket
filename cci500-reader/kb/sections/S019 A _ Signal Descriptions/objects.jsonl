@@ -1,0 +1,71 @@
+{"objectId": "S019_obj_001", "name": "CoreLink", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001"]}
+{"objectId": "S019_obj_002", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0002"]}
+{"objectId": "S019_obj_003", "name": "DFT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0022"]}
+{"objectId": "S019_obj_004", "name": "APB4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0004"]}
+{"objectId": "S019_obj_005", "name": "ACE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0012"]}
+{"objectId": "S019_obj_006", "name": "AXI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0045"]}
+{"objectId": "S019_obj_007", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0001", "S019_C0002"]}
+{"objectId": "S019_obj_008", "name": "ACLK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0002", "S019_C0003"]}
+{"objectId": "S019_obj_009", "name": "HIGH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0003", "S019_C0004"]}
+{"objectId": "S019_obj_010", "name": "ARVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0003", "S019_C0036"]}
+{"objectId": "S019_obj_011", "name": "AWVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0003", "S019_C0028"]}
+{"objectId": "S019_obj_012", "name": "WVALID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0003", "S019_C0028"]}
+{"objectId": "S019_obj_013", "name": "ACLKQACTIVE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0003", "S019_C0004"]}
+{"objectId": "S019_obj_014", "name": "PWAKEUP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0004", "S019_C0005"]}
+{"objectId": "S019_obj_015", "name": "ACLKQDENY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0005"]}
+{"objectId": "S019_obj_016", "name": "PREQ", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0005"]}
+{"objectId": "S019_obj_017", "name": "PSTATE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0005", "S019_C0006"]}
+{"objectId": "S019_obj_018", "name": "RAM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0006", "S019_C0008"]}
+{"objectId": "S019_obj_019", "name": "PACCEPT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0006"]}
+{"objectId": "S019_obj_020", "name": "PDENY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0008"]}
+{"objectId": "S019_obj_021", "name": "PACTIVE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0008"]}
+{"objectId": "S019_obj_022", "name": "LOW", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0010", "S019_C0020"]}
+{"objectId": "S019_obj_023", "name": "ADDRMAP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0010", "S019_C0011"]}
+{"objectId": "S019_obj_024", "name": "ADDRMAP_WIDTH", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0010"]}
+{"objectId": "S019_obj_025", "name": "QOSOVERRIDE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0011"]}
+{"objectId": "S019_obj_026", "name": "ARQOS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0011", "S019_C0035"]}
+{"objectId": "S019_obj_027", "name": "AWQOS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0011", "S019_C0028"]}
+{"objectId": "S019_obj_028", "name": "DVM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0012", "S019_C0013"]}
+{"objectId": "S019_obj_029", "name": "ORDERED_WRITE_OBSERVATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0014"]}
+{"objectId": "S019_obj_030", "name": "BURST_SPLIT_ALL", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0015"]}
+{"objectId": "S019_obj_031", "name": "TZMP1", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0016"]}
+{"objectId": "S019_obj_032", "name": "NSAID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0016", "S019_C0028"]}
+{"objectId": "S019_obj_033", "name": "NIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0018", "S019_C0019"]}
+{"objectId": "S019_obj_034", "name": "PMU", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0018", "S019_C0019"]}
+{"objectId": "S019_obj_035", "name": "SPNIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0018"]}
+{"objectId": "S019_obj_036", "name": "DBGEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0019"]}
+{"objectId": "S019_obj_037", "name": "SPIDEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0019"]}
+{"objectId": "S019_obj_038", "name": "EVNTBUS", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0019"]}
+{"objectId": "S019_obj_039", "name": "PMCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0019", "S019_C0020"]}
+{"objectId": "S019_obj_040", "name": "DECERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0020", "S019_C0021"]}
+{"objectId": "S019_obj_041", "name": "SLVERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0020", "S019_C0021"]}
+{"objectId": "S019_obj_042", "name": "RRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0021", "S019_C0038"]}
+{"objectId": "S019_obj_043", "name": "BRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0021", "S019_C0032"]}
+{"objectId": "S019_obj_044", "name": "CRRESP", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0021", "S019_C0042"]}
+{"objectId": "S019_obj_045", "name": "CoreSight", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0021"]}
+{"objectId": "S019_obj_046", "name": "MBIST", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022", "S019_C0023"]}
+{"objectId": "S019_obj_047", "name": "DFTRSTDISABLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022"]}
+{"objectId": "S019_obj_048", "name": "DFTCGEN", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022"]}
+{"objectId": "S019_obj_049", "name": "DFTRAMHOLD", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022"]}
+{"objectId": "S019_obj_050", "name": "DFTMCPHOLD", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022"]}
+{"objectId": "S019_obj_051", "name": "ATPG", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022"]}
+{"objectId": "S019_obj_052", "name": "MBISTREQ", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0022", "S019_C0023"]}
+{"objectId": "S019_obj_053", "name": "MBISTACK", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0023"]}
+{"objectId": "S019_obj_054", "name": "PADDR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0024"]}
+{"objectId": "S019_obj_055", "name": "PPROT", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0024"]}
+{"objectId": "S019_obj_056", "name": "PSEL", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0024"]}
+{"objectId": "S019_obj_057", "name": "PENABLE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0024", "S019_C0025"]}
+{"objectId": "S019_obj_058", "name": "PWRITE", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0024", "S019_C0025"]}
+{"objectId": "S019_obj_059", "name": "PWDATA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0025"]}
+{"objectId": "S019_obj_060", "name": "PSTRB", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0025"]}
+{"objectId": "S019_obj_061", "name": "PREADY", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0025"]}
+{"objectId": "S019_obj_062", "name": "PRDATA", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0025"]}
+{"objectId": "S019_obj_063", "name": "PSLVERR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0025"]}
+{"objectId": "S019_obj_064", "name": "IMPLEMENTATION", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0027", "S019_C0028"]}
+{"objectId": "S019_obj_065", "name": "DEFINED", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0027", "S019_C0028"]}
+{"objectId": "S019_obj_066", "name": "AXI4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0045"]}
+{"objectId": "S019_obj_067", "name": "AWID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0027", "S019_C0046"]}
+{"objectId": "S019_obj_068", "name": "AXI3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0049"]}
+{"objectId": "S019_obj_069", "name": "ARID", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0033", "S019_C0052"]}
+{"objectId": "S019_obj_070", "name": "ECO", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0057"]}
+{"objectId": "S019_obj_071", "name": "ECOREVNUM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["S019_C0057"]}

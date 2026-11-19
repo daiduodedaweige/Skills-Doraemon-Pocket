@@ -1,0 +1,31 @@
+{
+  "pdfId": "3.1",
+  "title": ": About this programmers model",
+  "sourceFile": "source/CCI-500-r0p2.pdf",
+  "pageStart": 43,
+  "pageEnd": 43,
+  "contentTypes": {
+    "hasChunks": true,
+    "hasObjects": true,
+    "hasRules": false,
+    "hasFlows": false,
+    "hasVerificationPoints": false,
+    "hasTables": false,
+    "hasFigures": false
+  },
+  "processingStatus": {
+    "extracted": true,
+    "reviewed": false,
+    "quality": "automatic; check source for normative claims"
+  },
+  "recordStats": {
+    "chunks": 3,
+    "objects": 6,
+    "rules": 0,
+    "flows": 0,
+    "verification": 0,
+    "relations": 0,
+    "tables": 0,
+    "figures": 0
+  }
+}

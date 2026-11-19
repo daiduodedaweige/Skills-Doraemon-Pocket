@@ -1,0 +1,18 @@
+{"objectId": "3.2_obj_001", "name": "CCI", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0001"]}
+{"objectId": "3.2_obj_002", "name": "OFF", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0002"]}
+{"objectId": "3.2_obj_003", "name": "PMCR", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0003"]}
+{"objectId": "3.2_obj_004", "name": "ARM", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0005", "3.2_C0010"]}
+{"objectId": "3.2_obj_005", "name": "ACCHANNELENS0", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0007"]}
+{"objectId": "3.2_obj_006", "name": "SI0_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0008"]}
+{"objectId": "3.2_obj_007", "name": "ACCHANNELENS1", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0008"]}
+{"objectId": "3.2_obj_008", "name": "SI1_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0009"]}
+{"objectId": "3.2_obj_009", "name": "ACCHANNELENS2", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0009"]}
+{"objectId": "3.2_obj_010", "name": "SI2_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0011"]}
+{"objectId": "3.2_obj_011", "name": "ACCHANNELENS3", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0011"]}
+{"objectId": "3.2_obj_012", "name": "SI3_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0012", "3.2_C0013"]}
+{"objectId": "3.2_obj_013", "name": "ACCHANNELENS4", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0013"]}
+{"objectId": "3.2_obj_014", "name": "SI4_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0014"]}
+{"objectId": "3.2_obj_015", "name": "ACCHANNELENS5", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0014"]}
+{"objectId": "3.2_obj_016", "name": "SI5_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0015"]}
+{"objectId": "3.2_obj_017", "name": "ACCHANNELENS6", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0016"]}
+{"objectId": "3.2_obj_018", "name": "SI6_RW_MAX", "objectType": "term", "description": "Extracted term (unverified)", "sourceChunks": ["3.2_C0017"]}
