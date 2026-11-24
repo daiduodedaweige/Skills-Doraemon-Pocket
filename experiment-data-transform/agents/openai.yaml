@@ -1,4 +1,0 @@
-interface:
-  display_name: "实验数据条件变换"
-  short_description: "根据实验数据与文字要求重算、预测或合成数据，保留输入格式并校验指标一致性"
-  default_prompt: "使用 $experiment-data-transform，根据我提供的实验数据和文字描述生成同格式数据，说明所用依据和必要假设。"
